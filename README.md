@@ -63,13 +63,14 @@ casinodata_df[0:10]
 ```
 <img width="950" alt="Screen Shot 2022-12-15 at 9 14 45 PM" src="https://user-images.githubusercontent.com/77644658/208013813-1decff55-fe3c-42b5-a58c-bef9f6e04533.png">
 
-After scrapping the casino data, we read it into a new, temporary DataFrame object called temp. From temp, we removed missing values that were created as a result of formatting issues from scrapping and called this dataframe casino_data.
+After scrapping the casino data, we read it into a new, temporary DataFrame object called temp. From temp, we removed missing values that were created as a result of formatting issues from scrapping and called this dataframe casino_data. To make the rules easier to analyze, we converted them into strings.
 ```
 temp = pd.read_csv("/content/drive/MyDrive/Blackjack Data Science Project/CasinoTable.csv")
 casino_data = temp.dropna(axis=0)
+casino_data['Rules'] = casino_data.Rules.apply(lambda x: x[0:].split(','))
 casino_data.head()
 ```
-![casino_data](https://github.com/kelseypeltz/blackjackproject.github.io/blob/1740fc80f3fa4015af6659b03e94e84a0e303119/Screen%20Shot%202022-12-15%20at%209.55.36%20PM.png)
+![casino_data](https://github.com/kelseypeltz/blackjackproject.github.io/blob/9190d82ba605c8f0ab081acd39b10959fd82420c/Screen%20Shot%202022-12-15%20at%2010.02.54%20PM.png)
 
 On the same site, we also found a list of every possible blackjack rule variation along with the percent increase or decrease that it has on the player's edge:
 ```
