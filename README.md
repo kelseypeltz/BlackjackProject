@@ -2,7 +2,7 @@
 > ![image](https://user-images.githubusercontent.com/69976409/195754514-06dcba6c-7ea4-42da-a3d8-8f334194c1f8.png)
 # Blackjack Rule Variations and How They Affect the Casino's Edge
 ### by Jake Johnston & Kelsey Peltz
-### Final Data Science Tutorial - CMPS 3660 - Introduction to Data Science - Proessor Mattei
+### Final Data Science Tutorial - CMPS 3660 - Introduction to Data Science - Professor Mattei
 ### [Website Link](https://jakeriverj.github.io/BlackjackProject/)
 <details open="open">
 <summary>Table of Contents</summary>
