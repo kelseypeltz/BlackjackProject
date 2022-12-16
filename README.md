@@ -38,7 +38,6 @@ Since Thorp's book was published in 1962, his basic strategy has become widespre
 
 ## ETL 
 ### (Extract, Transform, and Load)
-Currently we are coding a blackjack simulation that will run the game thousands of times using different strategies since the data source we had been hoping to use was too large for github. We are hoping to somehow upload the data from [here](https://www.kaggle.com/datasets/mojocolors/900000-hands-of-blackjack-results) to get more insights into the average player. In the meantime, we found a smaller dataset to begin analyzing. We also compiled to help us understand blackjack basic strategy (a.k.a. the book) and the "typical" human strategy so we can compare those with the counting card strategies. 
 
 #### Wizard of Vegas
 
@@ -64,7 +63,12 @@ casinodata_df[0:10]
 ```
 <img width="950" alt="Screen Shot 2022-12-15 at 9 14 45 PM" src="https://user-images.githubusercontent.com/77644658/208013813-1decff55-fe3c-42b5-a58c-bef9f6e04533.png">
 
-
+After scrapping the casino data, we read it into a new, temporary DataFrame object called temp. From temp, we removed missing values that were created as a result of formatting issues from scrapping and called this dataframe casino_data.
+```
+temp = pd.read_csv("/content/drive/MyDrive/Blackjack Data Science Project/CasinoTable.csv")
+casino_data = temp.dropna(axis=0)
+casino_data.head()
+```
 ```
 r2 = requests.get('https://wizardofodds.com/games/blackjack/rule-variations/')
 soup_rules = BeautifulSoup( r2.content )
