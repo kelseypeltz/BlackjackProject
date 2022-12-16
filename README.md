@@ -18,14 +18,23 @@ Approach to Blackjack by Jake Johnston & Kelsey Peltz
 This project aims to explore how blackjack rule variation affects the house's edge when a player is using basic strategy. The house edge is the percentage a casino will win over the player. In other words, the house edge is the ratio of the players' average loss to their initial bets. In 1962 Edward Thorp created a basic strategy for blackjack that produces an almost even game (house edge of 0.55%) when played with general casino rules. In a game with general casino rules, it is assumed that the house uses 6 decks and the following rules: double on any first 2 cards, no double after splitting, resplit all pairs except Aces, dealer stands of soft 17, and no surrender. The problem we found was when the rules vary from the general casino rules, the house edge changes, giving a naive player using basic strategy the false assumption that it is an almost even game. In this project, we attempt to model how rule variations affect the house edge to allow players to estimate their true disadvantage (or advantage) when using basic strategy. 
 
 ## The Game
-Blackjack is the most popular casino banking game in the world. In blackjack, there is one deck of 52 cards, everyone plays against the dealer, players place bets, and each player is dealt two cards at a time (including the dealer). The players know one of the dealer's cards, while the other remains unknown until the round is done. After everyone is dealt, players can decide if they want to "hit," meaning they'd be dealt more cards (one at a time) to get a sum closest to 21 without "busting" (going over 21). If a player is satisfied with their hand, they do not "hit." The goal is to have a sum greater than the dealers.1 Players and dealers often use card counting as away to become an advantaged player. Card counting is a mathematical strategy used in blackjack that helps determine one’s probable advantage or disadvantage of the next dealt card. 
+Blackjack is the most popular casino banking game in the world. In blackjack, there is one deck of 52 cards, everyone plays against the dealer, players place bets, and each player is dealt two cards at a time (including the dealer). The players know one of the dealer's cards, while the other remains unknown until the round is done. After everyone is dealt, players can decide if they want to "hit," meaning they'd be dealt more cards (one at a time) to get a sum closest to 21 without "busting" (going over 21). If a player is satisfied with their hand, they do not "hit." The goal is to have a sum greater than the dealers. Professional players may use card counting as a way to become an advantaged player. Card counting is a mathematical strategy used in blackjack that helps determine one’s probable advantage or disadvantage of the next dealt card, which the player can use to decide when to increase their betting amount. 
 
 ## Basic Strategy 
-Here is a chart of Edward Thorp's basic strategy taken from [Blackjackinfo.com](https://www.blackjackinfo.com/blackjack-basic-strategy-engine/). The strategy tells players when to hit (H), stand (S), split (P), and double (D/DS) according to the the sum or combination of their hand and the dealer's known upcard.
+Here is a chart of Edward Thorp's basic strategy taken from [chasingthefrog.com](http://www.chasingthefrog.com/reelfaces/21basicstrategy.php). The strategy tells players when to hit (H), stand (S), split (P), and double (D/DS) according to the the sum or combination of their hand and the dealer's known upcard.
+
+<img width="319" alt="Screen Shot 2022-12-15 at 8 00 29 PM" src="https://user-images.githubusercontent.com/77644658/208005154-d0f4bae4-b9a4-4811-ac3e-8783410347a2.png">
+
+
+## Rule Variations
+
 
 ## ETL 
 ### (Extract, Transform, and Load)
-Currently we are coding a blackjack simulation that will run the game thousands of times using different strategies since the data source we had been hoping to use was too large for github. We are hoping to somehow upload the data from [here](https://www.kaggle.com/datasets/mojocolors/900000-hands-of-blackjack-results) to get more insights the average player. In the meantime, we found a smaller dataset to begin analyzing. We also compiled  to help us understand blackjack basic strategy (a.k.a. the book) and the "typical" human strategy so we can compare those with the counting card strategies.  
+Currently we are coding a blackjack simulation that will run the game thousands of times using different strategies since the data source we had been hoping to use was too large for github. We are hoping to somehow upload the data from [here](https://www.kaggle.com/datasets/mojocolors/900000-hands-of-blackjack-results) to get more insights into the average player. In the meantime, we found a smaller dataset to begin analyzing. We also compiled to help us understand blackjack basic strategy (a.k.a. the book) and the "typical" human strategy so we can compare those with the counting card strategies. 
+
+### Wizard of Odds Casino Survey
+Our research on various rule changes
 
 ```{.python .input  n=9}
 from bs4 import BeautifulSoup
@@ -44,12 +53,6 @@ df_casinodata = list_vegascasinos[0]
 ```
 <img width="1021" alt="Screen Shot 2022-12-15 at 7 38 09 PM" src="https://user-images.githubusercontent.com/77644658/208002196-54c70340-cc74-4602-b12c-db80065e2600.png">
 
-
-
-
-
-
-<img src="data/Screen Shot 2022-12-15 at 11.06.27 AM.png">
 ## Collaboration Plan 
 
 We have set up a google colab to work on our code together. Since we are partnering this project with our Capstone project, we plan on meeting on a weekly to bi-weekly schedule our faculty mentor. We plan on dividing work by doing independent research and coding and discussing it during our scheduled meetings and throughout the week as needed. 
