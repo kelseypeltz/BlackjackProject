@@ -94,6 +94,24 @@ We then converted each rule to their respective letter code (h17 = Dealer hits s
 
 ## Exploratory Data Analysis
 
+We started our exploratory data analysis by calculating the means of the casinos' edges grouped by the number of decks they used.
+```
+(casino_data[casino_data.Decks == 1.0]['Edge'].mean(), casino_data[casino_data.Decks == 2.0]['Edge'].mean(), casino_data[casino_data.Decks == 6.0]['Edge'].mean(), casino_data[casino_data.Decks == 8.0]['Edge'].mean())
+
+```
+Which gave us the following results:
+- 1 deck: 0.18
+- 2 decks: 0.38899999999999996
+- 6 decks: 0.4338235294117647
+- 8 decks: 0.5427272727272728
+
+We wanted to see how the combination of penetration of a deck and number of decks affected the mean of the edge:
+
+```
+edge_decks_cut_mean = casino_data.groupby(["Decks",'Cut'])["Edge"].mean()
+edge_decks_cut_mean.to_frame()
+```
+
 ## Casino Edge Prediction Model
 
 ## Conclusion
