@@ -63,7 +63,7 @@ casinodata_df[0:10]
 ```
 <img width="950" alt="Screen Shot 2022-12-15 at 9 14 45 PM" src="https://user-images.githubusercontent.com/77644658/208013813-1decff55-fe3c-42b5-a58c-bef9f6e04533.png">
 
-After scrapping the casino data, we read it into a new, temporary DataFrame object called temp. From temp, we removed missing values that were created as a result of formatting issues from scrapping and called this dataframe casino_data. To make the rules easier to analyze, we converted them into strings.
+After scraping the casino data, we saved it as a csv and read it into a new, temporary DataFrame object called temp. From temp, we removed missing values that were created as a result of formatting issues from scrapping and called this dataframe casino_data. To make the rules easier to analyze, we converted them into strings.
 ```
 temp = pd.read_csv("/content/drive/MyDrive/Blackjack Data Science Project/CasinoTable.csv")
 casino_data = temp.dropna(axis=0)
@@ -94,7 +94,7 @@ We then converted each rule to their respective letter code (h17 = Dealer hits s
 
 ## Exploratory Data Analysis
 
-We started our exploratory data analysis by calculating the means of the casinos' edges grouped by the number of decks they used.
+We started our exploratory data analysis by finding the default casino edge for each deck size assuming that the game was played under traditional rules. We then found the means of the casinos' edges grouped by the number of decks they used.
 ```
 (casino_data[casino_data.Decks == 1.0]['Edge'].mean(), casino_data[casino_data.Decks == 2.0]['Edge'].mean(), casino_data[casino_data.Decks == 6.0]['Edge'].mean(), casino_data[casino_data.Decks == 8.0]['Edge'].mean())
 
