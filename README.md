@@ -105,12 +105,15 @@ Which gave us the following results:
 - 6 decks: 0.4338235294117647
 - 8 decks: 0.5427272727272728
 
-We wanted to see how the combination of penetration of a deck and number of decks affected the mean of the edge:
+We wanted to see how the combination of penetration of a deck and number of decks affected the mean of the edge. We found that the mean of the houses' edge was largest when there were six decks combined with a 1.4 deck cut. 8 decks overall resulted in largest mean of the houses' edge. The smallest mean by far was when the house used 1 deck. Using only 1 deck is very rare which resulted in us only having one data point so the mean of 1 deck houses' edges might not be a good representation. 
 
 ```
 edge_decks_cut_mean = casino_data.groupby(["Decks",'Cut'])["Edge"].mean()
 edge_decks_cut_mean.to_frame()
+edge_decks_cut_mean.plot.bar()
 ```
+![edge.deck.cut table](https://github.com/kelseypeltz/blackjackproject.github.io/blob/156a24348dde0c6e41225801953aa9f6d1720629/Screen%20Shot%202022-12-15%20at%2010.12.40%20PM.png)
+![edge.deck.cut graph](https://github.com/kelseypeltz/blackjackproject.github.io/blob/156a24348dde0c6e41225801953aa9f6d1720629/Screen%20Shot%202022-12-15%20at%2010.12.55%20PM.png)
 
 ## Casino Edge Prediction Model
 
