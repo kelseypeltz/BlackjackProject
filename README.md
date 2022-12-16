@@ -5,11 +5,7 @@
 ### Final Data Science Tutorial - CMPS 3660 - Introduction to Data Science - Professor Mattei
 ### [Website Link](https://jakeriverj.github.io/BlackjackProject/)
 <details open="open">
-<summary>Table of Contents</summary>
-- [The Game](#the-game)
-- [Project Goals](#project-goals)
-  - [Collaboration Plan](#collaboration-plan)
-- [ETL](#etl)
+
    
    
 </details>
@@ -186,5 +182,10 @@ for i in range(len(deck_8)):
 display(deck_8.head())
 ```
 <img width="722" alt="Screen Shot 2022-12-15 at 11 43 04 PM" src="https://user-images.githubusercontent.com/77644658/208030544-8754c96e-495c-4d62-9872-7a2a36a57f77.png">
+<img width="324" alt="Screen Shot 2022-12-15 at 11 57 19 PM" src="https://user-images.githubusercontent.com/69976409/208032877-9f57b89c-66fb-4a69-8f82-dad69e602c22.png">
+<img width="398" alt="Screen Shot 2022-12-15 at 11 57 26 PM" src="https://user-images.githubusercontent.com/69976409/208032891-eb5d71ad-5de8-4f62-ab25-ded6297e3654.png">
+<img width="225" alt="Screen Shot 2022-12-15 at 11 57 33 PM" src="https://user-images.githubusercontent.com/69976409/208032913-f69594b5-7da4-4b0c-8dfc-fed2e1142829.png">
+
 
 ## Conclusion
+The house typically has a larger edge the more decks they have with the most rule variances that differ from traditional rules.
