@@ -43,7 +43,7 @@ Currently we are coding a blackjack simulation that will run the game thousands 
 
 ![logo](https://user-images.githubusercontent.com/77644658/208007591-446b96e7-038b-4d80-b3a4-999ae8a9e418.png)
 
-Our research on various rule changes led us to a website curated by Michael Shackleford, a professor of actuarial science and mathematics at the University of Nevada, Las Vegas. On his site, he posts reports taken from the monthly Current Blackjack News survey. By scraping the Wizard of Odds and Wizard of Vegas websites, we were able to get a database with every Las Vegas casino and their respective rules for their blackjack tables:
+Our research on various rule changes led us to a website curated by Michael Shackleford, a professor of actuarial science and mathematics at the University of Nevada, Las Vegas. On his site, [Wizard Of Vegas](https://wizardofvegas.com/guides/blackjack-survey/) he posts reports taken from the monthly Current Blackjack News survey. By scraping the Wizard of Odds and Wizard of Vegas websites, we were able to get a database with every Las Vegas casino and their respective rules for their blackjack tables:
 
 ```
 from bs4 import BeautifulSoup
@@ -59,8 +59,12 @@ soup = BeautifulSoup( r.content )
 soup.find("table")
 list_vegascasinos = pd.read_html(str(soup.find("table")))
 df_casinodata = list_vegascasinos[0]
+df_casinodata[0:10]
 ```
 <img width="1021" alt="Screen Shot 2022-12-15 at 7 38 09 PM" src="https://user-images.githubusercontent.com/77644658/208002196-54c70340-cc74-4602-b12c-db80065e2600.png">
+
+After cleaning up and reordering the dataframe, we had columns for the calculated house edge, number of decks, cut (penetration perentage), and rules for each Las Vegas casino.
+
 
 ## Collaboration Plan 
 
