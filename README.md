@@ -23,6 +23,25 @@ Blackjack is the most popular casino banking game in the world. In blackjack, th
 ## Basic Strategy 
 Here is a chart of Edward Thorp's basic strategy taken from [Blackjackinfo.com](https://www.blackjackinfo.com/blackjack-basic-strategy-engine/). The strategy tells players when to hit (H), stand (S), split (P), and double (D/DS) according to the the sum or combination of their hand and the dealer's known upcard.
 
+## ETL
+```{.python .input  n=9}
+from bs4 import BeautifulSoup
+import requests
+import pandas as pd
+import matplotlib.pyplot as plt
+import numpy as np
+```
+
+```{.python .input  n=16}
+r = requests.get('https://wizardofvegas.com/guides/blackjack-survey/')
+soup = BeautifulSoup( r.content )
+soup.find("table")
+list_vegascasinos = pd.read_html(str(soup.find("table")))
+df_casinodata = list_vegascasinos[0]
+```
+<img width="1021" alt="Screen Shot 2022-12-15 at 7 38 09 PM" src="https://user-images.githubusercontent.com/77644658/208002196-54c70340-cc74-4602-b12c-db80065e2600.png">
+
+
 
 
 
