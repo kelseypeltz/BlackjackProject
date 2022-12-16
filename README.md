@@ -42,7 +42,7 @@ Currently we are coding a blackjack simulation that will run the game thousands 
 ### Wizard of Odds Casino Survey
 Our research on various rule changes
 
-```{.python .input  n=9}
+```
 from bs4 import BeautifulSoup
 import requests
 import pandas as pd
@@ -50,7 +50,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 ```
 
-```{.python .input  n=16}
+```
 r = requests.get('https://wizardofvegas.com/guides/blackjack-survey/')
 soup = BeautifulSoup( r.content )
 soup.find("table")
