@@ -84,9 +84,8 @@ We then converted each rule to their respective letter code (h17 = Dealer hits s
   - maximum bet
   - rules
 
+## Exploratory Data Analysis
 
-## Collaboration Plan 
+## Casino Edge Prediction Model
 
-We have set up a google colab to work on our code together. Since we are partnering this project with our Capstone project, we plan on meeting on a weekly to bi-weekly schedule our faculty mentor. We plan on dividing work by doing independent research and coding and discussing it during our scheduled meetings and throughout the week as needed. 
-
-
+## Conclusion
