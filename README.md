@@ -115,6 +115,10 @@ edge_decks_cut_mean.plot.bar()
 ![edge.deck.cut table](https://github.com/kelseypeltz/blackjackproject.github.io/blob/156a24348dde0c6e41225801953aa9f6d1720629/Screen%20Shot%202022-12-15%20at%2010.12.40%20PM.png)
 ![edge.deck.cut graph](https://github.com/kelseypeltz/blackjackproject.github.io/blob/156a24348dde0c6e41225801953aa9f6d1720629/Screen%20Shot%202022-12-15%20at%2010.12.55%20PM.png)
 
+Here we showed a visual representation of our calculated default edge with the actual houses' edges means. As you can see, our calculated default edge is very close the actual houses' mean for 2 decks and 8 decks. For 1 and 6 decks, our calculated default varies from the actual mean which was expected due to rule variation. 
+
+![estimate vs actual mean](https://github.com/kelseypeltz/blackjackproject.github.io/blob/8f5fa805600f3ced73db5d134761ba91e8aea6ec/Screen%20Shot%202022-12-15%20at%2010.29.12%20PM.png)
+
 ## Casino Edge Prediction Model
 
 ## Conclusion
