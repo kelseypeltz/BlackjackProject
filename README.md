@@ -18,6 +18,7 @@
 ## Background
 This project aims to explore how blackjack rule variation affects the house's edge when a player is using basic strategy. The house edge is the percentage a casino will win over the player. In other words, the house edge is the ratio of the players' average loss to their initial bets. In 1962 Edward Thorp created a basic strategy for blackjack that produces an almost even game (house edge of 0.55%) when played with general casino rules. In a game with general casino rules, it is assumed that the house uses 6 decks with the following rules: double on any first 2 cards, no double after splitting, resplit all pairs except Aces, dealer stands on soft 17, and no surrender. The problem we found was when the rules vary from the general casino rules, the house edge changes, giving a naive player using basic strategy the false assumption that it is an almost even game. In this project, we attempt to model how rule variations affect the house edge to allow players to estimate their true disadvantage (or advantage) when using basic strategy. 
 
+
 ## The Game
 Blackjack is the most popular casino banking game in the world. In blackjack, there is one deck of 52 cards, everyone plays against the dealer, players place bets, and each player is dealt two cards at a time (including the dealer). The players know one of the dealer's cards, while the other remains unknown until the round is done. After everyone is dealt, players can decide if they want to "hit," meaning they'd be dealt more cards (one at a time) to get a sum closest to 21 without "busting" (going over 21). If a player is satisfied with their hand, they do not "hit." The goal is to have a sum greater than the dealers. Professional players may use card counting as a way to become an advantaged player. Card counting is a mathematical strategy used in blackjack that helps determine one’s probable advantage or disadvantage of the next dealt card, which the player can use to decide when to increase their betting amount. 
 
@@ -119,6 +120,26 @@ Here we showed a visual representation of our calculated default edge with the a
 
 ![estimate vs actual mean](https://github.com/kelseypeltz/blackjackproject.github.io/blob/8f5fa805600f3ced73db5d134761ba91e8aea6ec/Screen%20Shot%202022-12-15%20at%2010.29.12%20PM.png)
 
+Here we calculated the mean edge from each casino depending on how many decks they have and whether they played a rule or not. 
+
+```
+import re
+h17 = casino_data.groupby([casino_data['Rules'].str.contains('h17', regex=False), "Decks"])["Edge"].mean()
+display(h17)
+
+ds = casino_data.groupby([casino_data['Rules'].str.contains('ds', regex=False), "Decks"])["Edge"].mean()
+display(ds)
+
+ls = casino_data.groupby([casino_data['Rules'].str.contains('ls', regex=False), "Decks"])["Edge"].mean()
+display(ls)
+
+rsa = casino_data.groupby([casino_data['Rules'].str.contains('rsa', regex=False), "Decks"])["Edge"].mean()
+display(rsa)
+
+pv = casino_data.groupby([casino_data['Rules'].str.contains('pv', regex=False), "Decks"])["Edge"].mean()
+display(pv)
+
+```
 ## Casino Edge Prediction Model
 
 ## Conclusion
