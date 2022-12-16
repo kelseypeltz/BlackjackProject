@@ -43,7 +43,7 @@ Since Thorp's book was published in 1962, his basic strategy has become widespre
 
 ![logo](https://user-images.githubusercontent.com/77644658/208007591-446b96e7-038b-4d80-b3a4-999ae8a9e418.png)
 
-Our research on various rule changes led us to a website curated by Michael Shackleford, a professor of actuarial science and mathematics at the University of Nevada, Las Vegas. On his site, [Wizard Of Vegas](https://wizardofvegas.com/guides/blackjack-survey/), he posts reports taken from the monthly Current Blackjack News survey. By scraping the Wizard of Odds and Wizard of Vegas websites, we were able to extract data on every Las Vegas casino and their respective rules for their blackjack tables. On the same site, we also found a list of every possible blackjack rule variation along with the percent increase or decrease that it has on the player's edge:
+Our research on various rule changes led us to a website curated by Michael Shackleford, a professor of actuarial science and mathematics at the University of Nevada, Las Vegas. On his site, [Wizard Of Vegas](https://wizardofvegas.com/guides/blackjack-survey/), he posts reports taken from the monthly Current Blackjack News survey. By scraping the Wizard of Odds and Wizard of Vegas websites, we were able to extract data on every Las Vegas casino and their respective rules for their blackjack tables:
 
 ```
 from bs4 import BeautifulSoup
@@ -69,6 +69,9 @@ temp = pd.read_csv("/content/drive/MyDrive/Blackjack Data Science Project/Casino
 casino_data = temp.dropna(axis=0)
 casino_data.head()
 ```
+![casino_data](https://github.com/kelseypeltz/blackjackproject.github.io/blob/1740fc80f3fa4015af6659b03e94e84a0e303119/Screen%20Shot%202022-12-15%20at%209.55.36%20PM.png)
+
+On the same site, we also found a list of every possible blackjack rule variation along with the percent increase or decrease that it has on the player's edge:
 ```
 r2 = requests.get('https://wizardofodds.com/games/blackjack/rule-variations/')
 soup_rules = BeautifulSoup( r2.content )
