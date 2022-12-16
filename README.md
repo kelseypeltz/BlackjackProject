@@ -39,8 +39,11 @@ Since Thorp's book was published in 1962, his basic strategy has become widespre
 ### (Extract, Transform, and Load)
 Currently we are coding a blackjack simulation that will run the game thousands of times using different strategies since the data source we had been hoping to use was too large for github. We are hoping to somehow upload the data from [here](https://www.kaggle.com/datasets/mojocolors/900000-hands-of-blackjack-results) to get more insights into the average player. In the meantime, we found a smaller dataset to begin analyzing. We also compiled to help us understand blackjack basic strategy (a.k.a. the book) and the "typical" human strategy so we can compare those with the counting card strategies. 
 
-### Wizard of Odds Casino Survey
-Our research on various rule changes
+### Wizard of Vegas Casino Survey
+
+![logo](https://user-images.githubusercontent.com/77644658/208007591-446b96e7-038b-4d80-b3a4-999ae8a9e418.png)
+
+Our research on various rule changes led us to a website curated by Michael Shackleford, a professor of actuarial science and mathematics at the University of Nevada, Las Vegas. On his site, he posts reports taken from the monthly Current Blackjack News survey. By scraping the Wizard of Odds and Wizard of Vegas websites, we were able to get a database with every Las Vegas casino and their respective rules for their blackjack tables:
 
 ```
 from bs4 import BeautifulSoup
