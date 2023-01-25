@@ -3,8 +3,7 @@
 # Beating Blackjack
 ### by Jake Johnston & Kelsey Peltz
 ### Senior Capstone Project
-### [Website Link](https://jakeriverj.github.io/BlackjackProject/)
-<details open="open">
+
 
 ---   
 ## Abstract
