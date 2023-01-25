@@ -1,6 +1,6 @@
 
 > ![image](https://user-images.githubusercontent.com/69976409/195754514-06dcba6c-7ea4-42da-a3d8-8f334194c1f8.png)
-# Blackjack Rule Variations and How They Affect the Casino's Edge
+# Beating Blackjack
 ### by Jake Johnston & Kelsey Peltz
 ### Final Data Science Tutorial - CMPS 3660 - Introduction to Data Science - Professor Mattei
 ### [Website Link](https://jakeriverj.github.io/BlackjackProject/)
@@ -32,8 +32,8 @@ Since Thorp's book was published in 1962, his basic strategy has become widespre
   - Penetration percentage each deal
   - Automatic shuffler vs Dealer shoe shuffle
 
-## ETL 
-### (Extract, Transform, and Load)
+## Research Conducted
+### How Rule Variation Affects House Edge
 
 #### Wizard of Vegas
 
@@ -187,5 +187,4 @@ display(deck_8.head())
 <img width="225" alt="Screen Shot 2022-12-15 at 11 57 33 PM" src="https://user-images.githubusercontent.com/69976409/208032913-f69594b5-7da4-4b0c-8dfc-fed2e1142829.png">
 
 
-## Conclusion
-The house typically has a larger edge the more decks they have with the most rule variances that differ from traditional rules.
+
