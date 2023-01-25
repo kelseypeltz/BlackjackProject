@@ -6,10 +6,6 @@
 ### [Website Link](https://jakeriverj.github.io/BlackjackProject/)
 <details open="open">
 
-   
-   
-</details>
-
 ---   
 ## Abstract
 This project aims to use reinforcement learning algorithms to teach a computer agent how to play blackjack with a win rate equal to or greater than that of the average professional player. The learning agent takes in rule variations and create a strategy that mirrors Edward Thorp’s basic strategy. This program can take rule variations of any specific casino and produce an ideal strategy along with a card counting strategy for betting.  
