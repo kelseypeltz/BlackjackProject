@@ -158,9 +158,9 @@ if number_of_decks == 7:
 if number_of_decks == 8:
   DeckContent = eight_decks           
 # train agents using three different methods, (1) Q-learning (2) Sarsa (3) Temporal Difference, return Q table
-QTableDictForQL = bt.TrainAndTestGameBot(10000, 10000, "Q-Learning", DeckContent, initialNumberOfCard, winningPoints, dealerCriticalPointsToStick)
-QTableDictForSS = bt.TrainAndTestGameBot(10000, 10000, "Sarsa", DeckContent, initialNumberOfCard, winningPoints, dealerCriticalPointsToStick)
-QTableDictForMC = bt.TrainAndTestGameBot(10000, 10000, "Temporal Difference", DeckContent, initialNumberOfCard, winningPoints, dealerCriticalPointsToStick)
+QTableDictForQL = bt.TrainAndTestGameBot(100000, 100000, "Q-Learning", DeckContent, initialNumberOfCard, winningPoints, dealerCriticalPointsToStick)
+QTableDictForSS = bt.TrainAndTestGameBot(100000, 100000, "Sarsa", DeckContent, initialNumberOfCard, winningPoints, dealerCriticalPointsToStick)
+QTableDictForMC = bt.TrainAndTestGameBot(100000, 100000, "Temporal Difference", DeckContent, initialNumberOfCard, winningPoints, dealerCriticalPointsToStick)
 
 # lambda function for determine hit or stick
 HitOrStick = lambda hitQ, stickQ: "H" if hitQ >= stickQ else "S"
