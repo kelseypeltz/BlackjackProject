@@ -7,17 +7,19 @@ def TrainAndTestGameBot (trainingIteration, testingIteration, method, deckConten
                          winningPoints, dealerCriticalPointsToStick, doubleVariation):
 
     #check input parameter robustness
+    #check input parameter robustness
     if (initialNumberOfCard * 10 > winningPoints):
-        print("initial card points can exceed the winning points, not allowed")
+        print("This rule combination will not work because initial card points can exceed the winning points, not allowed")
         sys.exit();
 
     if (initialNumberOfCard < 1):
-        print("initial number of card shall be equal ot greater than one")
+        print("This rule combination will not work because initial number of card must be equal or greater than one")
         sys.exit();
 
     if (dealerCriticalPointsToStick > winningPoints):
-        print("dealer will hit until bust")
-        sys.exit()
+        print("This rule combination will not work because dealer will hit until bust")
+        sys.exit();
+
 
     # when player combats with dealer after the training phase,
     # this list stores the result [#win, #draw, #lose]
@@ -96,5 +98,6 @@ def TrainAndTestGameBot (trainingIteration, testingIteration, method, deckConten
     print("Draw: ", (float)(testResult [1])/testingIteration*100.0, "%")
     print("Lose: ", (float)(testResult [2])/testingIteration*100.0, "%")
     print()
+    
 
     return QTableDict

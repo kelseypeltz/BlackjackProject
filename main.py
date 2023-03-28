@@ -1,249 +1,301 @@
+﻿from flask import Flask
+from flask import request
+from flask import render_template
+
 import bottraining as bt
 
+app = Flask(__name__)
 
-  # cards for one deck game
-defaultDeckContent = ['A', 'A', 'A', 'A', '2', '2', '2', '2', '3', '3', '3', '3', \
-                      '4', '4', '4', '4', '5', '5', '5', '5', '6', '6', '6', '6', \
-                      '7', '7', '7', '7', '8', '8', '8', '8', '9', '9', '9', '9', \
-                      '10', '10', '10', '10', 'J', 'J', 'J', 'J', 'Q', 'Q', 'Q', 'Q', 'K', 'K', 'K', 'K']
+@app.route("/")
+def index():
+    return (
+        """<form method="POST" action="/submit">
+            <label for="num_decks">Enter number of decks:</label>
+            <input type="number" id="num_decks" name="num_decks" min="1">
 
-number_of_decks = int(input("Enter number of decks:"))
+            <label for="typical_settings">Do you want to use typical amount of initial dealt cards (2 cards per player) and blackjack winning points (sum of 21)?</label>
+            <select id="typical_settings" name="typical_settings">
+              <option value="yes">Yes</option>
+              <option value="no">No</option>
+            </select>
 
-DeckContent = []
-for item in defaultDeckContent:
-  DeckContent += [item]*number_of_decks
+            <div id="custom_settings" style="display:none;">
+              <label for="initial_dealt_cards">Enter the number of initial dealt cards:</label>
+              <input type="number" id="initial_dealt_cards" name="initial_dealt_cards" min="1" value="2"><br>
 
-# Ask the user if they want to use typical settings
-use_typical_settings = input("Do you want to use typical amount of initial dealt cards (2 cards per player) and blackjack winning points (sum of 21)? (yes/no) ")
+              <label for="winning_points">Enter the number of winning points for blackjack:</label>
+              <input type="number" id="winning_points" name="winning_points" min="1" value="21">
+            </div>
 
-if use_typical_settings.lower() == "yes":
-    # Use typical settings
-    initialNumberOfCard = 2
-    winningPoints = 21
-else:
-    # Ask for user input for custom settings
-    initialNumberOfCard = int(input("Enter the number of initial dealt cards: "))
-    winningPoints = int(input("Enter the number of winning points for blackjack: "))
+            <label for="hit_or_stand">Select the dealer's strategy:</label>
+            <select id="hit_or_stand" name="hit_or_stand">
+              <option value="18">Dealer hits on soft 17</option>
+              <option value="17">Dealer stands on soft 17</option>
+            </select>
 
-# Ask the user if the dealer hits or stand on soft 17 
+            <label for="double_cards">What cards are you permitted to double?</label>
+            <select id="double_cards" name="double_cards">
+              <option value="1">Any 2 cards</option>
+              <option value="2">9, 10 &amp; 11 only</option>
+              <option value="3">10 &amp; 11 only</option>
+            </select>
 
-hit_or_stand = int(input("Enter 1 for dealer hits on soft 17. Enter 2 for dealer stands on soft 17:"))
-# Dealer hits on soft 17
-if hit_or_stand == 1:
-  dealerCriticalPointsToStick = 18
-
-# Dealer stands on soft 17  
-if hit_or_stand == 2:
-  dealerCriticalPointsToStick = 17
-
-# Ask the user about which doubleVariation they are following 
-any_two = input("Are you permitted to double any 2 cards? (yes/no) ")
-
-if any_two.lower() == "yes":
-  doubleVariation = 1 
-
-else:
-  double_three = input("Are you permitted to double 9, 10 & 11? (yes/no ")  
-
-  if double_three.lower() == "yes":
-    doubleVariation = 2
-
-  else:
-    print("You are permitted to double 10 & 11 only")
-    doubleVariation = 3
-
-             
-# train agents using three different methods, (1) Q-learning (2) Sarsa (3) Temporal Difference, return Q table
-QTableDictForQL = bt.TrainAndTestGameBot(100000, 100000, "Q-Learning", DeckContent, initialNumberOfCard, winningPoints, dealerCriticalPointsToStick, doubleVariation)
-QTableDictForSS = bt.TrainAndTestGameBot(100000, 100000, "Sarsa", DeckContent, initialNumberOfCard, winningPoints, dealerCriticalPointsToStick, doubleVariation)
-QTableDictForMC = bt.TrainAndTestGameBot(100000, 100000, "Temporal Difference", DeckContent, initialNumberOfCard, winningPoints, dealerCriticalPointsToStick, doubleVariation)
-
-# lambda function for determine hit, stick, or double
-HitStickOrDouble = lambda hitQ, stickQ, doubleQ: "D" if doubleQ >= hitQ and doubleQ >= stickQ else "H" if hitQ >= stickQ else "S"
+            <button type="submit">Submit</button>
+          </form>
 
 
-# report strategy result
-for i in range(0, winningPoints*3-17):
-    print(" ", end = "")
-print("Q-learning", end = "")
-print()
+            <script>
+              // Show/hide custom settings based on user input
+              document.querySelector('#typical_settings').addEventListener('change', function() {
+                if (this.value === 'no') {
+                  document.querySelector('#custom_settings').style.display = 'block';
+                } else {
+                  document.querySelector('#custom_settings').style.display = 'none';
+                }
+              });
+            </script>"""
+    )
 
-print("              player (usable ace)", end = " ")
-for i in range(0, winningPoints*3-36):
-    print(" ", end="")
-print("player (no usable ace)    ")
-
-print("         ", end = " ")
-for p in range(11, winningPoints+1):
-    print(p, end = " ")
-print("             ", end=" ")
-for p in range(11, winningPoints+1):
-    print(p, end = " ")
-print()
-
-for d in range (1,11):
-    if (d == 10):
-        print("      10   ", end = "")
-    elif (d == 3):
-        print("    D  3   ", end = "")
-    elif (d == 4):
-        print("    e  4   ", end = "")
-    elif (d == 5):
-        print("    a  5   ", end = "")
-    elif (d == 6):
-        print("    l  6   ", end = "")
-    elif (d == 7):
-        print("    e  7   ", end = "")
-    elif (d == 8):
-        print("    r  8   ", end = "")
+@app.route("/submit", methods=["POST"])
+def submit():
+    number_of_decks = int(request.form['num_decks'])
+    doubleVariation = int(request.form['double_cards'])
+    dealerCriticalPointsToStick = int(request.form['hit_or_stand'])
+    initialNumberOfCard = request.form['initial_dealt_cards']
+    if initialNumberOfCard.isdigit():
+        initialNumberOfCard = int(initialNumberOfCard)
     else:
-        print("      ", d, "  ", end = "")
-    for p in range(11, winningPoints+1):
-        print(HitStickOrDouble(QTableDictForQL[p,d,1,0], QTableDictForQL[p,d,1,1], QTableDictForQL[p,d,1,2]), "", end = " ")
+        initialNumberOfCard = 2
 
-    if (d == 10):
-        print("         10  ", end = " ")
-    elif (d == 3):
-        print("      D   3  ", end = " ")
-    elif (d == 4):
-        print("      e   4  ", end = " ")
-    elif (d == 5):
-        print("      a   5  ", end = " ")
-    elif (d == 6):
-        print("      l   6  ", end = " ")
-    elif (d == 7):
-        print("      e   7  ", end = " ")
-    elif (d == 8):
-        print("      r   8  ", end = " ")
+    winningPoints = request.form['winning_points']
+
+    if winningPoints.isdigit():
+        winningPoints = int(winningPoints)
     else:
-        print("         ", d, " ", end = " ")
+        winningPoints = 21
 
+
+
+
+    # cards for one deck game
+    defaultDeckContent = ['A', 'A', 'A', 'A', '2', '2', '2', '2', '3', '3', '3', '3', \
+                          '4', '4', '4', '4', '5', '5', '5', '5', '6', '6', '6', '6', \
+                          '7', '7', '7', '7', '8', '8', '8', '8', '9', '9', '9', '9', \
+                          '10', '10', '10', '10', 'J', 'J', 'J', 'J', 'Q', 'Q', 'Q', 'Q', 'K', 'K', 'K', 'K']
+
+
+    DeckContent = []
+    for item in defaultDeckContent:
+      DeckContent += [item]*number_of_decks
+
+
+    # train agents using three different methods, (1) Q-learning (2) Sarsa (3) Temporal Difference, return Q table
+    QTableDictForQL = bt.TrainAndTestGameBot(100000, 100000, "Q-Learning", DeckContent, initialNumberOfCard, winningPoints, dealerCriticalPointsToStick, doubleVariation)
+    QTableDictForSS = bt.TrainAndTestGameBot(100000, 100000, "Sarsa", DeckContent, initialNumberOfCard, winningPoints, dealerCriticalPointsToStick, doubleVariation)
+    QTableDictForMC = bt.TrainAndTestGameBot(100000, 100000, "Temporal Difference", DeckContent, initialNumberOfCard, winningPoints, dealerCriticalPointsToStick, doubleVariation)
+
+    # lambda function for determine hit, stick, or double
+    HitStickOrDouble = lambda hitQ, stickQ, doubleQ: "D" if doubleQ >= hitQ and doubleQ >= stickQ else "H" if hitQ >= stickQ else "S"
+
+
+    # report strategy result
+
+    result = ""
+    for i in range(0, winningPoints*3-17):
+        result += " "
+    result +="Q-learning"
+    result += "<br>"
+
+    result +="              player (usable ace)"
+    for i in range(0, winningPoints*3-36):
+        result +=" "
+    result +="player (no usable ace)<br>"
+
+    result +="         "
     for p in range(11, winningPoints+1):
-        print(HitStickOrDouble(QTableDictForQL[p,d,0,0], QTableDictForQL[p,d,0,1], QTableDictForQL[p,d,0,2]), "", end = " ")
-
-    print()
-print()
-
-for i in range(0, winningPoints*3-17):
-    print(" ", end = "")
-print("Sarsa", end = "")
-print()
-
-print("              player (usable ace)", end = " ")
-for i in range(0, winningPoints*3-36):
-    print(" ", end="")
-print("player (no usable ace)    ")
-
-print("         ", end = " ")
-for p in range(11, winningPoints+1):
-    print(p, end = " ")
-print("             ", end=" ")
-for p in range(11, winningPoints+1):
-    print(p, end = " ")
-print()
-
-for d in range (1,11):
-    if (d == 10):
-        print("      10   ", end = "")
-    elif (d == 3):
-        print("    D  3   ", end = "")
-    elif (d == 4):
-        print("    e  4   ", end = "")
-    elif (d == 5):
-        print("    a  5   ", end = "")
-    elif (d == 6):
-        print("    l  6   ", end = "")
-    elif (d == 7):
-        print("    e  7   ", end = "")
-    elif (d == 8):
-        print("    r  8   ", end = "")
-    else:
-        print("      ", d, "  ", end = "")
-
+        result += str(p)
+    result +="             "
     for p in range(11, winningPoints+1):
-        print(HitStickOrDouble(QTableDictForSS[p,d,1,0], QTableDictForSS[p,d,1,1], QTableDictForSS[p,d,1,2]), "", end = " ")
+        result += str(p)
+    result += "<br>"
 
-    if (d == 10):
-        print("         10  ", end = " ")
-    elif (d == 3):
-        print("      D   3  ", end = " ")
-    elif (d == 4):
-        print("      e   4  ", end = " ")
-    elif (d == 5):
-        print("      a   5  ", end = " ")
-    elif (d == 6):
-        print("      l   6  ", end = " ")
-    elif (d == 7):
-        print("      e   7  ", end = " ")
-    elif (d == 8):
-        print("      r   8  ", end = " ")
-    else:
-        print("         ", d, " ", end = " ")
+    for d in range (1,11):
+        if (d == 10):
+            result +="      10   "
+        elif (d == 3):
+            result +="    D  3   "
+        elif (d == 4):
+            result +="    e  4   "
+        elif (d == 5):
+            result +="    a  5   "
+        elif (d == 6):
+            result +="    l  6   "
+        elif (d == 7):
+            result +="    e  7   "
+        elif (d == 8):
+            result +="    r  8   "
+        else:
+            result += "      " + str(d) + "  "
+        for p in range(11, winningPoints+1):
+            result +=HitStickOrDouble(QTableDictForQL[p,d,1,0], QTableDictForQL[p,d,1,1], QTableDictForQL[p,d,1,2])
 
+        if (d == 10):
+            result +="         10  "
+        elif (d == 3):
+            result +="      D   3  "
+        elif (d == 4):
+            result +="      e   4  "
+        elif (d == 5):
+            result +="      a   5  "
+        elif (d == 6):
+            result +="      l   6  "
+        elif (d == 7):
+            result +="      e   7  "
+        elif (d == 8):
+            result +="      r   8  "
+        else:
+            result += "      " + str(d) + "  "
+
+        for p in range(11, winningPoints+1):
+            result +=HitStickOrDouble(QTableDictForQL[p,d,0,0], QTableDictForQL[p,d,0,1], QTableDictForQL[p,d,0,2])
+
+        result += "<br>"
+    result += "<br>"
+
+    for i in range(0, winningPoints*3-17):
+        result +=" "
+    result +="Sarsa"
+    result += "<br>"
+
+    result +="              player (usable ace)"
+    for i in range(0, winningPoints*3-36):
+        result +=" "
+    result +="player (no usable ace)<br>"
+
+    result +="         "
     for p in range(11, winningPoints+1):
-        print(HitStickOrDouble(QTableDictForSS[p,d,0,0], QTableDictForSS[p,d,0,1], QTableDictForSS[p,d,0,2]), "", end = " ")
-
-    print()
-print()
-
-for i in range(0, winningPoints*3-23):
-    print(" ", end = "")
-print("Temporal Difference", end = "")
-print()
-
-print("              player (usable ace)", end = " ")
-for i in range(0, winningPoints*3-36):
-    print(" ", end="")
-print("player (no usable ace)    ")
-
-print("         ", end = " ")
-for p in range(11, winningPoints+1):
-    print(p, end = " ")
-print("             ", end=" ")
-for p in range(11, winningPoints+1):
-    print(p, end = " ")
-print()
-
-for d in range (1,11):
-    if (d == 10):
-        print("      10   ", end = "")
-    elif (d == 3):
-        print("    D  3   ", end = "")
-    elif (d == 4):
-        print("    e  4   ", end = "")
-    elif (d == 5):
-        print("    a  5   ", end = "")
-    elif (d == 6):
-        print("    l  6   ", end = "")
-    elif (d == 7):
-        print("    e  7   ", end = "")
-    elif (d == 8):
-        print("    r  8   ", end = "")
-    else:
-        print("      ", d, "  ", end = "")
-
+        result += str(p)
+    result +="             "
     for p in range(11, winningPoints+1):
-         print(HitStickOrDouble(QTableDictForMC[p,d,1,0], QTableDictForMC[p,d,1,1], QTableDictForMC[p,d,1,2]), "", end = " ")
+        result += str(p)
+    result += "<br>"
 
-    if (d == 10):
-        print("         10  ", end = " ")
-    elif (d == 3):
-        print("      D   3  ", end = " ")
-    elif (d == 4):
-        print("      e   4  ", end = " ")
-    elif (d == 5):
-        print("      a   5  ", end = " ")
-    elif (d == 6):
-        print("      l   6  ", end = " ")
-    elif (d == 7):
-        print("      e   7  ", end = " ")
-    elif (d == 8):
-        print("      r   8  ", end = " ")
-    else:
-        print("         ", d, " ", end = " ")
+    for d in range (1,11):
+        if (d == 10):
+            result +="      10   "
+        elif (d == 3):
+            result +="    D  3   "
+        elif (d == 4):
+            result +="    e  4   "
+        elif (d == 5):
+            result +="    a  5   "
+        elif (d == 6):
+            result +="    l  6   "
+        elif (d == 7):
+            result +="    e  7   "
+        elif (d == 8):
+            result +="    r  8   "
+        else:
+            result += "      " + str(d) + "  "
 
+        for p in range(11, winningPoints+1):
+            result +=HitStickOrDouble(QTableDictForSS[p,d,1,0], QTableDictForSS[p,d,1,1], QTableDictForSS[p,d,1,2])
+
+        if (d == 10):
+            result +="         10  "
+        elif (d == 3):
+            result +="      D   3  "
+        elif (d == 4):
+            result +="      e   4  "
+        elif (d == 5):
+            result +="      a   5  "
+        elif (d == 6):
+            result +="      l   6  "
+        elif (d == 7):
+            result +="      e   7  "
+        elif (d == 8):
+            result +="      r   8  "
+        else:
+            result += "      " + str(d) + "  "
+
+        for p in range(11, winningPoints+1):
+            result +=HitStickOrDouble(QTableDictForSS[p,d,0,0], QTableDictForSS[p,d,0,1], QTableDictForSS[p,d,0,2])
+
+        result += "<br>"
+    result += "<br>"
+
+    for i in range(0, winningPoints*3-23):
+        result +=" "
+    result +="Temporal Difference"
+    result += "<br>"
+
+    result +="              player (usable ace)"
+    for i in range(0, winningPoints*3-36):
+        result +=" "
+    result +="player (no usable ace)<br>"
+
+    result +="         "
     for p in range(11, winningPoints+1):
-        print(HitStickOrDouble(QTableDictForMC[p,d,0,0], QTableDictForMC[p,d,0,1], QTableDictForMC[p,d,0,2]), "", end = " ")
+        result += str(p)
+    result +="             "
+    for p in range(11, winningPoints+1):
+        result += str(p)
+    result += "<br>"
 
-    print()
+    for d in range (1,11):
+        if (d == 10):
+            result +="      10   "
+        elif (d == 3):
+            result +="    D  3   "
+        elif (d == 4):
+            result +="    e  4   "
+        elif (d == 5):
+            result +="    a  5   "
+        elif (d == 6):
+            result +="    l  6   "
+        elif (d == 7):
+            result +="    e  7   "
+        elif (d == 8):
+            result +="    r  8   "
+        else:
+            result += "      " + str(d) + "  "
 
+        for p in range(11, winningPoints+1):
+             result +=HitStickOrDouble(QTableDictForMC[p,d,1,0], QTableDictForMC[p,d,1,1], QTableDictForMC[p,d,1,2])
+
+        if (d == 10):
+            result +="         10  "
+        elif (d == 3):
+            result +="      D   3  "
+        elif (d == 4):
+            result +="      e   4  "
+        elif (d == 5):
+            result +="      a   5  "
+        elif (d == 6):
+            result +="      l   6  "
+        elif (d == 7):
+            result +="      e   7  "
+        elif (d == 8):
+            result +="      r   8  "
+        else:
+            result += "      " + str(d) + "  "
+
+        for p in range(11, winningPoints+1):
+            result +=HitStickOrDouble(QTableDictForMC[p,d,0,0], QTableDictForMC[p,d,0,1], QTableDictForMC[p,d,0,2])
+
+        result += "<br>"
+
+    return render_template('result.html', result=result)
+
+
+
+
+if __name__ == "__main__":
+    app.run(host="127.0.0.1", port=8080, debug=True)
+
+
+
+    
+
+
+ 
