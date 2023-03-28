@@ -1,7 +1,5 @@
-from flask import Flask
-from flask import request
-from flask import render_template
 
+from flask import Flask, request, render_template, url_for
 import bottraining as bt
 
 
@@ -10,24 +8,34 @@ app = Flask(__name__)
 
 @app.route("/")
 def index():
-    title = "Blackjack Game Settings"
-    description = "This is Jake and Kelsey's capstone project. Configure the settings for your blackjack game below."
 
     return (
         """<html>
                 <head>
                     <title>Blackjack Game Settings</title>
                     <style>
-                        img {
-                            width: 50%;
-                            height: auto;
-                        }
+                      img {
+                        width: 100%;
+                        height: auto;
+                      }
                     </style>
-                </head>
-                <body>
-                    <img src="images/first_image.jpg" alt="First Image">
+                  </head>
+                  <body>
+                    <img src="https://www.scu.edu/media/portals/illuminate/images/Illuminate-philkesten-header-30-1160x386.jpeg" alt="First Image">
                     <h1>Blackjack Game Settings</h1>
-                    <p>This is Jake and Kelsey's capstone project. Configure the settings for your blackjack game below.</p>
+                    <i>Capstone Project by Jake Johnson & Kelsey Peltz </i>
+                    <h2>Abstract</h2>
+                    <p>This project aims to use reinforcement learning algorithms to teach a computer agent how to play blackjack with a win rate equal to or greater than that of the average professional player. The learning agent takes in rule variations and creates a strategy that mirrors Edward Thorp’s basic strategy. This program can take rule variations of any specific casino and produce an ideal strategy along with a card counting strategy for betting.</p>
+                    <h3>Rule Variation Inputs</h3>
+                    <p>Since Thorp's book was published in 1962, his basic strategy has become widespread knowledge, forcing casinos to tweak their rules to gain their edge back. Some of the most common rule changes include:</p>
+                    <p>- The dealer hits on soft 17</p>
+                    <p>- No double on aces after splitting</p>
+                    <p>- Blackjacks payout at 6:5 instead of 3:2</p>
+                    <p>- Dealer doesn't peek to see if they have blackjack</p>
+                    <p>- Penetration percentage each deal</p>
+                    <p>- Automatic shuffler vs Dealer shoe shuffle</p>
+                    <i>Configure the settings for your blackjack game below.Hit submit when you're ready to make your strategy chart. The strategy chart will take a few minutes to load as our code is running many iterations.</i>
+                    <p> </p>
                     <form method="POST" action="/submit">
                         <label for="num_decks">Enter number of decks:</label>
                         <input type="number" id="num_decks" name="num_decks" min="1">
@@ -73,6 +81,10 @@ def index():
                             }
                         });
             </script>
+                    <h2>Background</h2>
+                    <p>This project aims to explore how blackjack rule variation affects the house's edge when a player is using basic strategy. The house edge is the percentage a casino will win over the player. In other words, the house edge is the ratio of the players' average loss to their initial bets. In 1962 Edward Thorp created a basic strategy for blackjack that produces an almost even game (house edge of 0.55%) when played with general casino rules. In a game with general casino rules, it is assumed that the house uses 6 decks with the following rules: double on any first 2 cards, no double after splitting, resplit all pairs except Aces, dealer stands on soft 17, and no surrender. The problem we found was when the rules vary from the general casino rules, the house edge changes, giving a naive player using basic strategy the false assumption that it is an almost even game. In this project, we attempt to model how rule variations affect the house edge to allow players to estimate their true disadvantage (or advantage) when using basic strategy.</p>
+                    <h2>The Game</h2>
+                    <p>Blackjack is the most popular casino banking game in the world. In blackjack, there is one deck of 52 cards, everyone plays against the dealer, players place bets, and each player is dealt two cards at a time (including the dealer). The players know one of the dealer's cards, while the other remains unknown until the round is done. After everyone is dealt, players can decide if they want to "hit," meaning they'd be dealt more cards (one at a time) to get a sum closest to 21 without "busting" (going over 21). If a player is satisfied with their hand, they do not "hit." The goal is to have a sum greater than the dealers. Professional players may use card counting as a way to become an advantaged player. Card counting is a mathematical strategy used in blackjack that helps determine one’s probable advantage or disadvantage of the next dealt card, which the player can use to decide when to increase their betting amount.</p>
         </body>
     </html>"""
     )
@@ -111,9 +123,9 @@ def submit():
 
 
     # train agents using three different methods, (1) Q-learning (2) Sarsa (3) Temporal Difference, return Q table
-    QTableDictForQL = bt.TrainAndTestGameBot(100000, 100000, "Q-Learning", DeckContent, initialNumberOfCard, winningPoints, dealerCriticalPointsToStick, doubleVariation)
-    QTableDictForSS = bt.TrainAndTestGameBot(100000, 100000, "Sarsa", DeckContent, initialNumberOfCard, winningPoints, dealerCriticalPointsToStick, doubleVariation)
-    QTableDictForMC = bt.TrainAndTestGameBot(100000, 100000, "Temporal Difference", DeckContent, initialNumberOfCard, winningPoints, dealerCriticalPointsToStick, doubleVariation)
+    QTableDictForQL, game_results_htmlQL = bt.TrainAndTestGameBot(100000, 100000, "Q-Learning", DeckContent, initialNumberOfCard, winningPoints, dealerCriticalPointsToStick, doubleVariation)
+    QTableDictForSS, game_results_htmlSS = bt.TrainAndTestGameBot(100000, 100000, "Sarsa", DeckContent, initialNumberOfCard, winningPoints, dealerCriticalPointsToStick, doubleVariation)
+    QTableDictForMC, game_results_htmlMC = bt.TrainAndTestGameBot(100000, 100000, "Temporal Difference", DeckContent, initialNumberOfCard, winningPoints, dealerCriticalPointsToStick, doubleVariation)
 
     # lambda function for determine hit, stick, or double
     HitStickOrDouble = lambda hitQ, stickQ, doubleQ: "D" if doubleQ >= hitQ and doubleQ >= stickQ else "H" if hitQ >= stickQ else "S"
@@ -123,8 +135,12 @@ def submit():
     result = "" 
     
     # add header and statistics for Q-learning
-    result += "<h3>Q-learning</h3>"
-    
+
+    result += game_results_htmlQL
+
+
+
+
 # create Q-learning strategy chart
     result += "<table>"
 
@@ -164,7 +180,7 @@ def submit():
     result += "</table>"    
     
         # add header and statistics for Sarsa
-    result += "<h3>Sarsa</h3>"
+    result += game_results_htmlSS
 
     # create Sarsa strategy chart
     result += "<table>"
@@ -205,7 +221,7 @@ def submit():
     result += "</table>"    
     
     # add header and statistics for Temporal Difference
-    result += "<h3>Temporal Difference</h3>"
+    result += game_results_htmlMC
     
     # create Temporal Difference strategy chart
     result += "<table>"    
