@@ -2,6 +2,8 @@
 from flask import Flask, request, render_template, url_for
 import bottraining as bt
 import botrunner as br
+import pairsbottraining as pbt
+import random
 
 
 app = Flask(__name__)
@@ -25,6 +27,8 @@ def index():
                     <img src="https://www.scu.edu/media/portals/illuminate/images/Illuminate-philkesten-header-30-1160x386.jpeg" alt="First Image">
                     <h1>Blackjack Game Settings</h1>
                     <i>Capstone Project by Jake Johnson & Kelsey Peltz </i>
+                    <p><a href="/game">Play a Simulated Game</a></p>
+	                <p><a href="/strategymaker">Make a Strategy Chart based off of Your Rule Variations</a></p>
                     <h2>Abstract</h2>
                     <p>This project aims to use reinforcement learning algorithms to teach a computer agent how to play blackjack with a win rate equal to or greater than that of the average professional player. The learning agent takes in rule variations and creates a strategy that mirrors Edward Thorp’s basic strategy. This program can take rule variations of any specific casino and produce an ideal strategy along with a card counting strategy for betting.</p>
                     <h3>Rule Variation Inputs</h3>
@@ -35,53 +39,6 @@ def index():
                     <p>- Dealer doesn't peek to see if they have blackjack</p>
                     <p>- Penetration percentage each deal</p>
                     <p>- Automatic shuffler vs Dealer shoe shuffle</p>
-                    <i>Configure the settings for your blackjack game below.Hit submit when you're ready to make your strategy chart. The strategy chart will take a few minutes to load as our code is running many iterations.</i>
-                    <p> </p>
-                    <form method="POST" action="/submit">
-                        <label for="num_decks">Enter number of decks:</label>
-                        <input type="number" id="num_decks" name="num_decks" min="1">
-            
-                        <label for="typical_settings">Do you want to use typical amount of initial dealt cards (2 cards per player) and blackjack winning points (sum of 21)?</label>
-                        <select id="typical_settings" name="typical_settings">
-                          <option value="yes">Yes</option>
-                          <option value="no">No</option>
-                        </select>
-            
-                        <div id="custom_settings" style="display:none;">
-                          <label for="initial_dealt_cards">Enter the number of initial dealt cards:</label>
-                          <input type="number" id="initial_dealt_cards" name="initial_dealt_cards" min="1" value="2"><br>
-            
-                          <label for="winning_points">Enter the number of winning points for blackjack:</label>
-                          <input type="number" id="winning_points" name="winning_points" min="1" value="21">
-                        </div>
-            
-                        <label for="hit_or_stand">Select the dealer's strategy:</label>
-                        <select id="hit_or_stand" name="hit_or_stand">
-                          <option value="18">Dealer hits on soft 17</option>
-                          <option value="17">Dealer stands on soft 17</option>
-                        </select>
-            
-                        <label for="double_cards">What cards are you permitted to double?</label>
-                        <select id="double_cards" name="double_cards">
-                          <option value="1">Any 2 cards</option>
-                          <option value="2">9, 10 &amp; 11 only</option>
-                          <option value="3">10 &amp; 11 only</option>
-                        </select>
-            
-                        <button type="submit">Submit</button>
-                      </form>
-            
-            
-                        <script>
-                          // Show/hide custom settings based on user input
-                          document.querySelector('#typical_settings').addEventListener('change', function() {
-                            if (this.value === 'no') {
-                              document.querySelector('#custom_settings').style.display = 'block';
-                            } else {
-                              document.querySelector('#custom_settings').style.display = 'none';
-                            }
-                        });
-            </script>
                     <h2>Background</h2>
                     <p>This project aims to explore how blackjack rule variation affects the house's edge when a player is using basic strategy. The house edge is the percentage a casino will win over the player. In other words, the house edge is the ratio of the players' average loss to their initial bets. In 1962 Edward Thorp created a basic strategy for blackjack that produces an almost even game (house edge of 0.55%) when played with general casino rules. In a game with general casino rules, it is assumed that the house uses 6 decks with the following rules: double on any first 2 cards, no double after splitting, resplit all pairs except Aces, dealer stands on soft 17, and no surrender. The problem we found was when the rules vary from the general casino rules, the house edge changes, giving a naive player using basic strategy the false assumption that it is an almost even game. In this project, we attempt to model how rule variations affect the house edge to allow players to estimate their true disadvantage (or advantage) when using basic strategy.</p>
                     <h2>The Game</h2>
@@ -89,6 +46,73 @@ def index():
         </body>
     </html>"""
     )
+    
+@app.route("/game", methods=['GET', 'POST'])
+def play_game():
+    # Initialize deck and player/dealer hands
+    deck = create_deck()
+    player_hand = []
+    dealer_hand = []
+    
+    # Deal initial cards
+    player_hand.append(draw_card(deck))
+    player_hand.append(draw_card(deck))
+    dealer_hand.append(draw_card(deck))
+    
+    # Player's turn
+    while sum(player_hand) < 21:
+        if request.method == 'POST' and 'hit' in request.form:
+            player_hand.append(draw_card(deck))
+            if sum(player_hand) == 21:
+                return render_template('gameresult.html', result='You win!')
+            elif sum(player_hand) > 21:
+                return render_template('gameresult.html', result='You bust!')
+            else:
+                return render_template('play.html', player_hand=player_hand, dealer_hand=dealer_hand)
+        elif request.method == 'POST' and 'stand' in request.form:
+            break
+        else:
+            return render_template('play.html', player_hand=player_hand, dealer_hand=dealer_hand)
+    
+    # Dealer's turn
+    while sum(dealer_hand) < 17:
+        dealer_hand.append(draw_card(deck))
+    
+    # Determine winner
+    if sum(dealer_hand) > 21:
+        return render_template('gameresult.html', result='You win!')
+    elif sum(dealer_hand) == sum(player_hand):
+        return render_template('gameresult.html', result='Push!')
+    elif sum(dealer_hand) > sum(player_hand):
+        return render_template('gameresult.html', result='Dealer wins!')
+    else:
+        return render_template('gameresult.html', result='You win!')
+    
+def create_deck():
+    """Create a new deck of cards."""
+    deck = []
+    for suit in ['hearts', 'diamonds', 'clubs', 'spades']:
+        for rank in range(2, 11):
+            deck.append(str(rank))
+        for rank in ['J', 'Q', 'K', 'A']:
+            deck.append(rank)
+    random.shuffle(deck)
+    return deck
+    
+def draw_card(deck):
+    """Remove and return a card from the deck."""
+    card = deck.pop()
+    if card in ['J', 'Q', 'K']:
+        return 10
+    elif card == 'A':
+        return 11
+    else:
+        return int(card)
+    
+@app.route("/strategymaker")
+def strategymaker(): 
+    return render_template('strategymaker.html')    
+    
 
 @app.route("/submit", methods=["POST"])
 def submit():
@@ -127,9 +151,16 @@ def submit():
     QTableDictForQL, game_results_htmlQL = bt.TrainAndTestGameBot(100000, 100000, "Q-Learning", DeckContent, initialNumberOfCard, winningPoints, dealerCriticalPointsToStick, doubleVariation)
     QTableDictForSS, game_results_htmlSS = bt.TrainAndTestGameBot(100000, 100000, "Sarsa", DeckContent, initialNumberOfCard, winningPoints, dealerCriticalPointsToStick, doubleVariation)
     QTableDictForMC, game_results_htmlMC = bt.TrainAndTestGameBot(100000, 100000, "Temporal Difference", DeckContent, initialNumberOfCard, winningPoints, dealerCriticalPointsToStick, doubleVariation)
+    
+    pairsQTableDictForQL, pairsgame_results_htmlQL = pbt.TrainAndTestGameBot(100000, 100000, "Q-Learning", DeckContent, initialNumberOfCard, winningPoints, dealerCriticalPointsToStick, doubleVariation)
+    pairsQTableDictForSS, pairsgame_results_htmlSS = pbt.TrainAndTestGameBot(100000, 100000, "Sarsa", DeckContent, initialNumberOfCard, winningPoints, dealerCriticalPointsToStick, doubleVariation)
+    pairsQTableDictForMC, pairsgame_results_htmlMC = pbt.TrainAndTestGameBot(100000, 100000, "Temporal Difference", DeckContent, initialNumberOfCard, winningPoints, dealerCriticalPointsToStick, doubleVariation)
 
     # lambda function for determine hit, stick, or double
     HitStickOrDouble = lambda hitQ, stickQ, doubleQ: "D" if doubleQ >= hitQ and doubleQ >= stickQ else "H" if hitQ >= stickQ else "S"
+    # lambda function for determine split, hit, stick, or double for when there is pairs    
+    SplitHitStickOrDouble = lambda splitQ, hitQ, stickQ, doubleQ: "P" if splitQ >= hitQ and splitQ >= stickQ and splitQ >= doubleQ else "D" if doubleQ >= hitQ and doubleQ >= stickQ else "H" if hitQ >= stickQ else "S"
+
 
     game_results_htmlBS = br.TestGameBot(100000, DeckContent, initialNumberOfCard, winningPoints, dealerCriticalPointsToStick, doubleVariation)
 
@@ -196,7 +227,31 @@ def submit():
         # close row
         result += "</tr>"    
     # close table
-    result += "</table>"    
+    result += "</table>"
+    # create pairs strategy chart for Q-learning
+    result += "<table>"
+    # create header row
+    result += "<tr><td rowspan='12'>Dealer's Upcard</td><td colspan='12'>Player's Pair</td></tr>"
+    # create top row of player pairs
+    result += "<tr>"
+    for p in range(2,20):
+        result += "<td>{}</td>".format(p)
+    result += "</tr>"
+    # create rows for each dealer card
+    for d in range(1, 11):
+        # create row for dealer card
+        result += "<tr>"
+        # label dealer card
+        result += f"<td>{d if d != 1 else 'A'}</td>"
+        # create cells for player pairs
+        for p in range(2, 20):
+                cell_value = SplitHitStickOrDouble(pairsQTableDictForQL[p, d, 1, 0], pairsQTableDictForQL[p, d, 1, 1], pairsQTableDictForQL[p, d, 1, 2], pairsQTableDictForQL[p, d, 1, 3])
+                result += "<td>{}</td>".format(cell_value)
+            # close row
+        result += "</tr>"    
+    # close table
+    result += "</table>"
+
     
         # add header and statistics for Sarsa
     result += game_results_htmlSS
