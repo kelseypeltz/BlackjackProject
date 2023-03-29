@@ -1,5 +1,7 @@
 import random
 
+
+
 class Strategy:
 
     def RandomAction(self):
@@ -73,3 +75,5 @@ class Strategy:
             # for Temporal Difference
             else:
                 QTableDict[occurredStateActions[i]] += alpha * (reward - QTableDict[occurredStateActions[i]])
+                
+

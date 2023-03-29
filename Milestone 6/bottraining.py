@@ -107,7 +107,7 @@ def TrainAndTestGameBot (trainingIteration, testingIteration, method, deckConten
         <body>
             <h2>{method} Strategy Results</h2>
             <p>After training for {trainingIteration} iterations using {method}, our game bot fights against the dealer for {testingIteration} rounds.</p>
-            <b><i>House Edge: {(float)(testResult[2])/testingIteration*100.0}%</i></b>
+            <b><i>House Edge: {(float)(testResult[2])/testingIteration*100.0 + (float)(testResult[0])/testingIteration*(-100.0)}%</i></b>
             <p></p>
             <p>Win: {(float)(testResult[0])/testingIteration*100.0}%</p>
             <p>Draw: {(float)(testResult[1])/testingIteration*100.0}%</p>

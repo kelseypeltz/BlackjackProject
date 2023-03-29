@@ -1,6 +1,7 @@
 
 from flask import Flask, request, render_template, url_for
 import bottraining as bt
+import botrunner as br
 
 
 app = Flask(__name__)
@@ -130,9 +131,27 @@ def submit():
     # lambda function for determine hit, stick, or double
     HitStickOrDouble = lambda hitQ, stickQ, doubleQ: "D" if doubleQ >= hitQ and doubleQ >= stickQ else "H" if hitQ >= stickQ else "S"
 
+    game_results_htmlBS = br.TestGameBot(100000, DeckContent, initialNumberOfCard, winningPoints, dealerCriticalPointsToStick, doubleVariation)
 
     # report strategy result
     result = "" 
+    result += f"""
+    <html>
+        <head>
+            <title>Blackjack Game Results</title>
+        </head>
+        <body>           
+            <h2>User's set Rules:</h2>
+            <p>Number of decks: {number_of_decks}</p>
+            <p>Initial number of cards: {initialNumberOfCard}</p>
+            <p>Winning points: {winningPoints}</p>
+            <p>{('Dealer hits on soft 17' if dealerCriticalPointsToStick == 18 else 'Dealer stands on soft 17')}</p>
+            <p>Double on {(('Any 2 cards' if doubleVariation == 1 else '9, 10 & 11 only') if doubleVariation == 2 else '10 & 11 only')}</p>
+        </body>
+    </html>
+    """
+    #report basic strategy and rule variation data
+    result += game_results_htmlBS
     
     # add header and statistics for Q-learning
 
