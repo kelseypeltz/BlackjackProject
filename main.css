@@ -1,0 +1,151 @@
+/* Set the font style and background color for the page */
+body {
+  font-family: "Arial", sans-serif;
+  background-color: #1c1c1c;
+  color: #ffffff;
+}
+
+/* Style the header image */
+.header-image {
+  width: 100%;
+  object-fit: cover;
+}
+
+.header-title {
+     height: 275px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+
+/* Style the navigation bar */
+nav {
+  background-color: #d12d36;
+  padding: 10px;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+nav li {
+  margin-right: 20px;
+}
+
+nav a {
+  font-family: 'Montserrat', sans-serif;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* Style the blackjack game settings section */
+h1 {
+  font-size: 36px;
+  margin-top: 40px;
+}
+
+i {
+  font-style: italic;
+}
+
+/* Style the images row */
+.image-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.image-row img {
+  border-radius: 50%;
+  box-shadow: 0px 0px 20px #ff2b2b;
+  transition: all 0.3s ease;
+}
+
+.image-row img:hover {
+  transform: scale(1.1);
+}
+
+/* Style the abstract and rule variation sections */
+h2 {
+  font-size: 28px;
+  margin-top: 60px;
+  border-bottom: 1px solid #ffffff;
+  padding-bottom: 10px;
+}
+
+h3 {
+  font-size: 24px;
+  margin-top: 40px;
+}
+
+p {
+  font-size: 18px;
+  line-height: 1.5;
+  margin-top: 20px;
+}
+.header {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  padding: 20px;
+  z-index: 1;
+}
+
+.header h1 {
+  font-size: 36px;
+  margin: 0;
+}
+.dashed-circle {
+    position: relative;
+    display: block;
+    margin: 30px auto;
+    width: 100px;
+    height: 100px;
+    border: 13px dashed white;
+    border-radius: 50%;
+    line-height: 100px;
+    text-align: center;
+    font-family: Helvetica;
+    color: white;
+}
+
+    .dashed-circle:before {
+        --bg-color: inherit;
+        position: absolute;
+        z-index: -1;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        margin: -16px;
+        border-radius: 50%;
+        background: var(--bg-color);
+        content: '';
+    }
+
+    .dashed-circle:after {
+        position: absolute;
+        z-index: -1;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        margin: 5px;
+        border: 3px dashed white;
+        border-radius: 50%;
+        background: rgba(0,0,0,0.4);
+        content: '';
+    }
+
+
+  
+  
