@@ -1,0 +1,32 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Blackjack Game - Blackjack!</title>
+</head>
+<body>
+    <h1>Blackjack Game</h1>
+    {% if winner == 'player' %}
+    <h2>Congratulations, you have blackjack!</h2>
+    {% else %}
+    <h2>Sorry, the dealer has blackjack.</h2>
+    {% endif %}
+
+    <h3>Dealer's Hand:</h3>
+    <ul>
+        {% for card in dealer_hand %}
+        <li>{{ card }}</li>
+        {% endfor %}
+    </ul>
+
+    <h3>Your Hand:</h3>
+    <ul>
+        {% for card in player_hand %}
+        <li>{{ card }}</li>
+        {% endfor %}
+    </ul>
+
+    <form method="GET" action="/setup">
+        <button type="submit">Play Again</button>
+    </form>
+</body>
+</html>

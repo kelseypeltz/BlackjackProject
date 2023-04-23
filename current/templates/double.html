@@ -1,0 +1,25 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Blackjack Game - Double Down?</title>
+</head>
+<body>
+    <h1>Blackjack Game</h1>
+    <h2>Do you want to double down?</h2>
+
+    <h3>Your Hand:</h3>
+    <ul>
+        {% for card in player_hand %}
+        <li>{{ card }}</li>
+        {% endfor %}
+    </ul>
+
+    <form method="POST" action="/game">
+        <input type="hidden" name="double" value="true">
+        <button type="submit">Yes</button>
+    </form>
+    <form method="GET" action="/game">
+        <button type="submit">No</button>
+    </form>
+</body>
+</html>

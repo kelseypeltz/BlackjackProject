@@ -1,9 +1,162 @@
-﻿<!DOCTYPE html>
-<html>
+<!DOCTYPE html>
 <head>
-    <title>Blackjack Game Settings  for Strategy Chart</title>
+    <title>Blackjack Game Settings for Strategy Chart</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            font-size: 16px;
+            line-height: 1.5;
+            margin: 0;
+            padding: 0;
+            background-color: #fff;
+            color: #1c1c1c;
+        }
+        
+        header {
+            background-color: #d12d36;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        
+        h1 {
+            margin: 0;
+        }
+        
+        form {
+            margin: 20px;
+            border: 1px solid #ccc;
+            padding: 20px;
+            border-radius: 5px;
+            background-color: #fff;
+        }
+        
+        label {
+            display: block;
+            margin-bottom: 10px;
+            font-size: 16px;
+        }
+        
+        select,
+        input[type="number"] {
+            padding: 5px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+            font-size: 16px;
+            margin-bottom: 20px;
+        }
+        
+        button[type="submit"] {
+            background-color: #d12d36;
+            color: #fff;
+            padding: 10px 20px;
+            border-radius: 5px;
+            border: none;
+            font-size: 16px;
+            cursor: pointer;
+        }
+        
+        button[type="submit"]:hover {
+            background-color: #1c1c1c;
+        }
+        
+        nav {
+            background-color: #d12d36;
+            padding: 10px;
+            margin-top: 20px;
+            text-align: center;
+        }
+        
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+        }
+        
+        nav li {
+            margin-right: 20px;
+        }
+        
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 16px;
+        }
+        
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .dashed-circle {
+    position: relative;
+    display: block;
+    margin: 30px auto;
+    width: 100px;
+    height: 100px;
+    border: 13px dashed white;
+    border-radius: 50%;
+    line-height: 100px;
+    text-align: center;
+    font-family: Helvetica;
+    color: white;
+}
+
+    .dashed-circle:before {
+        --bg-color: inherit;
+        position: absolute;
+        z-index: -1;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        margin: -16px;
+        border-radius: 50%;
+        background: var(--bg-color);
+        content: '';
+    }
+
+    .dashed-circle:after {
+        position: absolute;
+        z-index: -1;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        margin: 5px;
+        border: 3px dashed white;
+        border-radius: 50%;
+        background: rgba(0,0,0,0.4);
+        content: '';
+    }
+    .image-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.image-row img {
+  border-radius: 50%;
+  box-shadow: 0px 0px 20px #ff2b2b;
+  transition: all 0.3s ease;
+}
+
+.image-row img:hover {
+  transform: scale(1.1);
+}
+    </style>
 </head>
-<body>
+
+      <nav>
+        <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/gamerules">Play a Game</a></li>
+            <li><a href="/strategymaker">Make a Strategy Chart</a></li>
+            <li><a href="/project">Project Information</a></li>
+        </ul>
+      </nav>
+    <p> </p>      
     <i>Configure the settings for your blackjack game below.Hit submit when you're ready to make your strategy chart. The strategy chart will take a few minutes to load as our code is running many iterations.</i>
     <p> </p>
     <form method="POST" action="/submit">
@@ -49,5 +202,16 @@
                               document.querySelector('#custom_settings').style.display = 'none';
                             }
                         });</script>
+       <div class="image-row">
+          <a href="/"><div class="dashed-circle" style="--bg-color: black;">Home</div></a>
+          <a href="/gamerules"><div class="dashed-circle" style="--bg-color: blue;">Play</div></a>
+          <a href="/strategymaker"><div class="dashed-circle" style="--bg-color: red;">Strategy</div></a>
+          <a href="/project"><div class="dashed-circle" style="--bg-color: green;">Info</div></a>
+      </div> 
+    <nav>
+        <ul>
+        </ul>
+      </nav>
+                        
 </body>
 </html>

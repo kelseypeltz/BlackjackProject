@@ -1,0 +1,24 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Blackjack</title>
+</head>
+<body>
+    <h1>Blackjack</h1>
+    <h2>Dealer's Hand:</h2>
+    <ul>
+        <li>{{ dealer_hand[0] }}</li>
+        <li>?</li>
+    </ul>
+    <h2>Your Hand:</h2>
+    <ul>
+        {% for card in player_hand %}
+        <li>{{ card }}</li>
+        {% endfor %}
+    </ul>
+    <form method="POST">
+        <button type="submit" name="hit">Hit</button>
+        <button type="submit" name="stand">Stand</button>
+    </form>
+</body>
+</html>

@@ -1,0 +1,28 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Blackjack Game - Hit, Stand, or Double?</title>
+</head>
+<body>
+    <h1>Blackjack Game</h1>
+    <h2>Do you want to hit, stand, or double?</h2>
+
+    <h3>Your Hand:</h3>
+    <ul>
+        {% for card in player_hand %}
+        <li>{{ card }}</li>
+        {% endfor %}
+    </ul>
+
+    <form method="POST" action="/game">
+        <input type="hidden" name="double_cards" value="{{ double_cards[0] }}">
+        <label for="hit_or_stand">Hit, Stand, or Double?</label>
+        <select id="hit_or_stand" name="hit_or_stand">
+            <option value="hit">Hit</option>
+            <option value="stand">Stand</option>
+            <option value="double" {% if double_cards[0]= =0 %}disabled{% endif %}>Double</option>
+        </select>
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>

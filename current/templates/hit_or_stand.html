@@ -1,0 +1,26 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Blackjack Game - Hit or Stand?</title>
+</head>
+<body>
+    <h1>Blackjack Game</h1>
+    <h2>Do you want to hit or stand?</h2>
+
+    <h3>Your Hand:</h3>
+    <ul>
+        {% for card in player_hand %}
+        <li>{{ card }}</li>
+        {% endfor %}
+    </ul>
+
+    <form method="POST" action="/game">
+        <label for="hit_or_stand">Hit or Stand?</label>
+        <select id="hit_or_stand" name="hit_or_stand">
+            <option value="hit">Hit</option>
+            <option value="stand">Stand</option>
+        </select>
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>

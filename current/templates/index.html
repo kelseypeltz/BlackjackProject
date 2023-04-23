@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Blackjack Game Settings</title>
+    
+    <link rel="stylesheet" href="{{ url_for('static', filename='CSS/main.css') }}">
+
+  </head>
+  <body>
+      <nav>
+      </nav>
+      <img src="https://i.ibb.co/PhzmHGf/blackjack-title.png" alt="First Image" class="header-image">
+      <nav>
+          <ul>
+              <li><a href="/">Home</a></li>
+              <li><a href="/gamerules">Play a Game</a></li>
+              <li><a href="/strategymaker">Make a Strategy Chart</a></li>
+              <li><a href="/project">Project Information</a></li>
+          </ul>
+      </nav>
+
+      <div class="abstract">
+          <h2>Abstract</h2>
+          <p>
+              The objective of this project is to create an interface that allows users to input blackjack rulesets which then produces a unique, ideal strategy chart with a higher win rate than a player who uses Edward Thorp’s basic strategy. While Edward Thorp's basic strategy is the optimal approach for a player under standard rules, it doesn't consider the effects of individual casino rule variations. To create the strategy charts, a computer agent will be trained to play blackjack by using reinforcement learning methods.
+          </p>
+      </div>
+      <h2>The Game</h2>
+      <p>Blackjack is the most popular casino banking game in the world. In blackjack, there is one deck of 52 cards, everyone plays against the dealer, players place bets, and each player is dealt two cards at a time (including the dealer). The players know one of the dealer's cards, while the other remains unknown until the round is done. After everyone is dealt, players can decide if they want to "hit," meaning they'd be dealt more cards (one at a time) to get a sum closest to 21 without "busting" (going over 21). If a player is satisfied with their hand, they do not "hit." The goal is to have a sum greater than the dealers. Professional players may use card counting as a way to become an advantaged player. Card counting is a mathematical strategy used in blackjack that helps determine one’s probable advantage or disadvantage of the next dealt card, which the player can use to decide when to increase their betting amount.</p>
+      <div class="image-row">
+          <a href="/gamerules"><div class="dashed-circle" style="--bg-color: blue;">Play</div></a>
+          <a href="/strategymaker"><div class="dashed-circle" style="--bg-color: red;">Strategy</div></a>
+          <a href="/project"><div class="dashed-circle" style="--bg-color: green;">Info</div></a>
+      </div>
+      <h2>Problem Statement</h2>
+      <p>
+          In 1962, Edward Thorp devised a mathematical basic strategy for blackjack that results in a nearly even game (with a house edge of 0.55%) when played according to the general rules of a casino. Thorp’s strategy assumes the blackjack dealers employs six decks and adheres to specific regulations, such as doubling down on any first two cards, disallowing doubling down after splitting, allowing resplits for all pairs except Aces, the dealer standing on a soft 17, and no surrender. However, we've discovered that when rules deviate from the standard casino regulations, the house edge changes, leading a naive player who relies on basic strategy to assume that the game is almost even. To address this issue, our project aims to create an interface that trains a computer agent on specific user rulesets and develops a customized strategy chart which can outperform Thorp's basic strategy under non-standard rules.
+      </p>
+      <p> </p>
+      <p>Some of the most common rule changes include:</p>
+      <p>- The dealer hits on soft 17</p>
+      <p>- No double on aces after splitting</p>
+      <p>- Blackjacks payout at 6:5 instead of 3:2</p>
+      <p>- Dealer doesn't peek to see if they have blackjack</p>
+      <p>- Penetration percentage each deal</p>
+      <p>- Automatic shuffler vs Dealer shoe shuffle</p>
+      <div class="image-row">
+          <a href="/gamerules"><div class="dashed-circle" style="--bg-color: blue;">Play</div></a>
+          <a href="/strategymaker"><div class="dashed-circle" style="--bg-color: red;">Strategy</div></a>
+          <a href="/project"><div class="dashed-circle" style="--bg-color: green;">Info</div></a>
+      </div>
+      <h2>Methods & Approach</h2>
+      <p>
+          To compare real world games versus mathematical predictors, we began our research on the effects of various rule changes by collecting datasets of nightly outcomes of Las Vegas casinos and each casino’s rule variations. Using mathematical odds, we determined the default casino edge for each deck size assuming that the game was played under Traditional rules. Finally, we factored in the odds that change when each individual rule is changes.
+      </p>
+      <p>
+          We used three reinforcement learning algorithms that aim to learn the optimal action-value function for a given environment. The action-value function maps each state-action pair to an expected reward or value, and the goal of these algorithms is to learn the optimal action-value function that maximizes the cumulative reward over time. The difference between these methods lies in how they update their estimates of the action-value function and how they balance the tradeoff between exploration and exploitation of the environment.       We have integrated these methods into our user interface, allowing users to input their specific game rule sets. Each method is trained  for 50,000 iterations with the user's rules to generate a tailored strategy, which is subsequently tested against a dealer for 10,000 games to assess its performance. Furthermore, Thorp's Basic Strategy is also tested 10,000 times with the same rule variations to facilitate comparative analysis of the outcomes.Below explains the difference in our three reinforcement learning algorithms along with their update rule expression.
+      </p>
+      <h3>Q-Learning:</h3>
+      <p>Updates their estimates of the action-value function based on the rewards received and the predicted future rewards.</p>
+      <p>Q(st, at) Q(st, at) +a[rt+1+ymax Q(st+1, a') — Q(st, at)] a’</p>
+      <h3>Sarsa:</h3>
+      <p>Updates its estimates based on the actual actions taken by the agent and the corresponding rewards received.</p>
+      <p>Q(st, at) Q(st, at) + a[rt+1 + YQ(st+1, at+1) — Q(St, At)]</p>
+      <h3>Temporal:</h3>
+      <p>Updates the value estimates of states or state-action pairs based on the difference between the predicted and actual rewards received at each time step.</p>
+      <p>V(st) = V(st) + α [rt+1 + γV(st+1) - V(st)]</p>
+      <div class="image-row">
+          <a href="/gamerules"><div class="dashed-circle" style="--bg-color: blue;">Play</div></a>
+          <a href="/strategymaker"><div class="dashed-circle" style="--bg-color: red;">Strategy</div></a>
+          <a href="/project"><div class="dashed-circle" style="--bg-color: green;">Info</div></a>
+      </div>
+      <body>
+</html>

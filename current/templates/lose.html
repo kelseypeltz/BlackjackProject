@@ -1,0 +1,28 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Blackjack Game - You Lose</title>
+</head>
+<body>
+    <h1>Blackjack Game</h1>
+    <h2>Sorry, you lose.</h2>
+
+    <h3>Dealer's Hand:</h3>
+    <ul>
+        {% for card in dealer_hand %}
+        <li>{{ card }}</li>
+        {% endfor %}
+    </ul>
+
+    <h3>Your Hand:</h3>
+    <ul>
+        {% for card in player_hand %}
+        <li>{{ card }}</li>
+        {% endfor %}
+    </ul>
+
+    <form method="GET" action="/setup">
+        <button type="submit">Play Again</button>
+    </form>
+</body>
+</html>

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Blackjack Game</title>
+</head>
+<body>
+    <h1>Blackjack Game</h1>
+
+    <h2>Dealer's Hand:</h2>
+    <ul>
+        {% for card in dealer_hand %}
+        <li>{{ card }}</li>
+        {% endfor %}
+    </ul>
+
+    <h2>Your Hand:</h2>
+    <ul>
+        {% for card in player_hand %}
+        <li>{{ card }}</li>
+        {% endfor %}
+    </ul>
+
+    {% if player_hand|length == 2 and double_cards != 0 %}
+    <form method="POST" action="/game?double=true">
+        <button type="submit">Double Down</button>
+    </form>
+    {% endif %}
+
+    <form method="POST" action="/game">
+        <label for="hit_or_stand">Hit or Stand?</label>
+        <select id="hit_or_stand" name="hit_or_stand">
+            <option value="hit">Hit</option>
+            <option value="stand">Stand</option>
+        </select>
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>

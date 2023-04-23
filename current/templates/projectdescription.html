@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Project Info</title>
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='CSS/main.css') }}">
+
+</head>
+<body>
+    <nav>
+    </nav>
+    <img src="https://i.ibb.co/PhzmHGf/blackjack-title.png" alt="First Image" class="header-image">
+    <nav>
+        <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/gamerules">Play a Game</a></li>
+            <li><a href="/strategymaker">Make a Strategy Chart</a></li>
+            <li><a href="/project">Project Information</a></li>
+        </ul>
+    </nav>
+
+    <div class="abstract">
+        <h2>Abstract</h2>
+        <p>
+            The objective of this project is to create an interface that allows users to input blackjack rulesets which then produces a unique, ideal strategy chart with a higher win rate than a player who uses Edward Thorp’s basic strategy. While Edward Thorp's basic strategy is the optimal approach for a player under standard rules, it doesn't consider the effects of individual casino rule variations. To create the strategy charts, a computer agent will be trained to play blackjack by using reinforcement learning methods.
+        </p>
+    </div>
+    <h2>The Game</h2>
+    <p>Blackjack is the most popular casino banking game in the world. In blackjack, there is one deck of 52 cards, everyone plays against the dealer, players place bets, and each player is dealt two cards at a time (including the dealer). The players know one of the dealer's cards, while the other remains unknown until the round is done. After everyone is dealt, players can decide if they want to "hit," meaning they'd be dealt more cards (one at a time) to get a sum closest to 21 without "busting" (going over 21). If a player is satisfied with their hand, they do not "hit." The goal is to have a sum greater than the dealers. Professional players may use card counting as a way to become an advantaged player. Card counting is a mathematical strategy used in blackjack that helps determine one’s probable advantage or disadvantage of the next dealt card, which the player can use to decide when to increase their betting amount.</p>
+    <h2>Problem Statement</h2>
+    <p>
+        In 1962, Edward Thorp devised a mathematical basic strategy for blackjack that results in a nearly even game (with a house edge of 0.55%) when played according to the general rules of a casino. Thorp’s strategy assumes the blackjack dealers employs six decks and adheres to specific regulations, such as doubling down on any first two cards, disallowing doubling down after splitting, allowing resplits for all pairs except Aces, the dealer standing on a soft 17, and no surrender. However, we've discovered that when rules deviate from the standard casino regulations, the house edge changes, leading a naive player who relies on basic strategy to assume that the game is almost even. To address this issue, our project aims to create an interface that trains a computer agent on specific user rulesets and develops a customized strategy chart which can outperform Thorp's basic strategy under non-standard rules.
+    </p>
+    <p> </p>
+    <p>Some of the most common rule changes include:</p>
+    <p>- The dealer hits on soft 17</p>
+    <p>- No double on aces after splitting</p>
+    <p>- Blackjacks payout at 6:5 instead of 3:2</p>
+    <p>- Dealer doesn't peek to see if they have blackjack</p>
+    <p>- Penetration percentage each deal</p>
+    <p>- Automatic shuffler vs Dealer shoe shuffle</p>
+    <h2>Methods & Approach</h2>
+    <p>
+        To compare real world games versus mathematical predictors, we began our research on the effects of various rule changes by collecting datasets of nightly outcomes of Las Vegas casinos and each casino’s rule variations. Using mathematical odds, we determined the default casino edge for each deck size assuming that the game was played under Traditional rules. Finally, we factored in the odds that change when each individual rule is changes.
+    </p>
+    <p>
+        We used three reinforcement learning algorithms that aim to learn the optimal action-value function for a given environment. The action-value function maps each state-action pair to an expected reward or value, and the goal of these algorithms is to learn the optimal action-value function that maximizes the cumulative reward over time. The difference between these methods lies in how they update their estimates of the action-value function and how they balance the tradeoff between exploration and exploitation of the environment.       We have integrated these methods into our user interface, allowing users to input their specific game rule sets. Each method is trained  for 50,000 iterations with the user's rules to generate a tailored strategy, which is subsequently tested against a dealer for 10,000 games to assess its performance. Furthermore, Thorp's Basic Strategy is also tested 10,000 times with the same rule variations to facilitate comparative analysis of the outcomes.Below explains the difference in our three reinforcement learning algorithms along with their update rule expression.
+    </p>
+    <h3>Q-Learning:</h3>
+    <p>Updates their estimates of the action-value function based on the rewards received and the predicted future rewards.</p>
+    <p>Q(st, at) Q(st, at) +a[rt+1+ymax Q(st+1, a') — Q(st, at)] a’</p>
+    <h3>Sarsa:</h3>
+    <p>Updates its estimates based on the actual actions taken by the agent and the corresponding rewards received.</p>
+    <p>Q(st, at) Q(st, at) + a[rt+1 + YQ(st+1, at+1) — Q(St, At)]</p>
+    <h3>Temporal:</h3>
+    <p>Updates the value estimates of states or state-action pairs based on the difference between the predicted and actual rewards received at each time step.</p>
+    <p>V(st) = V(st) + α [rt+1 + γV(st+1) - V(st)]</p>
+    <h2 id="basic-strategy">Basic Strategy</h2>
+    <p>Here is a chart of Edward Thorp&#39;s basic strategy taken from <a href="http://www.chasingthefrog.com/reelfaces/21basicstrategy.php">chasingthefrog.com</a>. The strategy tells players when to hit (H), stand (S), split (P), and double (D/DS) according to the the sum or combination of their hand and the dealer&#39;s known upcard.</p>
+    <img width="319" alt="Screen Shot 2022-12-15 at 8 00 29 PM" src="https://user-images.githubusercontent.com/77644658/208005154-d0f4bae4-b9a4-4811-ac3e-8783410347a2.png">
+    <h2 id="research-conducted">Research Conducted</h2>
+    <h3 id="how-rule-variation-affects-house-edge">How Rule Variation Affects House Edge</h3>
+    <h4 id="wizard-of-vegas">Wizard of Vegas</h4>
+    <p><img src="https://user-images.githubusercontent.com/77644658/208007591-446b96e7-038b-4d80-b3a4-999ae8a9e418.png" alt="logo"></p>
+    <p>Our research on various rule changes led us to a website curated by Michael Shackleford, a professor of actuarial science and mathematics at the University of Nevada, Las Vegas. On his site, <a href="https://wizardofvegas.com/guides/blackjack-survey/">Wizard Of Vegas</a>, he posts reports taken from the monthly Current Blackjack News survey. By scraping the Wizard of Odds and Wizard of Vegas websites, we were able to extract data on every Las Vegas casino and their respective rules for their blackjack tables:</p>
+<pre><code>from bs4 import BeautifulSoup
+import requests
+import pandas as pd
+import matplotlib.pyplot as plt
+import numpy as np
+</code></pre>
+<pre><code>r = requests.get(&#39;https://wizardofvegas.com/guides/blackjack-survey/&#39;)
+soup = BeautifulSoup( r.content )
+soup.find(&quot;table&quot;)
+list_vegascasinos = pd.read_html(str(soup.find(&quot;table&quot;)))
+casinodata_df = list_vegascasinos[0]
+casinodata_df[0:10]
+</code></pre>
+    <img width="950" alt="Screen Shot 2022-12-15 at 9 14 45 PM" src="https://user-images.githubusercontent.com/77644658/208013813-1decff55-fe3c-42b5-a58c-bef9f6e04533.png">
+
+    <p>After scraping the casino data, we saved it as a csv and read it into a new, temporary DataFrame object called temp. From temp, we removed missing values that were created as a result of formatting issues from scrapping and called this dataframe casino_data. To make the rules easier to analyze, we converted them into strings.</p>
+<pre><code>temp = pd.read_csv(&quot;/content/drive/MyDrive/Blackjack Data Science Project/CasinoTable.csv&quot;)
+casino_data = temp.dropna(axis=0)
+casino_data[&#39;Rules&#39;] = casino_data.Rules.apply(lambda x: x[0:].split(&#39;,&#39;))
+casino_data.head()
+</code></pre>
+    <p><img src="https://i.ibb.co/Dkxn1D2/Screen-Shot-2023-04-23-at-4-25-03-PM.png" alt="casino_data"></p>
+    <p>On the same site, we also found a list of every possible blackjack rule variation along with the percent increase or decrease that it has on the player&#39;s edge:</p>
+<pre><code>r2 = requests.get(&#39;https://wizardofodds.com/games/blackjack/rule-variations/&#39;)
+soup_rules = BeautifulSoup( r2.content )
+soup_rules.find(&quot;table&quot;)
+list_rules = pd.read_html(str(soup_rules.find(&quot;table&quot;)))
+rules_df = list_rules[0]
+rules_df[0:10]
+</code></pre>
+    <img width="349" alt="Screen Shot 2022-12-15 at 9 12 57 PM" src="https://user-images.githubusercontent.com/77644658/208013719-90782f8e-5099-43db-9cd6-baecf8ef64e7.png">
+
+    <p>We then converted each rule to their respective letter code (h17 = Dealer hits soft 17, s17 = Dealer stands soft 17, ds = Double after splitting, ls = Late surrender, etc.) so that the rules_df could be used in parallel with the casino_df. After cleaning up and reordering the casino_df, we had columns for:</p>
+    <ul>
+        <li>number of tables</li>
+        <li>calculated house edge</li>
+        <li>number of decks</li>
+        <li>cut (penetration perentage)</li>
+        <li>minimum bet</li>
+        <li>maximum bet</li>
+        <li>rules</li>
+    </ul>
+    <h2 id="exploratory-data-analysis">Exploratory Data Analysis</h2>
+    <p>We started our exploratory data analysis by finding the default casino edge for each deck size assuming that the game was played under traditional rules. We then found the means of the casinos&#39; edges grouped by the number of decks they used.</p>
+<pre><code>(casino_data[casino_data.Decks == 1.0][&#39;Edge&#39;].mean(), casino_data[casino_data.Decks == 2.0][&#39;Edge&#39;].mean(), casino_data[casino_data.Decks == 6.0][&#39;Edge&#39;].mean(), casino_data[casino_data.Decks == 8.0][&#39;Edge&#39;].mean())
+</code></pre>
+    <p>Which gave us the following results:</p>
+    <ul>
+        <li>1 deck: 0.18</li>
+        <li>2 decks: 0.38899999999999996</li>
+        <li>6 decks: 0.4338235294117647</li>
+        <li>8 decks: 0.5427272727272728</li>
+    </ul>
+    <p>We wanted to see how the combination of penetration of a deck and number of decks affected the mean of the edge. We found that the mean of the houses&#39; edge was largest when there were six decks combined with a 1.4 deck cut. 8 decks overall resulted in largest mean of the houses&#39; edge. The smallest mean by far was when the house used 1 deck. Using only 1 deck is very rare which resulted in us only having one data point so the mean of 1 deck houses&#39; edges might not be a good representation. </p>
+<pre><code>edge_decks_cut_mean = casino_data.groupby([&quot;Decks&quot;,&#39;Cut&#39;])[&quot;Edge&quot;].mean()
+edge_decks_cut_mean.to_frame()
+edge_decks_cut_mean.plot.bar()
+</code></pre>
+    <p>
+        <img src="https://i.ibb.co/vhR9KW9/Screen-Shot-2023-04-23-at-4-26-26-PM.png" alt="edge.deck.cut table">
+        <img src="https://i.ibb.co/QN5MfNs/Screen-Shot-2023-04-23-at-4-27-17-PM.png" alt="edge.deck.cut graph">
+    </p>
+    <p>Here we showed a visual representation of our calculated default edge with the actual houses&#39; edges means. As you can see, our calculated default edge is very close the actual houses&#39; mean for 2 decks and 8 decks. For 1 and 6 decks, our calculated default varies from the actual mean which was expected due to rule variation. </p>
+    <p><img src="https://i.ibb.co/Cs8HMQX/Screen-Shot-2023-04-23-at-4-28-21-PM.png" alt="estimate vs actual mean"></p>
+    <h2 id="casino-edge-prediction-model">Casino Edge Prediction Model</h2>
+<pre><code>deck_2 = casino_data.set_index(&quot;Decks&quot;).loc[2.0]
+deck_2[&quot;Default Estimated Edge&quot;] = 0.39
+display(deck_2.head())
+
+#Update Estimated Edge
+for i in range(len(deck_2)):
+  for rule in deck_2[&#39;Rules&#39;].values[i]:
+    temp = deck_2[&#39;Default Estimated Edge&#39;].values[i]
+    index = edge_ups[edge_ups[&#39;Rule&#39;] == rule].index
+    if len(edge_ups[&#39;2 Deck&#39;].values[index]) &gt; 0:
+      temp2 = temp - edge_ups[&#39;2 Deck&#39;].values[index][0]
+      deck_2[&#39;Default Estimated Edge&#39;].values[i] = temp2
+    if rule == &#39;ls&#39;:
+      if &#39;h17&#39; in deck_2[&#39;Rules&#39;].values[i]:
+        deck_2[&#39;Default Estimated Edge&#39;].values[i] = temp - edge_ups[&#39;2 Deck&#39;].values[5]
+      if &#39;s17&#39; in deck_2[&#39;Rules&#39;].values[i]:
+        deck_2[&#39;Default Estimated Edge&#39;].values[i] = temp - edge_ups[&#39;2 Deck&#39;].values[4]
+display(deck_2.head())
+</code></pre>
+    <img width="844" alt="Screen Shot 2022-12-15 at 11 42 44 PM" src="https://user-images.githubusercontent.com/77644658/208030509-17739641-7433-410b-a9a3-b89f607f91e5.png">
+
+<pre><code>deck_6 = casino_data.set_index(&quot;Decks&quot;).loc[6.0]
+deck_6[&quot;Default Estimated Edge&quot;] = 0.55
+display(deck_6.head())
+
+#Update Estimated Edge
+for i in range(len(deck_6)):
+  for rule in deck_6[&#39;Rules&#39;].values[i]:
+    temp = deck_6[&#39;Default Estimated Edge&#39;].values[i]
+    index = edge_ups[edge_ups[&#39;Rule&#39;] == rule].index
+    if len(edge_ups[&#39;6 Decks&#39;].values[index]) &gt; 0:
+      temp2 = temp - edge_ups[&#39;6 Decks&#39;].values[index][0]
+      deck_6[&#39;Default Estimated Edge&#39;].values[i] = temp2
+    if rule == &#39;ls&#39;:
+      if &#39;h17&#39; in deck_6[&#39;Rules&#39;].values[i]:
+        deck_6[&#39;Default Estimated Edge&#39;].values[i] = temp - edge_ups[&#39;6 Decks&#39;].values[5]
+      if &#39;s17&#39; in deck_6[&#39;Rules&#39;].values[i]:
+        deck_6[&#39;Default Estimated Edge&#39;].values[i] = temp - edge_ups[&#39;6 Decks&#39;].values[4]
+display(deck_6.head())
+</code></pre>
+    <img width="832" alt="Screen Shot 2022-12-15 at 11 42 55 PM" src="https://user-images.githubusercontent.com/77644658/208030526-f854ec15-b4ad-4c60-9f6b-362807572ee7.png">
+
+<pre><code>deck_8 = casino_data.set_index(&quot;Decks&quot;).loc[8.0]
+deck_8[&quot;Default Estimated Edge&quot;] = 0.56
+display(deck_8.head())
+
+#Update Estimated Edge
+for i in range(len(deck_8)):
+  for rule in deck_8[&#39;Rules&#39;].values[i]:
+    temp = deck_8[&#39;Default Estimated Edge&#39;].values[i]
+    index = edge_ups[edge_ups[&#39;Rule&#39;] == rule].index
+    if len(edge_ups[&#39;8 Decks&#39;].values[index]) &gt; 0:
+      temp2 = temp - edge_ups[&#39;8 Decks&#39;].values[index][0]
+      deck_8[&#39;Default Estimated Edge&#39;].values[i] = temp2
+    if rule == &#39;ls&#39;:
+      if &#39;h17&#39; in deck_8[&#39;Rules&#39;].values[i]:
+        deck_8[&#39;Default Estimated Edge&#39;].values[i] = temp - edge_ups[&#39;8 Decks&#39;].values[5]
+      if &#39;s17&#39; in deck_8[&#39;Rules&#39;].values[i]:
+        deck_8[&#39;Default Estimated Edge&#39;].values[i] = temp - edge_ups[&#39;8 Decks&#39;].values[4]
+display(deck_8.head())
+</code></pre>
+    <img width="722" alt="Screen Shot 2022-12-15 at 11 43 04 PM" src="https://user-images.githubusercontent.com/77644658/208030544-8754c96e-495c-4d62-9872-7a2a36a57f77.png">
+    <img width="324" alt="Screen Shot 2022-12-15 at 11 57 19 PM" src="https://user-images.githubusercontent.com/69976409/208032877-9f57b89c-66fb-4a69-8f82-dad69e602c22.png">
+    <img width="398" alt="Screen Shot 2022-12-15 at 11 57 26 PM" src="https://user-images.githubusercontent.com/69976409/208032891-eb5d71ad-5de8-4f62-ab25-ded6297e3654.png">
+    <img width="225" alt="Screen Shot 2022-12-15 at 11 57 33 PM" src="https://user-images.githubusercontent.com/69976409/208032913-f69594b5-7da4-4b0c-8dfc-fed2e1142829.png">
+
+    <h2>Building The Interface</h2>
+    <p>After finishing our machine learning codes in Python, we began working on our website. As beginners, we started by researching each tool and understanding how they work together to create a website. After learning the basics of Flask, we started coding the back-end of the website using Flask. We then created the front-end of the website using HTML and CSS to ensure a visually appealing and user-friendly design. Once the website was complete, we deployed it using Google App Engine, which provided reliable and scalable hosting for my website. The process of building a website was challenging, but also extremely rewarding as we were able to see our project come to life.</p>
+    <h2 id="results">Results and Findings</h2>
+    <p>
+        Our findings show that machine learning techniques can be leveraged to develop a customized blackjack strategy chart that outperforms Thorp's basic strategy under non-standard rules. By creating an interface that trains a computer agent on specific user rulesets, users can tailor their strategy to their preferred rules and improve their chances of winning at the game of blackjack. This approach can also be extended to other games and scenarios, demonstrating the potential of machine learning to optimize decision-making processes in a variety of domains. Overall, this project highlights the power of combining machine learning with user customization to improve performance and achieve better outcomes in complex decision-making scenarios.
+
+        There are a few areas that we could work on in the future to make this interface better such as implementing more rule variations or incorporating more games beyond blackjack.
+    </p>
+    <a href="https://ibb.co/NnFVdt3"><img src="https://i.ibb.co/G3dx4nJ/Screen-Shot-2023-04-23-at-4-31-16-PM.png" alt="Screen-Shot-2023-04-23-at-4-31-16-PM" border="0"></a>
+    <a href="https://ibb.co/51rjy6W"><img src="https://i.ibb.co/Fh5YMKb/Screen-Shot-2023-04-23-at-4-33-18-PM.png" alt="Screen-Shot-2023-04-23-at-4-33-18-PM" border="0"></a>
+    <p></p>
+    <a href="/chartmaker">View Charts for Specific Rule Variations</a>
+
