@@ -1,0 +1,53 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Blackjack Game Settings  for Strategy Chart</title>
+</head>
+<body>
+    <i>Configure the settings for your blackjack game below.Hit submit when you're ready to make your strategy chart. The strategy chart will take a few minutes to load as our code is running many iterations.</i>
+    <p> </p>
+    <form method="POST" action="/submit">
+        <label for="num_decks">Enter number of decks:</label>
+        <input type="number" id="num_decks" name="num_decks" min="1">
+
+        <label for="typical_settings">Do you want to use typical amount of initial dealt cards (2 cards per player) and blackjack winning points (sum of 21)?</label>
+        <select id="typical_settings" name="typical_settings">
+            <option value="yes">Yes</option>
+            <option value="no">No</option>
+        </select>
+
+        <div id="custom_settings" style="display:none;">
+            <label for="initial_dealt_cards">Enter the number of initial dealt cards:</label>
+            <input type="number" id="initial_dealt_cards" name="initial_dealt_cards" min="1" value="2"><br>
+
+            <label for="winning_points">Enter the number of winning points for blackjack:</label>
+            <input type="number" id="winning_points" name="winning_points" min="1" value="21">
+        </div>
+
+        <label for="hit_or_stand">Select the dealer's strategy:</label>
+        <select id="hit_or_stand" name="hit_or_stand">
+            <option value="18">Dealer hits on soft 17</option>
+            <option value="17">Dealer stands on soft 17</option>
+        </select>
+
+        <label for="double_cards">What cards are you permitted to double?</label>
+        <select id="double_cards" name="double_cards">
+            <option value="1">Any 2 cards</option>
+            <option value="2">9, 10 &amp; 11 only</option>
+            <option value="3">10 &amp; 11 only</option>
+        </select>
+
+        <button type="submit">Submit</button>
+    </form>
+
+
+    <script>// Show/hide custom settings based on user input
+                          document.querySelector('#typical_settings').addEventListener('change', function() {
+                            if (this.value === 'no') {
+                              document.querySelector('#custom_settings').style.display = 'block';
+                            } else {
+                              document.querySelector('#custom_settings').style.display = 'none';
+                            }
+                        });</script>
+</body>
+</html>
