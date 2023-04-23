@@ -1,0 +1,6005 @@
+﻿Iterations: 1  
+
+Win:  31.25 %
+Draw:  3.94 %
+Lose:  64.81 %
+
+Iterations: 101  
+
+Win:  39.36 %
+Draw:  5.3100000000000005 %
+Lose:  55.33 %
+
+Iterations: 201  
+
+Win:  39.160000000000004 %
+Draw:  5.28 %
+Lose:  55.559999999999995 %
+
+Iterations: 301  
+
+Win:  43.4 %
+Draw:  5.19 %
+Lose:  51.41 %
+
+Iterations: 401  
+
+Win:  41.870000000000005 %
+Draw:  5.220000000000001 %
+Lose:  52.910000000000004 %
+
+Iterations: 501  
+
+Win:  42.16 %
+Draw:  5.76 %
+Lose:  52.080000000000005 %
+
+Iterations: 601  
+
+Win:  44.74 %
+Draw:  5.07 %
+Lose:  50.19 %
+
+Iterations: 701  
+
+Win:  43.13 %
+Draw:  5.01 %
+Lose:  51.85999999999999 %
+
+Iterations: 801  
+
+Win:  43.39 %
+Draw:  5.4 %
+Lose:  51.21 %
+
+Iterations: 901  
+
+Win:  43.36 %
+Draw:  5.75 %
+Lose:  50.89 %
+
+Iterations: 1001  
+
+Win:  43.64 %
+Draw:  5.7299999999999995 %
+Lose:  50.629999999999995 %
+
+Iterations: 1101  
+
+Win:  43.14 %
+Draw:  5.7299999999999995 %
+Lose:  51.129999999999995 %
+
+Iterations: 1201  
+
+Win:  44.13 %
+Draw:  5.2 %
+Lose:  50.67 %
+
+Iterations: 1301  
+
+Win:  44.4 %
+Draw:  5.1499999999999995 %
+Lose:  50.449999999999996 %
+
+Iterations: 1401  
+
+Win:  44.31 %
+Draw:  5.779999999999999 %
+Lose:  49.91 %
+
+Iterations: 1501  
+
+Win:  45.23 %
+Draw:  5.48 %
+Lose:  49.29 %
+
+Iterations: 1601  
+
+Win:  42.96 %
+Draw:  5.37 %
+Lose:  51.67 %
+
+Iterations: 1701  
+
+Win:  44.4 %
+Draw:  5.26 %
+Lose:  50.339999999999996 %
+
+Iterations: 1801  
+
+Win:  44.99 %
+Draw:  5.83 %
+Lose:  49.18 %
+
+Iterations: 1901  
+
+Win:  45.29 %
+Draw:  5.53 %
+Lose:  49.18 %
+
+Iterations: 2001  
+
+Win:  44.379999999999995 %
+Draw:  4.99 %
+Lose:  50.629999999999995 %
+
+Iterations: 2101  
+
+Win:  44.04 %
+Draw:  6.15 %
+Lose:  49.81 %
+
+Iterations: 2201  
+
+Win:  44.12 %
+Draw:  5.55 %
+Lose:  50.33 %
+
+Iterations: 2301  
+
+Win:  44.24 %
+Draw:  5.9799999999999995 %
+Lose:  49.78 %
+
+Iterations: 2401  
+
+Win:  43.93 %
+Draw:  5.55 %
+Lose:  50.519999999999996 %
+
+Iterations: 2501  
+
+Win:  44.89 %
+Draw:  5.390000000000001 %
+Lose:  49.72 %
+
+Iterations: 2601  
+
+Win:  45.410000000000004 %
+Draw:  5.56 %
+Lose:  49.03 %
+
+Iterations: 2701  
+
+Win:  43.669999999999995 %
+Draw:  6.25 %
+Lose:  50.080000000000005 %
+
+Iterations: 2801  
+
+Win:  43.230000000000004 %
+Draw:  5.57 %
+Lose:  51.2 %
+
+Iterations: 2901  
+
+Win:  44.25 %
+Draw:  5.609999999999999 %
+Lose:  50.13999999999999 %
+
+Iterations: 3001  
+
+Win:  44.62 %
+Draw:  5.27 %
+Lose:  50.11 %
+
+Iterations: 3101  
+
+Win:  45.31 %
+Draw:  5.47 %
+Lose:  49.220000000000006 %
+
+Iterations: 3201  
+
+Win:  43.82 %
+Draw:  5.800000000000001 %
+Lose:  50.38 %
+
+Iterations: 3301  
+
+Win:  44.58 %
+Draw:  5.4399999999999995 %
+Lose:  49.980000000000004 %
+
+Iterations: 3401  
+
+Win:  45.56 %
+Draw:  5.34 %
+Lose:  49.1 %
+
+Iterations: 3501  
+
+Win:  44.9 %
+Draw:  5.779999999999999 %
+Lose:  49.32 %
+
+Iterations: 3601  
+
+Win:  44.83 %
+Draw:  5.42 %
+Lose:  49.75 %
+
+Iterations: 3701  
+
+Win:  44.2 %
+Draw:  5.65 %
+Lose:  50.14999999999999 %
+
+Iterations: 3801  
+
+Win:  44.5 %
+Draw:  5.3100000000000005 %
+Lose:  50.19 %
+
+Iterations: 3901  
+
+Win:  44.9 %
+Draw:  5.25 %
+Lose:  49.85 %
+
+Iterations: 4001  
+
+Win:  44.97 %
+Draw:  5.800000000000001 %
+Lose:  49.230000000000004 %
+
+Iterations: 4101  
+
+Win:  43.81 %
+Draw:  5.8999999999999995 %
+Lose:  50.29 %
+
+Iterations: 4201  
+
+Win:  44.61 %
+Draw:  6.03 %
+Lose:  49.36 %
+
+Iterations: 4301  
+
+Win:  45.300000000000004 %
+Draw:  5.29 %
+Lose:  49.41 %
+
+Iterations: 4401  
+
+Win:  45.83 %
+Draw:  5.28 %
+Lose:  48.89 %
+
+Iterations: 4501  
+
+Win:  44.75 %
+Draw:  5.38 %
+Lose:  49.87 %
+
+Iterations: 4601  
+
+Win:  45.11 %
+Draw:  5.58 %
+Lose:  49.309999999999995 %
+
+Iterations: 4701  
+
+Win:  45.42 %
+Draw:  5.57 %
+Lose:  49.01 %
+
+Iterations: 4801  
+
+Win:  45.06 %
+Draw:  5.36 %
+Lose:  49.58 %
+
+Iterations: 4901  
+
+Win:  44.17 %
+Draw:  5.45 %
+Lose:  50.38 %
+
+Iterations: 5001  
+
+Win:  44.73 %
+Draw:  5.390000000000001 %
+Lose:  49.88 %
+
+Iterations: 5101  
+
+Win:  45.59 %
+Draw:  5.59 %
+Lose:  48.82 %
+
+Iterations: 5201  
+
+Win:  44.76 %
+Draw:  5.07 %
+Lose:  50.17 %
+
+Iterations: 5301  
+
+Win:  46.02 %
+Draw:  5.4399999999999995 %
+Lose:  48.54 %
+
+Iterations: 5401  
+
+Win:  44.84 %
+Draw:  5.8999999999999995 %
+Lose:  49.26 %
+
+Iterations: 5501  
+
+Win:  45.73 %
+Draw:  5.72 %
+Lose:  48.55 %
+
+Iterations: 5601  
+
+Win:  45.37 %
+Draw:  5.57 %
+Lose:  49.059999999999995 %
+
+Iterations5701  
+
+Win:  45.73 %
+Draw:  5.38 %
+Lose:  48.89 %
+
+Iterations: 5801  
+
+Win:  45.01 %
+Draw:  5.4 %
+Lose:  49.59 %
+
+Iterations: 5901  
+
+Win:  44.32 %
+Draw:  5.28 %
+Lose:  50.4 %
+
+Iterations: 6001  
+
+Win:  45.62 %
+Draw:  5.3100000000000005 %
+Lose:  49.07 %
+
+Iterations: 6101  
+
+Win:  45.95 %
+Draw:  5.489999999999999 %
+Lose:  48.559999999999995 %
+
+Iterations: 6201  
+
+Win:  45.39 %
+Draw:  4.83 %
+Lose:  49.78 %
+
+Iterations: 6301  
+
+Win:  45.39 %
+Draw:  5.47 %
+Lose:  49.14 %
+
+Iterations: 6401  
+
+Win:  44.92 %
+Draw:  5.87 %
+Lose:  49.21 %
+
+Iterations: 6501  
+
+Win:  45.15 %
+Draw:  5.53 %
+Lose:  49.32 %
+
+Iterations: 6601  
+
+Win:  45.300000000000004 %
+Draw:  5.64 %
+Lose:  49.059999999999995 %
+
+Iterations: 6701  
+
+Win:  44.99 %
+Draw:  5.48 %
+Lose:  49.53 %
+
+Iterations: 6801  
+
+Win:  45.42 %
+Draw:  5.1499999999999995 %
+Lose:  49.43 %
+
+Iterations: 6901  
+
+Win:  45.17 %
+Draw:  6.32 %
+Lose:  48.51 %
+
+Iterations: 7001  
+
+Win:  45.65 %
+Draw:  5.87 %
+Lose:  48.480000000000004 %
+
+Iterations: 7101  
+
+Win:  45.32 %
+Draw:  6.09 %
+Lose:  48.59 %
+
+Iterations: 7201  
+
+Win:  44.39 %
+Draw:  5.27 %
+Lose:  50.339999999999996 %
+
+Iterations: 7301  
+
+Win:  44.78 %
+Draw:  5.140000000000001 %
+Lose:  50.080000000000005 %
+
+Iterations: 7401  
+
+Win:  45.660000000000004 %
+Draw:  5.6899999999999995 %
+Lose:  48.65 %
+
+Iterations: 7501  
+
+Win:  44.31 %
+Draw:  5.949999999999999 %
+Lose:  49.74 %
+
+Iterations: 7601  
+
+Win:  45.31 %
+Draw:  5.81 %
+Lose:  48.88 %
+
+Iterations: 7701  
+
+Win:  44.940000000000005 %
+Draw:  5.53 %
+Lose:  49.53 %
+
+Iterations: 7801  
+
+Win:  44.58 %
+Draw:  5.43 %
+Lose:  49.99 %
+
+Iterations: 7901  
+
+Win:  45.73 %
+Draw:  5.74 %
+Lose:  48.53 %
+
+Iterations: 8001  
+
+Win:  45.46 %
+Draw:  5.36 %
+Lose:  49.18 %
+
+Iterations: 8101  
+
+Win:  44.36 %
+Draw:  5.37 %
+Lose:  50.27 %
+
+Iterations: 8201  
+
+Win:  45.09 %
+Draw:  5.54 %
+Lose:  49.370000000000005 %
+
+Iterations: 8301  
+
+Win:  45.97 %
+Draw:  5.36 %
+Lose:  48.67 %
+
+Iterations: 8401  
+
+Win:  45.57 %
+Draw:  5.26 %
+Lose:  49.17 %
+
+Iterations: 8501  
+
+Win:  45.47 %
+Draw:  6.0 %
+Lose:  48.53 %
+
+Iterations: 8601  
+
+Win:  45.65 %
+Draw:  5.3100000000000005 %
+Lose:  49.04 %
+
+Iterations: 8701  
+
+Win:  46.22 %
+Draw:  5.970000000000001 %
+Lose:  47.81 %
+
+Iterations: 8801  
+
+Win:  46.31 %
+Draw:  5.99 %
+Lose:  47.699999999999996 %
+
+Iterations: 8901  
+
+Win:  45.93 %
+Draw:  5.48 %
+Lose:  48.59 %
+
+Iterations: 9001  
+
+Win:  44.64 %
+Draw:  5.43 %
+Lose:  49.93 %
+
+Iterations: 9101  
+
+Win:  45.42 %
+Draw:  6.05 %
+Lose:  48.53 %
+
+Iterations: 9201  
+
+Win:  44.3 %
+Draw:  5.5 %
+Lose:  50.2 %
+
+Iterations: 9301  
+
+Win:  46.160000000000004 %
+Draw:  5.5 %
+Lose:  48.339999999999996 %
+
+Iterations: 9401  
+
+Win:  45.45 %
+Draw:  5.38 %
+Lose:  49.17 %
+
+Iterations: 9501  
+
+Win:  45.6 %
+Draw:  5.56 %
+Lose:  48.84 %
+
+Iterations: 9601  
+
+Win:  45.53 %
+Draw:  5.81 %
+Lose:  48.66 %
+
+Iterations: 9701  
+
+Win:  45.78 %
+Draw:  5.4399999999999995 %
+Lose:  48.78 %
+
+Iterations: 9801  
+
+Win:  45.26 %
+Draw:  5.56 %
+Lose:  49.18 %
+
+Iterations: 9901  
+
+Win:  46.25 %
+Draw:  5.46 %
+Lose:  48.29 %
+
+Iterations: 10001  
+
+Win:  45.18 %
+Draw:  5.53 %
+Lose:  49.29 %
+
+Iterations: 10101  
+
+Win:  45.21 %
+Draw:  5.3 %
+Lose:  49.49 %
+
+Iterations: 10201  
+
+Win:  45.7 %
+Draw:  5.66 %
+Lose:  48.64 %
+
+Iterations: 10301  
+
+Win:  45.48 %
+Draw:  5.11 %
+Lose:  49.41 %
+
+Iterations: 10401  
+
+Win:  45.6 %
+Draw:  5.76 %
+Lose:  48.64 %
+
+Iterations: 10501  
+
+Win:  44.97 %
+Draw:  5.37 %
+Lose:  49.66 %
+
+Iterations: 10601  
+
+Win:  45.17 %
+Draw:  5.88 %
+Lose:  48.949999999999996 %
+
+Iterations: 10701  
+
+Win:  46.410000000000004 %
+Draw:  5.76 %
+Lose:  47.83 %
+
+Iterations: 10801  
+
+Win:  46.27 %
+Draw:  5.8500000000000005 %
+Lose:  47.88 %
+
+Iterations: 10901  
+
+Win:  45.72 %
+Draw:  5.7299999999999995 %
+Lose:  48.55 %
+
+Iterations: 11001  
+
+Win:  45.989999999999995 %
+Draw:  5.7 %
+Lose:  48.309999999999995 %
+
+Iterations: 11101  
+
+Win:  46.64 %
+Draw:  5.6000000000000005 %
+Lose:  47.760000000000005 %
+
+Iterations: 11201  
+
+Win:  45.540000000000006 %
+Draw:  5.93 %
+Lose:  48.53 %
+
+Iterations: 11301  
+
+Win:  45.69 %
+Draw:  5.92 %
+Lose:  48.39 %
+
+Iterations: 11401  
+
+Win:  45.75 %
+Draw:  6.04 %
+Lose:  48.209999999999994 %
+
+Iterations: 11501  
+
+Win:  46.050000000000004 %
+Draw:  5.47 %
+Lose:  48.480000000000004 %
+
+Iterations: 11601  
+
+Win:  45.879999999999995 %
+Draw:  5.18 %
+Lose:  48.94 %
+
+Iterations: 11701  
+
+Win:  45.24 %
+Draw:  5.63 %
+Lose:  49.13 %
+
+Iterations: 11801  
+
+Win:  45.26 %
+Draw:  5.27 %
+Lose:  49.47 %
+
+Iterations: 11901  
+
+Win:  45.32 %
+Draw:  5.33 %
+Lose:  49.35 %
+
+Iterations: 12001  
+
+Win:  45.29 %
+Draw:  5.55 %
+Lose:  49.16 %
+
+Iterations: 12101  
+
+Win:  45.56 %
+Draw:  5.93 %
+Lose:  48.51 %
+
+Iterations: 12201  
+
+Win:  45.300000000000004 %
+Draw:  5.58 %
+Lose:  49.120000000000005 %
+
+Iterations: 12301  
+
+Win:  45.86 %
+Draw:  5.6899999999999995 %
+Lose:  48.449999999999996 %
+
+Iterations: 12401  
+
+Win:  45.79 %
+Draw:  5.48 %
+Lose:  48.730000000000004 %
+
+Iterations: 12501  
+
+Win:  47.17 %
+Draw:  5.26 %
+Lose:  47.57 %
+
+Iterations: 12601  
+
+Win:  45.24 %
+Draw:  5.96 %
+Lose:  48.8 %
+
+Iterations: 12701  
+
+Win:  44.73 %
+Draw:  5.48 %
+Lose:  49.79 %
+
+Iterations: 12801  
+
+Win:  45.16 %
+Draw:  5.84 %
+Lose:  49.0 %
+
+Iterations: 12901  
+
+Win:  46.12 %
+Draw:  5.4399999999999995 %
+Lose:  48.44 %
+
+Iterations: 13001  
+
+Win:  46.339999999999996 %
+Draw:  5.3 %
+Lose:  48.36 %
+
+Iterations: 13101  
+
+Win:  45.04 %
+Draw:  5.680000000000001 %
+Lose:  49.28 %
+
+Iterations: 13201  
+
+Win:  45.34 %
+Draw:  6.1 %
+Lose:  48.559999999999995 %
+
+Iterations: 13301  
+
+Win:  45.09 %
+Draw:  5.4399999999999995 %
+Lose:  49.47 %
+
+Iterations: 13401  
+
+Win:  45.01 %
+Draw:  5.88 %
+Lose:  49.11 %
+
+Iterations: 13501  
+
+Win:  45.29 %
+Draw:  6.16 %
+Lose:  48.55 %
+
+Iterations: 13601  
+
+Win:  46.050000000000004 %
+Draw:  5.28 %
+Lose:  48.67 %
+
+Iterations: 13701  
+
+Win:  44.879999999999995 %
+Draw:  5.4 %
+Lose:  49.72 %
+
+Iterations: 13801  
+
+Win:  45.42 %
+Draw:  5.3 %
+Lose:  49.28 %
+
+Iterations: 13901  
+
+Win:  45.4 %
+Draw:  5.779999999999999 %
+Lose:  48.82 %
+
+Iterations: 14001  
+
+Win:  46.78 %
+Draw:  5.27 %
+Lose:  47.949999999999996 %
+
+Iterations: 14101  
+
+Win:  45.16 %
+Draw:  5.64 %
+Lose:  49.2 %
+
+Iterations: 14201  
+
+Win:  45.67 %
+Draw:  5.38 %
+Lose:  48.949999999999996 %
+
+Iterations: 14301  
+
+Win:  44.629999999999995 %
+Draw:  5.38 %
+Lose:  49.99 %
+
+Iterations: 14401  
+
+Win:  45.32 %
+Draw:  5.56 %
+Lose:  49.120000000000005 %
+
+Iterations: 14501  
+
+Win:  45.0 %
+Draw:  5.29 %
+Lose:  49.71 %
+
+Iterations: 14601  
+
+Win:  46.0 %
+Draw:  5.63 %
+Lose:  48.370000000000005 %
+
+Iterations: 14701  
+
+Win:  47.21 %
+Draw:  5.6899999999999995 %
+Lose:  47.099999999999994 %
+
+Iterations: 14801  
+
+Win:  45.07 %
+Draw:  5.63 %
+Lose:  49.3 %
+
+Iterations: 14901  
+
+Win:  46.11 %
+Draw:  5.48 %
+Lose:  48.41 %
+
+Iterations: 15001  
+
+Win:  45.81 %
+Draw:  5.53 %
+Lose:  48.66 %
+
+Iterations: 15101  
+
+Win:  46.43 %
+Draw:  5.21 %
+Lose:  48.36 %
+
+Iterations: 15201  
+
+Win:  45.4 %
+Draw:  5.46 %
+Lose:  49.14 %
+
+Iterations: 15301  
+
+Win:  44.690000000000005 %
+Draw:  5.800000000000001 %
+Lose:  49.51 %
+
+Iterations: 15401  
+
+Win:  45.7 %
+Draw:  5.26 %
+Lose:  49.04 %
+
+Iterations: 15501  
+
+Win:  46.39 %
+Draw:  5.67 %
+Lose:  47.94 %
+
+Iterations: 15601  
+
+Win:  45.379999999999995 %
+Draw:  5.33 %
+Lose:  49.29 %
+
+Iterations: 15701  
+
+Win:  45.23 %
+Draw:  5.81 %
+Lose:  48.96 %
+
+Iterations: 15801  
+
+Win:  45.15 %
+Draw:  5.680000000000001 %
+Lose:  49.17 %
+
+Iterations: 15901  
+
+Win:  46.6 %
+Draw:  5.2 %
+Lose:  48.199999999999996 %
+
+Iterations: 16001  
+
+Win:  45.16 %
+Draw:  5.62 %
+Lose:  49.220000000000006 %
+
+Iterations: 16101  
+
+Win:  45.37 %
+Draw:  5.5 %
+Lose:  49.13 %
+
+Iterations: 16201  
+
+Win:  46.26 %
+Draw:  5.55 %
+Lose:  48.19 %
+
+Iterations: 16301  
+
+Win:  45.989999999999995 %
+Draw:  6.12 %
+Lose:  47.89 %
+
+Iterations: 16401  
+
+Win:  47.06 %
+Draw:  5.64 %
+Lose:  47.3 %
+
+Iterations: 16501  
+
+Win:  46.71 %
+Draw:  5.4399999999999995 %
+Lose:  47.85 %
+
+Iterations: 16601  
+
+Win:  46.54 %
+Draw:  5.800000000000001 %
+Lose:  47.660000000000004 %
+
+Iterations: 16701  
+
+Win:  45.550000000000004 %
+Draw:  5.54 %
+Lose:  48.91 %
+
+Iterations: 16801  
+
+Win:  46.06 %
+Draw:  5.76 %
+Lose:  48.18 %
+
+Iterations: 16901  
+
+Win:  44.71 %
+Draw:  5.489999999999999 %
+Lose:  49.8 %
+
+Iterations: 17001  
+
+Win:  46.129999999999995 %
+Draw:  5.800000000000001 %
+Lose:  48.07 %
+
+Iterations: 17101  
+
+Win:  45.34 %
+Draw:  5.94 %
+Lose:  48.72 %
+
+Iterations: 17201  
+
+Win:  45.69 %
+Draw:  5.33 %
+Lose:  48.980000000000004 %
+
+Iterations: 17301  
+
+Win:  45.35 %
+Draw:  6.02 %
+Lose:  48.63 %
+
+Iterations: 17401  
+
+Win:  45.92 %
+Draw:  5.59 %
+Lose:  48.49 %
+
+Iterations: 17501  
+
+Win:  44.14 %
+Draw:  5.08 %
+Lose:  50.78 %
+
+Iterations: 17601  
+
+Win:  44.96 %
+Draw:  5.6899999999999995 %
+Lose:  49.35 %
+
+Iterations: 17701  
+
+Win:  44.190000000000005 %
+Draw:  5.3100000000000005 %
+Lose:  50.5 %
+
+Iterations: 17801  
+
+Win:  46.35 %
+Draw:  5.6899999999999995 %
+Lose:  47.96 %
+
+Iterations: 17901  
+
+Win:  46.19 %
+Draw:  5.8500000000000005 %
+Lose:  47.96 %
+
+Iterations: 18001  
+
+Win:  46.37 %
+Draw:  5.17 %
+Lose:  48.46 %
+
+Iterations: 18101  
+
+Win:  46.800000000000004 %
+Draw:  5.48 %
+Lose:  47.72 %
+
+Iterations: 18201  
+
+Win:  46.23 %
+Draw:  5.29 %
+Lose:  48.480000000000004 %
+
+Iterations: 18301  
+
+Win:  44.85 %
+Draw:  5.67 %
+Lose:  49.480000000000004 %
+
+Iterations: 18401  
+
+Win:  46.489999999999995 %
+Draw:  5.489999999999999 %
+Lose:  48.02 %
+
+Iterations: 18501  
+
+Win:  45.68 %
+Draw:  5.7 %
+Lose:  48.620000000000005 %
+
+Iterations: 18601  
+
+Win:  45.550000000000004 %
+Draw:  5.29 %
+Lose:  49.16 %
+
+Iterations: 18701  
+
+Win:  45.839999999999996 %
+Draw:  5.949999999999999 %
+Lose:  48.209999999999994 %
+
+Iterations: 18801  
+
+Win:  46.04 %
+Draw:  5.48 %
+Lose:  48.480000000000004 %
+
+Iterations: 18901  
+
+Win:  45.64 %
+Draw:  5.58 %
+Lose:  48.78 %
+
+Iterations: 19001  
+
+Win:  45.879999999999995 %
+Draw:  5.7299999999999995 %
+Lose:  48.39 %
+
+Iterations: 19101  
+
+Win:  45.440000000000005 %
+Draw:  5.4399999999999995 %
+Lose:  49.120000000000005 %
+
+Iterations: 19201  
+
+Win:  45.410000000000004 %
+Draw:  5.65 %
+Lose:  48.94 %
+
+Iterations: 19301  
+
+Win:  45.519999999999996 %
+Draw:  5.8500000000000005 %
+Lose:  48.63 %
+
+Iterations: 19401  
+
+Win:  46.61 %
+Draw:  5.33 %
+Lose:  48.06 %
+
+Iterations: 19501  
+
+Win:  45.0 %
+Draw:  5.4 %
+Lose:  49.6 %
+
+Iterations: 19601  
+
+Win:  46.45 %
+Draw:  5.88 %
+Lose:  47.67 %
+
+Iterations: 19701  
+
+Win:  45.53 %
+Draw:  5.66 %
+Lose:  48.809999999999995 %
+
+Iterations: 19801  
+
+Win:  45.23 %
+Draw:  5.81 %
+Lose:  48.96 %
+
+Iterations: 19901  
+
+Win:  45.48 %
+Draw:  5.800000000000001 %
+Lose:  48.72 %
+
+Iterations: 20001  
+
+Win:  45.7 %
+Draw:  5.56 %
+Lose:  48.74 %
+
+Iterations: 20101  
+
+Win:  46.44 %
+Draw:  5.609999999999999 %
+Lose:  47.949999999999996 %
+
+Iterations: 20201  
+
+Win:  45.4 %
+Draw:  5.680000000000001 %
+Lose:  48.92 %
+
+Iterations: 20301  
+
+Win:  46.07 %
+Draw:  5.94 %
+Lose:  47.99 %
+
+Iterations: 20401  
+
+Win:  46.12 %
+Draw:  5.390000000000001 %
+Lose:  48.49 %
+
+Iterations: 20501  
+
+Win:  45.879999999999995 %
+Draw:  5.52 %
+Lose:  48.6 %
+
+Iterations: 20601  
+
+Win:  44.81 %
+Draw:  5.58 %
+Lose:  49.61 %
+
+Iterations: 20701  
+
+Win:  45.16 %
+Draw:  5.92 %
+Lose:  48.92 %
+
+Iterations: 20801  
+
+Win:  45.94 %
+Draw:  5.83 %
+Lose:  48.230000000000004 %
+
+Iterations: 20901  
+
+Win:  44.28 %
+Draw:  5.8999999999999995 %
+Lose:  49.82 %
+
+Iterations: 21001  
+
+Win:  46.54 %
+Draw:  5.79 %
+Lose:  47.67 %
+
+Iterations: 21101  
+
+Win:  45.62 %
+Draw:  6.1 %
+Lose:  48.28 %
+
+Iterations: 21201  
+
+Win:  45.629999999999995 %
+Draw:  5.74 %
+Lose:  48.63 %
+
+Iterations: 21301  
+
+Win:  46.160000000000004 %
+Draw:  5.75 %
+Lose:  48.089999999999996 %
+
+Iterations: 21401  
+
+Win:  45.81 %
+Draw:  5.53 %
+Lose:  48.66 %
+
+Iterations: 21501  
+
+Win:  45.65 %
+Draw:  6.22 %
+Lose:  48.13 %
+
+Iterations: 21601  
+
+Win:  46.150000000000006 %
+Draw:  5.83 %
+Lose:  48.02 %
+
+Iterations: 21701  
+
+Win:  45.660000000000004 %
+Draw:  5.08 %
+Lose:  49.26 %
+
+Iterations: 21801  
+
+Win:  45.6 %
+Draw:  5.9799999999999995 %
+Lose:  48.42 %
+
+Iterations: 21901  
+
+Win:  45.31 %
+Draw:  5.7299999999999995 %
+Lose:  48.96 %
+
+Iterations: 22001  
+
+Win:  45.81 %
+Draw:  5.62 %
+Lose:  48.57 %
+
+Iterations: 22101  
+
+Win:  46.02 %
+Draw:  6.0600000000000005 %
+Lose:  47.92 %
+
+Iterations: 22201  
+
+Win:  46.25 %
+Draw:  5.56 %
+Lose:  48.19 %
+
+Iterations: 22301  
+
+Win:  46.1 %
+Draw:  5.6899999999999995 %
+Lose:  48.209999999999994 %
+
+Iterations: 22401  
+
+Win:  45.440000000000005 %
+Draw:  5.7 %
+Lose:  48.86 %
+
+Iterations: 22501  
+
+Win:  46.36 %
+Draw:  6.0600000000000005 %
+Lose:  47.58 %
+
+Iterations: 22601  
+
+Win:  46.21 %
+Draw:  5.71 %
+Lose:  48.08 %
+
+Iterations: 22701  
+
+Win:  46.339999999999996 %
+Draw:  5.4 %
+Lose:  48.26 %
+
+Iterations: 22801  
+
+Win:  46.51 %
+Draw:  5.65 %
+Lose:  47.839999999999996 %
+
+Iterations: 22901  
+
+Win:  45.629999999999995 %
+Draw:  5.79 %
+Lose:  48.58 %
+
+Iterations: 23001  
+
+Win:  45.65 %
+Draw:  5.489999999999999 %
+Lose:  48.86 %
+
+Iterations: 23101  
+
+Win:  46.08 %
+Draw:  5.9799999999999995 %
+Lose:  47.94 %
+
+Iterations: 23201  
+
+Win:  46.18 %
+Draw:  6.03 %
+Lose:  47.79 %
+
+Iterations: 23301  
+
+Win:  46.43 %
+Draw:  6.329999999999999 %
+Lose:  47.24 %
+
+Iterations: 23401  
+
+Win:  45.5 %
+Draw:  5.64 %
+Lose:  48.86 %
+
+Iterations: 23501  
+
+Win:  46.77 %
+Draw:  5.33 %
+Lose:  47.9 %
+
+Iterations: 23601  
+
+Win:  46.050000000000004 %
+Draw:  5.81 %
+Lose:  48.14 %
+
+Iterations: 23701  
+
+Win:  45.37 %
+Draw:  6.069999999999999 %
+Lose:  48.559999999999995 %
+
+Iterations: 23801  
+
+Win:  46.150000000000006 %
+Draw:  6.03 %
+Lose:  47.82 %
+
+Iterations: 23901  
+
+Win:  45.68 %
+Draw:  5.52 %
+Lose:  48.8 %
+
+Iterations: 24001  
+
+Win:  45.660000000000004 %
+Draw:  5.26 %
+Lose:  49.08 %
+
+Iterations: 24101  
+
+Win:  46.43 %
+Draw:  5.62 %
+Lose:  47.949999999999996 %
+
+Iterations: 24201  
+
+Win:  45.410000000000004 %
+Draw:  6.04 %
+Lose:  48.55 %
+
+Iterations: 24301  
+
+Win:  45.379999999999995 %
+Draw:  5.53 %
+Lose:  49.09 %
+
+Iterations: 24401  
+
+Win:  45.61 %
+Draw:  6.35 %
+Lose:  48.04 %
+
+Iterations: 24501  
+
+Win:  45.83 %
+Draw:  5.63 %
+Lose:  48.54 %
+
+Iterations: 24601  
+
+Win:  45.07 %
+Draw:  5.33 %
+Lose:  49.6 %
+
+Iterations: 24701  
+
+Win:  46.42 %
+Draw:  5.79 %
+Lose:  47.79 %
+
+Iterations: 24801  
+
+Win:  45.440000000000005 %
+Draw:  5.680000000000001 %
+Lose:  48.88 %
+
+Iterations: 24901  
+
+Win:  45.839999999999996 %
+Draw:  5.94 %
+Lose:  48.22 %
+
+Iterations: 25001  
+
+Win:  46.02 %
+Draw:  5.2 %
+Lose:  48.78 %
+
+Iterations: 25101  
+
+Win:  46.160000000000004 %
+Draw:  5.779999999999999 %
+Lose:  48.06 %
+
+Iterations: 25201  
+
+Win:  46.51 %
+Draw:  5.67 %
+Lose:  47.82 %
+
+Iterations: 25301  
+
+Win:  45.17 %
+Draw:  5.48 %
+Lose:  49.35 %
+
+Iterations: 25401  
+
+Win:  45.73 %
+Draw:  5.7700000000000005 %
+Lose:  48.5 %
+
+Iterations: 25501  
+
+Win:  45.21 %
+Draw:  5.81 %
+Lose:  48.980000000000004 %
+
+Iterations: 25601  
+
+Win:  45.69 %
+Draw:  6.069999999999999 %
+Lose:  48.24 %
+
+Iterations: 25701  
+
+Win:  46.48 %
+Draw:  5.800000000000001 %
+Lose:  47.72 %
+
+Iterations: 25801  
+
+Win:  46.03 %
+Draw:  5.52 %
+Lose:  48.449999999999996 %
+
+Iterations: 25901  
+
+Win:  45.28 %
+Draw:  5.76 %
+Lose:  48.96 %
+
+Iterations: 26001  
+
+Win:  44.89 %
+Draw:  5.65 %
+Lose:  49.46 %
+
+Iterations: 26101  
+
+Win:  45.32 %
+Draw:  5.45 %
+Lose:  49.230000000000004 %
+
+Iterations: 26201  
+
+Win:  45.800000000000004 %
+Draw:  5.57 %
+Lose:  48.63 %
+
+Iterations: 26301  
+
+Win:  46.25 %
+Draw:  5.52 %
+Lose:  48.230000000000004 %
+
+Iterations: 26401  
+
+Win:  45.910000000000004 %
+Draw:  5.9799999999999995 %
+Lose:  48.11 %
+
+Iterations: 26501  
+
+Win:  46.550000000000004 %
+Draw:  5.33 %
+Lose:  48.120000000000005 %
+
+Iterations: 26601  
+
+Win:  45.57 %
+Draw:  5.489999999999999 %
+Lose:  48.94 %
+
+Iterations: 26701  
+
+Win:  45.94 %
+Draw:  5.6000000000000005 %
+Lose:  48.46 %
+
+Iterations: 26801  
+
+Win:  45.62 %
+Draw:  5.7 %
+Lose:  48.68 %
+
+Iterations: 26901  
+
+Win:  45.48 %
+Draw:  5.84 %
+Lose:  48.68 %
+
+Iterations: 27001  
+
+Win:  45.42 %
+Draw:  6.03 %
+Lose:  48.55 %
+
+Iterations: 27101  
+
+Win:  45.550000000000004 %
+Draw:  5.800000000000001 %
+Lose:  48.65 %
+
+Iterations: 27201  
+
+Win:  45.42 %
+Draw:  5.7 %
+Lose:  48.88 %
+
+Iterations: 27301  
+
+Win:  45.16 %
+Draw:  5.680000000000001 %
+Lose:  49.16 %
+
+Iterations: 27401  
+
+Win:  45.6 %
+Draw:  5.42 %
+Lose:  48.980000000000004 %
+
+Iterations: 27501  
+
+Win:  45.51 %
+Draw:  5.81 %
+Lose:  48.68 %
+
+Iterations: 27601  
+
+Win:  45.71 %
+Draw:  5.66 %
+Lose:  48.63 %
+
+Iterations: 27701  
+
+Win:  45.69 %
+Draw:  6.11 %
+Lose:  48.199999999999996 %
+
+Iterations: 27801  
+
+Win:  47.21 %
+Draw:  5.4 %
+Lose:  47.39 %
+
+Iterations: 27901  
+
+Win:  45.64 %
+Draw:  5.67 %
+Lose:  48.69 %
+
+Iterations: 28001  
+
+Win:  45.87 %
+Draw:  5.58 %
+Lose:  48.55 %
+
+Iterations: 28101  
+
+Win:  45.81 %
+Draw:  5.99 %
+Lose:  48.199999999999996 %
+
+Iterations: 28201  
+
+Win:  45.53 %
+Draw:  5.83 %
+Lose:  48.64 %
+
+Iterations: 28301  
+
+Win:  45.82 %
+Draw:  5.82 %
+Lose:  48.36 %
+
+Iterations: 28401  
+
+Win:  45.32 %
+Draw:  6.16 %
+Lose:  48.52 %
+
+Iterations: 28501  
+
+Win:  46.300000000000004 %
+Draw:  5.680000000000001 %
+Lose:  48.02 %
+
+Iterations: 28601  
+
+Win:  45.56 %
+Draw:  5.62 %
+Lose:  48.82 %
+
+Iterations: 28701  
+
+Win:  47.24 %
+Draw:  5.680000000000001 %
+Lose:  47.08 %
+
+Iterations: 28801  
+
+Win:  46.02 %
+Draw:  5.67 %
+Lose:  48.309999999999995 %
+
+Iterations: 28901  
+
+Win:  45.53 %
+Draw:  5.66 %
+Lose:  48.809999999999995 %
+
+Iterations: 29001  
+
+Win:  46.7 %
+Draw:  5.83 %
+Lose:  47.47 %
+
+Iterations: 29101  
+
+Win:  46.03 %
+Draw:  5.84 %
+Lose:  48.13 %
+
+Iterations: 29201  
+
+Win:  45.35 %
+Draw:  5.65 %
+Lose:  49.0 %
+
+Iterations: 29301  
+
+Win:  45.5 %
+Draw:  5.55 %
+Lose:  48.949999999999996 %
+
+Iterations: 29401  
+
+Win:  46.67 %
+Draw:  5.7 %
+Lose:  47.63 %
+
+Iterations: 29501  
+
+Win:  46.550000000000004 %
+Draw:  5.67 %
+Lose:  47.78 %
+
+Iterations: 29601  
+
+Win:  46.01 %
+Draw:  5.75 %
+Lose:  48.24 %
+
+Iterations: 29701  
+
+Win:  46.31 %
+Draw:  5.3100000000000005 %
+Lose:  48.38 %
+
+Iterations: 29801  
+
+Win:  45.019999999999996 %
+Draw:  5.82 %
+Lose:  49.16 %
+
+Iterations: 29901  
+
+Win:  45.28 %
+Draw:  5.7700000000000005 %
+Lose:  48.949999999999996 %
+
+Iterations: 30001  
+
+Win:  46.01 %
+Draw:  5.779999999999999 %
+Lose:  48.209999999999994 %
+
+Iterations: 30101  
+
+Win:  46.17 %
+Draw:  5.510000000000001 %
+Lose:  48.32 %
+
+Iterations: 30201  
+
+Win:  46.129999999999995 %
+Draw:  5.79 %
+Lose:  48.08 %
+
+Iterations: 30301  
+
+Win:  46.26 %
+Draw:  6.15 %
+Lose:  47.589999999999996 %
+
+Iterations: 30401  
+
+Win:  45.32 %
+Draw:  6.17 %
+Lose:  48.51 %
+
+Iterations: 30501  
+
+Win:  46.2 %
+Draw:  5.609999999999999 %
+Lose:  48.19 %
+
+Iterations: 30601  
+
+Win:  45.739999999999995 %
+Draw:  5.3100000000000005 %
+Lose:  48.949999999999996 %
+
+Iterations: 30701  
+
+Win:  45.769999999999996 %
+Draw:  5.949999999999999 %
+Lose:  48.28 %
+
+Iterations: 30801  
+
+Win:  45.879999999999995 %
+Draw:  5.4 %
+Lose:  48.72 %
+
+Iterations: 30901  
+
+Win:  46.04 %
+Draw:  5.84 %
+Lose:  48.120000000000005 %
+
+Iterations: 31001  
+
+Win:  46.150000000000006 %
+Draw:  6.11 %
+Lose:  47.74 %
+
+Iterations: 31101  
+
+Win:  45.85 %
+Draw:  5.64 %
+Lose:  48.51 %
+
+Iterations: 31201  
+
+Win:  45.78 %
+Draw:  5.7299999999999995 %
+Lose:  48.49 %
+
+Iterations: 31301  
+
+Win:  46.53 %
+Draw:  5.609999999999999 %
+Lose:  47.86 %
+
+Iterations: 31401  
+
+Win:  46.19 %
+Draw:  5.83 %
+Lose:  47.980000000000004 %
+
+Iterations: 31501  
+
+Win:  45.72 %
+Draw:  5.74 %
+Lose:  48.54 %
+
+Iterations: 31601  
+
+Win:  45.739999999999995 %
+Draw:  5.3 %
+Lose:  48.96 %
+
+Iterations: 31701  
+
+Win:  46.43 %
+Draw:  5.55 %
+Lose:  48.02 %
+
+Iterations: 31801  
+
+Win:  46.160000000000004 %
+Draw:  5.19 %
+Lose:  48.65 %
+
+Iterations: 31901  
+
+Win:  45.910000000000004 %
+Draw:  5.42 %
+Lose:  48.67 %
+
+Iterations: 32001  
+
+Win:  45.440000000000005 %
+Draw:  5.8500000000000005 %
+Lose:  48.71 %
+
+Iterations: 32101  
+
+Win:  46.32 %
+Draw:  6.02 %
+Lose:  47.660000000000004 %
+
+Iterations: 32201  
+
+Win:  46.44 %
+Draw:  5.87 %
+Lose:  47.69 %
+
+Iterations: 32301  
+
+Win:  45.56 %
+Draw:  5.86 %
+Lose:  48.58 %
+
+Iterations: 32401  
+
+Win:  47.05 %
+Draw:  5.84 %
+Lose:  47.11 %
+
+Iterations: 32501  
+
+Win:  46.07 %
+Draw:  6.069999999999999 %
+Lose:  47.86 %
+
+Iterations: 32601  
+
+Win:  46.0 %
+Draw:  5.55 %
+Lose:  48.449999999999996 %
+
+Iterations: 32701  
+
+Win:  45.49 %
+Draw:  5.8500000000000005 %
+Lose:  48.66 %
+
+Iterations: 32801  
+
+Win:  46.58 %
+Draw:  5.8500000000000005 %
+Lose:  47.57 %
+
+Iterations: 32901  
+
+Win:  45.9 %
+Draw:  5.67 %
+Lose:  48.43 %
+
+Iterations: 33001  
+
+Win:  45.550000000000004 %
+Draw:  5.57 %
+Lose:  48.88 %
+
+Iterations: 33101  
+
+Win:  47.11 %
+Draw:  5.390000000000001 %
+Lose:  47.5 %
+
+Iterations: 33201  
+
+Win:  46.23 %
+Draw:  5.36 %
+Lose:  48.41 %
+
+Iterations: 33301  
+
+Win:  45.440000000000005 %
+Draw:  5.4399999999999995 %
+Lose:  49.120000000000005 %
+
+Iterations: 33401  
+
+Win:  46.25 %
+Draw:  5.779999999999999 %
+Lose:  47.97 %
+
+Iterations: 33501  
+
+Win:  46.1 %
+Draw:  5.72 %
+Lose:  48.18 %
+
+Iterations: 33601  
+
+Win:  45.67 %
+Draw:  5.6000000000000005 %
+Lose:  48.730000000000004 %
+
+Iterations: 33701  
+
+Win:  45.5 %
+Draw:  5.81 %
+Lose:  48.69 %
+
+Iterations: 33801  
+
+Win:  45.49 %
+Draw:  5.63 %
+Lose:  48.88 %
+
+Iterations: 33901  
+
+Win:  46.17 %
+Draw:  5.72 %
+Lose:  48.11 %
+
+Iterations: 34001  
+
+Win:  45.660000000000004 %
+Draw:  5.63 %
+Lose:  48.71 %
+
+Iterations: 34101  
+
+Win:  45.86 %
+Draw:  5.38 %
+Lose:  48.76 %
+
+Iterations: 34201  
+
+Win:  46.739999999999995 %
+Draw:  5.4399999999999995 %
+Lose:  47.82 %
+
+Iterations: 34301  
+
+Win:  46.410000000000004 %
+Draw:  5.88 %
+Lose:  47.71 %
+
+Iterations: 34401  
+
+Win:  46.68 %
+Draw:  5.680000000000001 %
+Lose:  47.64 %
+
+Iterations: 34501  
+
+Win:  46.089999999999996 %
+Draw:  6.03 %
+Lose:  47.88 %
+
+Iterations: 34601  
+
+Win:  45.82 %
+Draw:  6.02 %
+Lose:  48.16 %
+
+Iterations: 34701  
+
+Win:  46.58 %
+Draw:  5.800000000000001 %
+Lose:  47.620000000000005 %
+
+Iterations: 34801  
+
+Win:  45.0 %
+Draw:  5.96 %
+Lose:  49.04 %
+
+Iterations: 34901  
+
+Win:  45.739999999999995 %
+Draw:  6.17 %
+Lose:  48.089999999999996 %
+
+Iterations: 35001  
+
+Win:  46.33 %
+Draw:  5.9799999999999995 %
+Lose:  47.69 %
+
+Iterations: 35101  
+
+Win:  45.800000000000004 %
+Draw:  5.46 %
+Lose:  48.74 %
+
+Iterations: 35201  
+
+Win:  45.89 %
+Draw:  5.36 %
+Lose:  48.75 %
+
+Iterations: 35301  
+
+Win:  45.660000000000004 %
+Draw:  5.4399999999999995 %
+Lose:  48.9 %
+
+Iterations: 35401  
+
+Win:  46.11 %
+Draw:  5.71 %
+Lose:  48.18 %
+
+Iterations: 35501  
+
+Win:  46.07 %
+Draw:  5.800000000000001 %
+Lose:  48.13 %
+
+Iterations: 35601  
+
+Win:  45.16 %
+Draw:  5.72 %
+Lose:  49.120000000000005 %
+
+Iterations: 35701  
+
+Win:  45.29 %
+Draw:  5.779999999999999 %
+Lose:  48.93 %
+
+Iterations: 35801  
+
+Win:  45.85 %
+Draw:  5.3 %
+Lose:  48.85 %
+
+Iterations: 35901  
+
+Win:  46.03 %
+Draw:  5.779999999999999 %
+Lose:  48.19 %
+
+Iterations: 36001  
+
+Win:  46.19 %
+Draw:  5.800000000000001 %
+Lose:  48.010000000000005 %
+
+Iterations: 36101  
+
+Win:  45.86 %
+Draw:  6.069999999999999 %
+Lose:  48.07 %
+
+Iterations: 36201  
+
+Win:  45.67 %
+Draw:  6.01 %
+Lose:  48.32 %
+
+Iterations: 36301  
+
+Win:  45.33 %
+Draw:  5.510000000000001 %
+Lose:  49.16 %
+
+Iterations: 36401  
+
+Win:  46.129999999999995 %
+Draw:  5.42 %
+Lose:  48.449999999999996 %
+
+Iterations: 36501  
+
+Win:  45.540000000000006 %
+Draw:  5.8500000000000005 %
+Lose:  48.61 %
+
+Iterations: 36601  
+
+Win:  45.61 %
+Draw:  5.93 %
+Lose:  48.46 %
+
+Iterations: 36701  
+
+Win:  45.64 %
+Draw:  5.8500000000000005 %
+Lose:  48.51 %
+
+Iterations: 36801  
+
+Win:  47.17 %
+Draw:  5.93 %
+Lose:  46.9 %
+
+Iterations: 36901  
+
+Win:  46.81 %
+Draw:  5.47 %
+Lose:  47.72 %
+
+Iterations: 37001  
+
+Win:  46.03 %
+Draw:  5.58 %
+Lose:  48.39 %
+
+Iterations: 37101  
+
+Win:  46.150000000000006 %
+Draw:  6.01 %
+Lose:  47.839999999999996 %
+
+Iterations: 37201  
+
+Win:  46.050000000000004 %
+Draw:  5.63 %
+Lose:  48.32 %
+
+Iterations: 37301  
+
+Win:  45.33 %
+Draw:  5.89 %
+Lose:  48.78 %
+
+Iterations: 37401  
+
+Win:  44.48 %
+Draw:  5.609999999999999 %
+Lose:  49.91 %
+
+Iterations: 37501  
+
+Win:  45.75 %
+Draw:  5.71 %
+Lose:  48.54 %
+
+Iterations: 37601  
+
+Win:  46.14 %
+Draw:  5.680000000000001 %
+Lose:  48.18 %
+
+Iterations: 37701  
+
+Win:  46.23 %
+Draw:  5.489999999999999 %
+Lose:  48.28 %
+
+Iterations: 37801  
+
+Win:  46.129999999999995 %
+Draw:  6.370000000000001 %
+Lose:  47.5 %
+
+Iterations: 37901  
+
+Win:  46.739999999999995 %
+Draw:  5.7 %
+Lose:  47.56 %
+
+Iterations: 38001  
+
+Win:  45.58 %
+Draw:  5.800000000000001 %
+Lose:  48.620000000000005 %
+
+Iterations: 38101  
+
+Win:  45.440000000000005 %
+Draw:  5.71 %
+Lose:  48.85 %
+
+Iterations: 38201  
+
+Win:  45.39 %
+Draw:  6.4799999999999995 %
+Lose:  48.13 %
+
+Iterations: 38301  
+
+Win:  45.16 %
+Draw:  5.94 %
+Lose:  48.9 %
+
+Iterations: 38401  
+
+Win:  46.339999999999996 %
+Draw:  5.489999999999999 %
+Lose:  48.17 %
+
+Iterations: 38501  
+
+Win:  46.28 %
+Draw:  5.489999999999999 %
+Lose:  48.230000000000004 %
+
+Iterations: 38601  
+
+Win:  46.050000000000004 %
+Draw:  6.01 %
+Lose:  47.94 %
+
+Iterations: 38701  
+
+Win:  46.27 %
+Draw:  5.53 %
+Lose:  48.199999999999996 %
+
+Iterations: 38801  
+
+Win:  46.14 %
+Draw:  5.96 %
+Lose:  47.9 %
+
+Iterations: 38901  
+
+Win:  45.97 %
+Draw:  5.76 %
+Lose:  48.27 %
+
+Iterations: 39001  
+
+Win:  45.660000000000004 %
+Draw:  6.239999999999999 %
+Lose:  48.1 %
+
+Iterations: 39101  
+
+Win:  46.11 %
+Draw:  5.7 %
+Lose:  48.19 %
+
+Iterations: 39201  
+
+Win:  45.87 %
+Draw:  5.75 %
+Lose:  48.38 %
+
+Iterations: 39301  
+
+Win:  46.32 %
+Draw:  5.779999999999999 %
+Lose:  47.9 %
+
+Iterations: 39401  
+
+Win:  46.68 %
+Draw:  5.489999999999999 %
+Lose:  47.83 %
+
+Iterations: 39501  
+
+Win:  46.14 %
+Draw:  6.35 %
+Lose:  47.510000000000005 %
+
+Iterations: 39601  
+
+Win:  46.35 %
+Draw:  5.7 %
+Lose:  47.949999999999996 %
+
+Iterations: 39701  
+
+Win:  46.51 %
+Draw:  5.54 %
+Lose:  47.949999999999996 %
+
+Iterations: 39801  
+
+Win:  45.69 %
+Draw:  5.949999999999999 %
+Lose:  48.36 %
+
+Iterations: 39901  
+
+Win:  46.660000000000004 %
+Draw:  5.800000000000001 %
+Lose:  47.54 %
+
+Iterations: 40001  
+
+Win:  45.62 %
+Draw:  5.52 %
+Lose:  48.86 %
+
+Iterations: 40101  
+
+Win:  46.23 %
+Draw:  5.94 %
+Lose:  47.83 %
+
+Iterations: 40201  
+
+Win:  45.26 %
+Draw:  6.2 %
+Lose:  48.54 %
+
+Iterations: 40301  
+
+Win:  45.87 %
+Draw:  6.09 %
+Lose:  48.04 %
+
+Iterations: 40401  
+
+Win:  45.5 %
+Draw:  5.81 %
+Lose:  48.69 %
+
+Iterations: 40501  
+
+Win:  45.69 %
+Draw:  5.92 %
+Lose:  48.39 %
+
+Iterations: 40601  
+
+Win:  45.910000000000004 %
+Draw:  5.58 %
+Lose:  48.51 %
+
+Iterations: 40701  
+
+Win:  45.800000000000004 %
+Draw:  5.74 %
+Lose:  48.46 %
+
+Iterations: 40801  
+
+Win:  45.33 %
+Draw:  5.99 %
+Lose:  48.68 %
+
+Iterations: 40901  
+
+Win:  45.379999999999995 %
+Draw:  5.680000000000001 %
+Lose:  48.94 %
+
+Iterations: 41001  
+
+Win:  46.22 %
+Draw:  5.93 %
+Lose:  47.85 %
+
+Iterations: 41101  
+
+Win:  45.75 %
+Draw:  5.800000000000001 %
+Lose:  48.449999999999996 %
+
+Iterations: 41201  
+
+Win:  45.839999999999996 %
+Draw:  5.779999999999999 %
+Lose:  48.38 %
+
+Iterations: 41301  
+
+Win:  45.540000000000006 %
+Draw:  5.779999999999999 %
+Lose:  48.68 %
+
+Iterations: 41401  
+
+Win:  46.5 %
+Draw:  5.55 %
+Lose:  47.949999999999996 %
+
+Iterations: 41501  
+
+Win:  46.5 %
+Draw:  5.13 %
+Lose:  48.370000000000005 %
+
+Iterations: 41601  
+
+Win:  46.03 %
+Draw:  5.8999999999999995 %
+Lose:  48.07 %
+
+Iterations: 41701  
+
+Win:  46.7 %
+Draw:  5.58 %
+Lose:  47.72 %
+
+Iterations: 41801  
+
+Win:  45.92 %
+Draw:  5.81 %
+Lose:  48.27 %
+
+Iterations: 41901  
+
+Win:  46.08 %
+Draw:  5.58 %
+Lose:  48.339999999999996 %
+
+Iterations: 42001  
+
+Win:  46.02 %
+Draw:  5.3 %
+Lose:  48.68 %
+
+Iterations: 42101  
+
+Win:  45.48 %
+Draw:  6.3100000000000005 %
+Lose:  48.209999999999994 %
+
+Iterations: 42201  
+
+Win:  45.95 %
+Draw:  5.800000000000001 %
+Lose:  48.25 %
+
+Iterations: 42301  
+
+Win:  45.85 %
+Draw:  5.510000000000001 %
+Lose:  48.64 %
+
+Iterations: 42401  
+
+Win:  45.98 %
+Draw:  5.83 %
+Lose:  48.19 %
+
+Iterations: 42501  
+
+Win:  45.85 %
+Draw:  5.84 %
+Lose:  48.309999999999995 %
+
+Iterations: 42601  
+
+Win:  45.75 %
+Draw:  5.800000000000001 %
+Lose:  48.449999999999996 %
+
+Iterations: 42701  
+
+Win:  45.440000000000005 %
+Draw:  6.069999999999999 %
+Lose:  48.49 %
+
+Iterations: 42801  
+
+Win:  46.56 %
+Draw:  5.800000000000001 %
+Lose:  47.64 %
+
+Iterations: 42901  
+
+Win:  46.33 %
+Draw:  5.74 %
+Lose:  47.93 %
+
+Iterations: 43001  
+
+Win:  46.22 %
+Draw:  5.42 %
+Lose:  48.36 %
+
+Iterations: 43101  
+
+Win:  45.65 %
+Draw:  6.329999999999999 %
+Lose:  48.02 %
+
+Iterations: 43201  
+
+Win:  46.48 %
+Draw:  5.949999999999999 %
+Lose:  47.57 %
+
+Iterations: 43301  
+
+Win:  46.98 %
+Draw:  5.71 %
+Lose:  47.31 %
+
+Iterations: 43401  
+
+Win:  46.6 %
+Draw:  5.7 %
+Lose:  47.699999999999996 %
+
+Iterations: 43501  
+
+Win:  46.400000000000006 %
+Draw:  5.7700000000000005 %
+Lose:  47.83 %
+
+Iterations: 43601  
+
+Win:  45.56 %
+Draw:  6.09 %
+Lose:  48.35 %
+
+Iterations: 43701  
+
+Win:  46.56 %
+Draw:  5.62 %
+Lose:  47.82 %
+
+Iterations: 43801  
+
+Win:  45.769999999999996 %
+Draw:  5.99 %
+Lose:  48.24 %
+
+Iterations: 43901  
+
+Win:  45.769999999999996 %
+Draw:  5.9799999999999995 %
+Lose:  48.25 %
+
+Iterations: 44001  
+
+Win:  45.800000000000004 %
+Draw:  5.680000000000001 %
+Lose:  48.52 %
+
+Iterations: 44101  
+
+Win:  45.86 %
+Draw:  5.390000000000001 %
+Lose:  48.75 %
+
+Iterations: 44201  
+
+Win:  45.879999999999995 %
+Draw:  5.86 %
+Lose:  48.26 %
+
+Iterations: 44301  
+
+Win:  45.21 %
+Draw:  6.45 %
+Lose:  48.339999999999996 %
+
+Iterations: 44401  
+
+Win:  46.739999999999995 %
+Draw:  5.4399999999999995 %
+Lose:  47.82 %
+
+Iterations: 44501  
+
+Win:  45.89 %
+Draw:  5.71 %
+Lose:  48.4 %
+
+Iterations: 44601  
+
+Win:  46.03 %
+Draw:  5.72 %
+Lose:  48.25 %
+
+Iterations: 44701  
+
+Win:  46.52 %
+Draw:  5.4399999999999995 %
+Lose:  48.04 %
+
+Iterations: 44801  
+
+Win:  46.150000000000006 %
+Draw:  5.63 %
+Lose:  48.22 %
+
+Iterations: 44901  
+
+Win:  46.23 %
+Draw:  5.67 %
+Lose:  48.1 %
+
+Iterations: 45001  
+
+Win:  46.58 %
+Draw:  6.08 %
+Lose:  47.339999999999996 %
+
+Iterations: 45101  
+
+Win:  46.63 %
+Draw:  6.05 %
+Lose:  47.32 %
+
+Iterations: 45201  
+
+Win:  45.95 %
+Draw:  6.1899999999999995 %
+Lose:  47.86 %
+
+Iterations: 45301  
+
+Win:  46.400000000000006 %
+Draw:  6.12 %
+Lose:  47.48 %
+
+Iterations: 45401  
+
+Win:  46.29 %
+Draw:  5.74 %
+Lose:  47.97 %
+
+Iterations: 45501  
+
+Win:  46.32 %
+Draw:  6.08 %
+Lose:  47.599999999999994 %
+
+Iterations: 45601  
+
+Win:  46.14 %
+Draw:  5.65 %
+Lose:  48.209999999999994 %
+
+Iterations: 45701  
+
+Win:  46.54 %
+Draw:  5.83 %
+Lose:  47.63 %
+
+Iterations: 45801  
+
+Win:  45.86 %
+Draw:  5.65 %
+Lose:  48.49 %
+
+Iterations: 45901  
+
+Win:  45.86 %
+Draw:  5.94 %
+Lose:  48.199999999999996 %
+
+Iterations: 46001  
+
+Win:  46.650000000000006 %
+Draw:  5.71 %
+Lose:  47.64 %
+
+Iterations: 46101  
+
+Win:  46.85 %
+Draw:  5.5 %
+Lose:  47.65 %
+
+Iterations: 46201  
+
+Win:  46.160000000000004 %
+Draw:  6.32 %
+Lose:  47.52 %
+
+Iterations: 46301  
+
+Win:  44.99 %
+Draw:  5.7700000000000005 %
+Lose:  49.24 %
+
+Iterations: 46401  
+
+Win:  46.550000000000004 %
+Draw:  5.76 %
+Lose:  47.69 %
+
+Iterations: 46501  
+
+Win:  45.519999999999996 %
+Draw:  5.96 %
+Lose:  48.52 %
+
+Iterations: 46601  
+
+Win:  45.26 %
+Draw:  6.01 %
+Lose:  48.730000000000004 %
+
+Iterations: 46701  
+
+Win:  45.89 %
+Draw:  5.8500000000000005 %
+Lose:  48.26 %
+
+Iterations: 46801  
+
+Win:  45.81 %
+Draw:  5.96 %
+Lose:  48.230000000000004 %
+
+Iterations: 46901  
+
+Win:  46.22 %
+Draw:  5.91 %
+Lose:  47.870000000000005 %
+
+Iterations: 47001  
+
+Win:  44.85 %
+Draw:  6.239999999999999 %
+Lose:  48.91 %
+
+Iterations: 47101  
+
+Win:  46.35 %
+Draw:  5.64 %
+Lose:  48.010000000000005 %
+
+Iterations: 47201  
+
+Win:  46.77 %
+Draw:  5.64 %
+Lose:  47.589999999999996 %
+
+Iterations: 47301  
+
+Win:  46.52 %
+Draw:  5.779999999999999 %
+Lose:  47.699999999999996 %
+
+Iterations: 47401  
+
+Win:  46.160000000000004 %
+Draw:  5.6000000000000005 %
+Lose:  48.24 %
+
+Iterations: 47501  
+
+Win:  46.52 %
+Draw:  5.36 %
+Lose:  48.120000000000005 %
+
+Iterations: 47601  
+
+Win:  46.26 %
+Draw:  5.949999999999999 %
+Lose:  47.79 %
+
+Iterations: 47701  
+
+Win:  46.33 %
+Draw:  5.72 %
+Lose:  47.949999999999996 %
+
+Iterations: 47801  
+
+Win:  46.43 %
+Draw:  6.04 %
+Lose:  47.53 %
+
+Iterations: 47901  
+
+Win:  45.97 %
+Draw:  5.87 %
+Lose:  48.16 %
+
+Iterations: 48001  
+
+Win:  45.45 %
+Draw:  5.5 %
+Lose:  49.05 %
+
+Iterations: 48101  
+
+Win:  46.12 %
+Draw:  5.91 %
+Lose:  47.97 %
+
+Iterations: 48201  
+
+Win:  45.71 %
+Draw:  5.55 %
+Lose:  48.74 %
+
+Iterations: 48301  
+
+Win:  45.1 %
+Draw:  5.71 %
+Lose:  49.19 %
+
+Iterations: 48401  
+
+Win:  46.25 %
+Draw:  5.66 %
+Lose:  48.089999999999996 %
+
+Iterations: 48501  
+
+Win:  45.64 %
+Draw:  5.48 %
+Lose:  48.88 %
+
+Iterations: 48601  
+
+Win:  47.06 %
+Draw:  5.58 %
+Lose:  47.36 %
+
+Iterations: 48701  
+
+Win:  46.28 %
+Draw:  5.99 %
+Lose:  47.73 %
+
+Iterations: 48801  
+
+Win:  46.12 %
+Draw:  5.59 %
+Lose:  48.29 %
+
+Iterations: 48901  
+
+Win:  45.51 %
+Draw:  6.069999999999999 %
+Lose:  48.42 %
+
+Iterations: 49001  
+
+Win:  46.54 %
+Draw:  5.7299999999999995 %
+Lose:  47.73 %
+
+Iterations: 49101  
+
+Win:  47.27 %
+Draw:  5.56 %
+Lose:  47.17 %
+
+Iterations: 49201  
+
+Win:  46.69 %
+Draw:  5.59 %
+Lose:  47.72 %
+
+Iterations: 49301  
+
+Win:  46.21 %
+Draw:  5.74 %
+Lose:  48.05 %
+
+Iterations: 49401  
+
+Win:  47.370000000000005 %
+Draw:  5.779999999999999 %
+Lose:  46.85 %
+
+Iterations: 49501  
+
+Win:  46.339999999999996 %
+Draw:  5.6899999999999995 %
+Lose:  47.97 %
+
+Iterations: 49601  
+
+Win:  45.72 %
+Draw:  5.46 %
+Lose:  48.82 %
+
+Iterations: 49701  
+
+Win:  46.150000000000006 %
+Draw:  6.08 %
+Lose:  47.77 %
+
+Iterations: 49801  
+
+Win:  46.37 %
+Draw:  5.11 %
+Lose:  48.52 %
+
+Iterations: 49901  
+
+Win:  46.150000000000006 %
+Draw:  5.29 %
+Lose:  48.559999999999995 %
+
+Iterations: 50001  
+
+Win:  46.54 %
+Draw:  5.7299999999999995 %
+Lose:  47.73 %
+
+Iterations: 50101  
+
+Win:  46.42 %
+Draw:  5.93 %
+Lose:  47.65 %
+
+Iterations: 50201  
+
+Win:  45.76 %
+Draw:  5.67 %
+Lose:  48.57 %
+
+Iterations: 50301  
+
+Win:  45.96 %
+Draw:  5.72 %
+Lose:  48.32 %
+
+Iterations: 50401  
+
+Win:  45.96 %
+Draw:  5.43 %
+Lose:  48.61 %
+
+Iterations: 50501  
+
+Win:  46.06 %
+Draw:  5.6000000000000005 %
+Lose:  48.339999999999996 %
+
+Iterations: 50601  
+
+Win:  46.43 %
+Draw:  5.7 %
+Lose:  47.870000000000005 %
+
+Iterations: 50701  
+
+Win:  47.04 %
+Draw:  5.99 %
+Lose:  46.97 %
+
+Iterations: 50801  
+
+Win:  45.95 %
+Draw:  6.05 %
+Lose:  48.0 %
+
+Iterations: 50901  
+
+Win:  45.78 %
+Draw:  5.6000000000000005 %
+Lose:  48.620000000000005 %
+
+Iterations: 51001  
+
+Win:  46.06 %
+Draw:  5.390000000000001 %
+Lose:  48.55 %
+
+Iterations: 51101  
+
+Win:  46.26 %
+Draw:  5.680000000000001 %
+Lose:  48.06 %
+
+Iterations: 51201  
+
+Win:  45.78 %
+Draw:  6.16 %
+Lose:  48.06 %
+
+Iterations: 51301  
+
+Win:  46.56 %
+Draw:  5.93 %
+Lose:  47.510000000000005 %
+
+Iterations: 51401  
+
+Win:  46.93 %
+Draw:  5.57 %
+Lose:  47.5 %
+
+Iterations: 51501  
+
+Win:  46.87 %
+Draw:  5.38 %
+Lose:  47.75 %
+
+Iterations: 51601  
+
+Win:  45.34 %
+Draw:  5.8999999999999995 %
+Lose:  48.76 %
+
+Iterations: 51701  
+
+Win:  45.800000000000004 %
+Draw:  5.8999999999999995 %
+Lose:  48.3 %
+
+Iterations: 51801  
+
+Win:  45.2 %
+Draw:  5.82 %
+Lose:  48.980000000000004 %
+
+Iterations: 51901  
+
+Win:  45.46 %
+Draw:  5.67 %
+Lose:  48.870000000000005 %
+
+Iterations: 52001  
+
+Win:  46.150000000000006 %
+Draw:  5.390000000000001 %
+Lose:  48.46 %
+
+Iterations: 52101  
+
+Win:  46.29 %
+Draw:  5.779999999999999 %
+Lose:  47.93 %
+
+Iterations: 52201  
+
+Win:  46.63 %
+Draw:  5.47 %
+Lose:  47.9 %
+
+Iterations: 52301  
+
+Win:  45.540000000000006 %
+Draw:  6.38 %
+Lose:  48.08 %
+
+Iterations: 52401  
+
+Win:  45.440000000000005 %
+Draw:  5.8500000000000005 %
+Lose:  48.71 %
+
+Iterations: 52501  
+
+Win:  46.79 %
+Draw:  5.6000000000000005 %
+Lose:  47.61 %
+
+Iterations: 52601  
+
+Win:  46.660000000000004 %
+Draw:  5.53 %
+Lose:  47.81 %
+
+Iterations: 52701  
+
+Win:  46.28 %
+Draw:  5.96 %
+Lose:  47.760000000000005 %
+
+Iterations: 52801  
+
+Win:  46.17 %
+Draw:  5.71 %
+Lose:  48.120000000000005 %
+
+Iterations: 52901  
+
+Win:  46.02 %
+Draw:  6.02 %
+Lose:  47.96 %
+
+Iterations: 53001  
+
+Win:  47.03 %
+Draw:  5.609999999999999 %
+Lose:  47.36 %
+
+Iterations: 53101  
+
+Win:  45.78 %
+Draw:  6.04 %
+Lose:  48.18 %
+
+Iterations: 53201  
+
+Win:  46.45 %
+Draw:  5.63 %
+Lose:  47.92 %
+
+Iterations: 53301  
+
+Win:  45.03 %
+Draw:  5.82 %
+Lose:  49.15 %
+
+Iterations: 53401  
+
+Win:  45.98 %
+Draw:  5.72 %
+Lose:  48.3 %
+
+Iterations: 53501  
+
+Win:  46.02 %
+Draw:  6.260000000000001 %
+Lose:  47.72 %
+
+Iterations: 53601  
+
+Win:  45.800000000000004 %
+Draw:  5.55 %
+Lose:  48.65 %
+
+Iterations: 53701  
+
+Win:  45.540000000000006 %
+Draw:  6.02 %
+Lose:  48.44 %
+
+Iterations: 53801  
+
+Win:  46.660000000000004 %
+Draw:  5.62 %
+Lose:  47.72 %
+
+Iterations: 53901  
+
+Win:  45.59 %
+Draw:  6.02 %
+Lose:  48.39 %
+
+Iterations: 54001  
+
+Win:  46.339999999999996 %
+Draw:  5.56 %
+Lose:  48.1 %
+
+Iterations: 54101  
+
+Win:  45.61 %
+Draw:  6.11 %
+Lose:  48.28 %
+
+Iterations: 54201  
+
+Win:  46.48 %
+Draw:  5.3 %
+Lose:  48.22 %
+
+Iterations: 54301  
+
+Win:  45.660000000000004 %
+Draw:  5.949999999999999 %
+Lose:  48.39 %
+
+Iterations: 54401  
+
+Win:  46.03 %
+Draw:  6.550000000000001 %
+Lose:  47.42 %
+
+Iterations: 54501  
+
+Win:  46.150000000000006 %
+Draw:  5.510000000000001 %
+Lose:  48.339999999999996 %
+
+Iterations: 54601  
+
+Win:  46.21 %
+Draw:  5.7299999999999995 %
+Lose:  48.06 %
+
+Iterations: 54701  
+
+Win:  46.43 %
+Draw:  5.58 %
+Lose:  47.99 %
+
+Iterations: 54801  
+
+Win:  46.339999999999996 %
+Draw:  5.83 %
+Lose:  47.83 %
+
+Iterations: 54901  
+
+Win:  46.39 %
+Draw:  5.7299999999999995 %
+Lose:  47.88 %
+
+Iterations: 55001  
+
+Win:  45.39 %
+Draw:  5.93 %
+Lose:  48.68 %
+
+Iterations: 55101  
+
+Win:  46.64 %
+Draw:  6.04 %
+Lose:  47.32 %
+
+Iterations: 55201  
+
+Win:  45.22 %
+Draw:  5.66 %
+Lose:  49.120000000000005 %
+
+Iterations: 55301  
+
+Win:  46.71 %
+Draw:  5.64 %
+Lose:  47.65 %
+
+Iterations: 55401  
+
+Win:  46.28 %
+Draw:  5.7 %
+Lose:  48.02 %
+
+Iterations: 55501  
+
+Win:  47.160000000000004 %
+Draw:  6.12 %
+Lose:  46.72 %
+
+Iterations: 55601  
+
+Win:  46.27 %
+Draw:  5.86 %
+Lose:  47.870000000000005 %
+
+Iterations: 55701  
+
+Win:  45.4 %
+Draw:  5.35 %
+Lose:  49.25 %
+
+Iterations: 55801  
+
+Win:  46.32 %
+Draw:  6.069999999999999 %
+Lose:  47.61 %
+
+Iterations: 55901  
+
+Win:  46.0 %
+Draw:  5.9799999999999995 %
+Lose:  48.02 %
+
+Iterations: 56001  
+
+Win:  45.61 %
+Draw:  5.58 %
+Lose:  48.809999999999995 %
+
+Iterations: 56101  
+
+Win:  46.23 %
+Draw:  5.99 %
+Lose:  47.78 %
+
+Iterations: 56201  
+
+Win:  46.04 %
+Draw:  5.72 %
+Lose:  48.24 %
+
+Iterations: 56301  
+
+Win:  46.62 %
+Draw:  5.7299999999999995 %
+Lose:  47.65 %
+
+Iterations: 56401  
+
+Win:  46.42 %
+Draw:  5.71 %
+Lose:  47.870000000000005 %
+
+Iterations: 56501  
+
+Win:  46.06 %
+Draw:  6.09 %
+Lose:  47.85 %
+
+Iterations: 56601  
+
+Win:  46.18 %
+Draw:  5.6899999999999995 %
+Lose:  48.13 %
+
+Iterations: 56701  
+
+Win:  46.51 %
+Draw:  5.59 %
+Lose:  47.9 %
+
+Iterations: 56801  
+
+Win:  46.02 %
+Draw:  5.36 %
+Lose:  48.620000000000005 %
+
+Iterations: 56901  
+
+Win:  45.59 %
+Draw:  5.83 %
+Lose:  48.58 %
+
+Iterations: 57001  
+
+Win:  47.04 %
+Draw:  5.66 %
+Lose:  47.3 %
+
+Iterations: 57101  
+
+Win:  47.21 %
+Draw:  5.6899999999999995 %
+Lose:  47.099999999999994 %
+
+Iterations: 57201  
+
+Win:  46.739999999999995 %
+Draw:  5.92 %
+Lose:  47.339999999999996 %
+
+Iterations: 57301  
+
+Win:  46.45 %
+Draw:  5.13 %
+Lose:  48.42 %
+
+Iterations: 57401  
+
+Win:  46.18 %
+Draw:  5.63 %
+Lose:  48.19 %
+
+Iterations: 57501  
+
+Win:  46.75 %
+Draw:  5.53 %
+Lose:  47.72 %
+
+Iterations: 57601  
+
+Win:  45.800000000000004 %
+Draw:  5.949999999999999 %
+Lose:  48.25 %
+
+Iterations: 57701  
+
+Win:  46.25 %
+Draw:  5.67 %
+Lose:  48.08 %
+
+Iterations: 57801  
+
+Win:  45.769999999999996 %
+Draw:  5.800000000000001 %
+Lose:  48.43 %
+
+Iterations: 57901  
+
+Win:  46.01 %
+Draw:  6.02 %
+Lose:  47.97 %
+
+Iterations: 58001  
+
+Win:  46.36 %
+Draw:  5.45 %
+Lose:  48.19 %
+
+Iterations: 58101  
+
+Win:  45.1 %
+Draw:  5.87 %
+Lose:  49.03 %
+
+Iterations: 58201  
+
+Win:  46.6 %
+Draw:  5.43 %
+Lose:  47.97 %
+
+Iterations: 58301  
+
+Win:  45.4 %
+Draw:  6.0600000000000005 %
+Lose:  48.54 %
+
+Iterations: 58401  
+
+Win:  46.0 %
+Draw:  5.83 %
+Lose:  48.17 %
+
+Iterations: 58501  
+
+Win:  45.0 %
+Draw:  5.82 %
+Lose:  49.18 %
+
+Iterations: 58601  
+
+Win:  46.760000000000005 %
+Draw:  5.35 %
+Lose:  47.89 %
+
+Iterations: 58701  
+
+Win:  45.73 %
+Draw:  5.75 %
+Lose:  48.52 %
+
+Iterations: 58801  
+
+Win:  46.42 %
+Draw:  5.489999999999999 %
+Lose:  48.089999999999996 %
+
+Iterations: 58901  
+
+Win:  46.68 %
+Draw:  5.91 %
+Lose:  47.410000000000004 %
+
+Iterations: 59001  
+
+Win:  46.150000000000006 %
+Draw:  5.76 %
+Lose:  48.089999999999996 %
+
+Iterations: 59101  
+
+Win:  46.63 %
+Draw:  5.74 %
+Lose:  47.63 %
+
+Iterations: 59201  
+
+Win:  46.39 %
+Draw:  5.96 %
+Lose:  47.65 %
+
+Iterations: 59301  
+
+Win:  46.589999999999996 %
+Draw:  5.64 %
+Lose:  47.77 %
+
+Iterations: 59401  
+
+Win:  45.79 %
+Draw:  5.86 %
+Lose:  48.35 %
+
+Iterations: 59501  
+
+Win:  46.11 %
+Draw:  5.75 %
+Lose:  48.14 %
+
+Iterations: 59601  
+
+Win:  45.76 %
+Draw:  5.42 %
+Lose:  48.82 %
+
+Iterations: 59701  
+
+Win:  46.06 %
+Draw:  5.7299999999999995 %
+Lose:  48.209999999999994 %
+
+Iterations: 59801  
+
+Win:  46.0 %
+Draw:  5.63 %
+Lose:  48.370000000000005 %
+
+Iterations: 59901  
+
+Win:  46.33 %
+Draw:  5.56 %
+Lose:  48.11 %
+
+Iterations: 60001  
+
+Win:  46.5 %
+Draw:  5.92 %
+Lose:  47.58 %
+
+Iterations: 60101  
+
+Win:  46.21 %
+Draw:  6.1 %
+Lose:  47.69 %
+
+Iterations: 60201  
+
+Win:  45.93 %
+Draw:  5.8500000000000005 %
+Lose:  48.22 %
+
+Iterations: 60301  
+
+Win:  46.1 %
+Draw:  5.93 %
+Lose:  47.97 %
+
+Iterations: 60401  
+
+Win:  46.36 %
+Draw:  5.680000000000001 %
+Lose:  47.96 %
+
+Iterations: 60501  
+
+Win:  46.64 %
+Draw:  5.81 %
+Lose:  47.55 %
+
+Iterations: 60601  
+
+Win:  46.32 %
+Draw:  5.21 %
+Lose:  48.47 %
+
+Iterations: 60701  
+
+Win:  47.010000000000005 %
+Draw:  5.7 %
+Lose:  47.29 %
+
+Iterations: 60801  
+
+Win:  46.400000000000006 %
+Draw:  5.94 %
+Lose:  47.660000000000004 %
+
+Iterations: 60901  
+
+Win:  46.23 %
+Draw:  5.94 %
+Lose:  47.83 %
+
+Iterations: 61001  
+
+Win:  46.12 %
+Draw:  5.9799999999999995 %
+Lose:  47.9 %
+
+Iterations: 61101  
+
+Win:  46.19 %
+Draw:  5.67 %
+Lose:  48.14 %
+
+Iterations: 61201  
+
+Win:  45.59 %
+Draw:  5.74 %
+Lose:  48.67 %
+
+Iterations: 61301  
+
+Win:  47.010000000000005 %
+Draw:  5.6000000000000005 %
+Lose:  47.39 %
+
+Iterations: 61401  
+
+Win:  47.42 %
+Draw:  6.15 %
+Lose:  46.43 %
+
+Iterations: 61501  
+
+Win:  45.69 %
+Draw:  5.72 %
+Lose:  48.59 %
+
+Iterations: 61601  
+
+Win:  45.6 %
+Draw:  6.1 %
+Lose:  48.3 %
+
+Iterations: 61701  
+
+Win:  46.26 %
+Draw:  5.96 %
+Lose:  47.78 %
+
+Iterations: 61801  
+
+Win:  46.53 %
+Draw:  5.609999999999999 %
+Lose:  47.86 %
+
+Iterations: 61901  
+
+Win:  46.48 %
+Draw:  5.75 %
+Lose:  47.77 %
+
+Iterations: 62001  
+
+Win:  46.25 %
+Draw:  5.390000000000001 %
+Lose:  48.36 %
+
+Iterations: 62101  
+
+Win:  46.26 %
+Draw:  6.35 %
+Lose:  47.39 %
+
+Iterations: 62201  
+
+Win:  46.92 %
+Draw:  5.970000000000001 %
+Lose:  47.11 %
+
+Iterations: 62301  
+
+Win:  46.33 %
+Draw:  5.79 %
+Lose:  47.88 %
+
+Iterations: 62401  
+
+Win:  45.97 %
+Draw:  5.76 %
+Lose:  48.27 %
+
+Iterations: 62501  
+
+Win:  46.52 %
+Draw:  5.65 %
+Lose:  47.83 %
+
+Iterations: 62601  
+
+Win:  47.3 %
+Draw:  5.88 %
+Lose:  46.82 %
+
+Iterations: 62701  
+
+Win:  46.52 %
+Draw:  5.6000000000000005 %
+Lose:  47.88 %
+
+Iterations: 62801  
+
+Win:  45.96 %
+Draw:  5.75 %
+Lose:  48.29 %
+
+Iterations: 62901  
+
+Win:  45.43 %
+Draw:  5.63 %
+Lose:  48.94 %
+
+Iterations: 63001  
+
+Win:  45.48 %
+Draw:  6.11 %
+Lose:  48.41 %
+
+Iterations: 63101  
+
+Win:  46.31 %
+Draw:  6.13 %
+Lose:  47.56 %
+
+Iterations: 63201  
+
+Win:  45.839999999999996 %
+Draw:  5.87 %
+Lose:  48.29 %
+
+Iterations: 63301  
+
+Win:  46.93 %
+Draw:  6.329999999999999 %
+Lose:  46.739999999999995 %
+
+Iterations: 63401  
+
+Win:  46.61 %
+Draw:  5.99 %
+Lose:  47.4 %
+
+Iterations: 63501  
+
+Win:  46.23 %
+Draw:  5.84 %
+Lose:  47.93 %
+
+Iterations: 63601  
+
+Win:  46.160000000000004 %
+Draw:  5.87 %
+Lose:  47.97 %
+
+Iterations: 63701  
+
+Win:  45.24 %
+Draw:  6.0600000000000005 %
+Lose:  48.699999999999996 %
+
+Iterations: 63801  
+
+Win:  45.87 %
+Draw:  5.74 %
+Lose:  48.39 %
+
+Iterations: 63901  
+
+Win:  46.45 %
+Draw:  5.64 %
+Lose:  47.910000000000004 %
+
+Iterations: 64001  
+
+Win:  46.050000000000004 %
+Draw:  5.59 %
+Lose:  48.36 %
+
+Iterations: 64101  
+
+Win:  46.5 %
+Draw:  6.069999999999999 %
+Lose:  47.43 %
+
+Iterations: 64201  
+
+Win:  47.12 %
+Draw:  5.680000000000001 %
+Lose:  47.199999999999996 %
+
+Iterations: 64301  
+
+Win:  45.73 %
+Draw:  6.35 %
+Lose:  47.92 %
+
+Iterations: 64401  
+
+Win:  46.410000000000004 %
+Draw:  6.41 %
+Lose:  47.18 %
+
+Iterations: 64501  
+
+Win:  46.29 %
+Draw:  6.0600000000000005 %
+Lose:  47.65 %
+
+Iterations: 64601  
+
+Win:  46.89 %
+Draw:  5.5 %
+Lose:  47.61 %
+
+Iterations: 64701  
+
+Win:  46.150000000000006 %
+Draw:  6.3 %
+Lose:  47.55 %
+
+Iterations: 64801  
+
+Win:  46.12 %
+Draw:  5.43 %
+Lose:  48.449999999999996 %
+
+Iterations: 64901  
+
+Win:  46.69 %
+Draw:  5.45 %
+Lose:  47.86 %
+
+Iterations: 65001  
+
+Win:  46.77 %
+Draw:  6.32 %
+Lose:  46.910000000000004 %
+
+Iterations: 65101  
+
+Win:  45.61 %
+Draw:  5.63 %
+Lose:  48.76 %
+
+Iterations: 65201  
+
+Win:  46.5 %
+Draw:  6.03 %
+Lose:  47.47 %
+
+Iterations: 65301  
+
+Win:  46.81 %
+Draw:  5.46 %
+Lose:  47.73 %
+
+Iterations: 65401  
+
+Win:  45.879999999999995 %
+Draw:  5.92 %
+Lose:  48.199999999999996 %
+
+Iterations: 65501  
+
+Win:  46.550000000000004 %
+Draw:  5.7 %
+Lose:  47.75 %
+
+Iterations: 65601  
+
+Win:  46.760000000000005 %
+Draw:  5.71 %
+Lose:  47.53 %
+
+Iterations: 65701  
+
+Win:  45.4 %
+Draw:  5.92 %
+Lose:  48.68 %
+
+Iterations: 65801  
+
+Win:  45.94 %
+Draw:  5.71 %
+Lose:  48.35 %
+
+Iterations: 65901  
+
+Win:  47.339999999999996 %
+Draw:  5.5 %
+Lose:  47.160000000000004 %
+
+Iterations: 66001  
+
+Win:  46.2 %
+Draw:  5.75 %
+Lose:  48.05 %
+
+Iterations: 66101  
+
+Win:  45.410000000000004 %
+Draw:  5.2299999999999995 %
+Lose:  49.36 %
+
+Iterations: 66201  
+
+Win:  46.12 %
+Draw:  6.17 %
+Lose:  47.71 %
+
+Iterations: 66301  
+
+Win:  46.54 %
+Draw:  5.6000000000000005 %
+Lose:  47.86 %
+
+Iterations: 66401  
+
+Win:  46.739999999999995 %
+Draw:  5.76 %
+Lose:  47.5 %
+
+Iterations: 66501  
+
+Win:  45.550000000000004 %
+Draw:  6.11 %
+Lose:  48.339999999999996 %
+
+Iterations: 66601  
+
+Win:  46.68 %
+Draw:  5.96 %
+Lose:  47.36 %
+
+Iterations: 66701  
+
+Win:  45.190000000000005 %
+Draw:  5.88 %
+Lose:  48.93 %
+
+Iterations: 66801  
+
+Win:  45.98 %
+Draw:  5.6000000000000005 %
+Lose:  48.42 %
+
+Iterations: 66901  
+
+Win:  46.989999999999995 %
+Draw:  5.6000000000000005 %
+Lose:  47.410000000000004 %
+
+Iterations: 67001  
+
+Win:  46.37 %
+Draw:  5.58 %
+Lose:  48.05 %
+
+Iterations: 67101  
+
+Win:  46.26 %
+Draw:  6.03 %
+Lose:  47.71 %
+
+Iterations: 67201  
+
+Win:  45.989999999999995 %
+Draw:  5.67 %
+Lose:  48.339999999999996 %
+
+Iterations: 67301  
+
+Win:  46.379999999999995 %
+Draw:  5.99 %
+Lose:  47.63 %
+
+Iterations: 67401  
+
+Win:  46.5 %
+Draw:  5.9799999999999995 %
+Lose:  47.52 %
+
+Iterations: 67501  
+
+Win:  46.51 %
+Draw:  5.37 %
+Lose:  48.120000000000005 %
+
+Iterations: 67601  
+
+Win:  46.22 %
+Draw:  5.6899999999999995 %
+Lose:  48.089999999999996 %
+
+Iterations: 67701  
+
+Win:  46.36 %
+Draw:  6.5 %
+Lose:  47.14 %
+
+Iterations: 67801  
+
+Win:  46.379999999999995 %
+Draw:  5.46 %
+Lose:  48.16 %
+
+Iterations: 67901  
+
+Win:  45.379999999999995 %
+Draw:  5.7299999999999995 %
+Lose:  48.89 %
+
+Iterations: 68001  
+
+Win:  46.760000000000005 %
+Draw:  5.4 %
+Lose:  47.839999999999996 %
+
+Iterations: 68101  
+
+Win:  46.489999999999995 %
+Draw:  5.64 %
+Lose:  47.870000000000005 %
+
+Iterations: 68201  
+
+Win:  46.839999999999996 %
+Draw:  6.04 %
+Lose:  47.12 %
+
+Iterations: 68301  
+
+Win:  46.14 %
+Draw:  5.7700000000000005 %
+Lose:  48.089999999999996 %
+
+Iterations: 68401  
+
+Win:  46.9 %
+Draw:  5.75 %
+Lose:  47.349999999999994 %
+
+Iterations: 68501  
+
+Win:  45.59 %
+Draw:  5.64 %
+Lose:  48.77 %
+
+Iterations: 68601  
+
+Win:  45.97 %
+Draw:  5.34 %
+Lose:  48.69 %
+
+Iterations: 68701  
+
+Win:  46.22 %
+Draw:  5.67 %
+Lose:  48.11 %
+
+Iterations: 68801  
+
+Win:  45.86 %
+Draw:  6.069999999999999 %
+Lose:  48.07 %
+
+Iterations: 68901  
+
+Win:  44.9 %
+Draw:  6.45 %
+Lose:  48.65 %
+
+Iterations: 69001  
+
+Win:  46.589999999999996 %
+Draw:  6.09 %
+Lose:  47.32 %
+
+Iterations: 69101  
+
+Win:  46.71 %
+Draw:  5.86 %
+Lose:  47.43 %
+
+Iterations: 69201  
+
+Win:  46.03 %
+Draw:  5.779999999999999 %
+Lose:  48.19 %
+
+Iterations: 69301  
+
+Win:  45.269999999999996 %
+Draw:  5.55 %
+Lose:  49.18 %
+
+Iterations: 69401  
+
+Win:  46.11 %
+Draw:  6.1899999999999995 %
+Lose:  47.699999999999996 %
+
+Iterations: 69501  
+
+Win:  46.11 %
+Draw:  5.88 %
+Lose:  48.010000000000005 %
+
+Iterations: 69601  
+
+Win:  45.75 %
+Draw:  6.09 %
+Lose:  48.16 %
+
+Iterations: 69701  
+
+Win:  47.21 %
+Draw:  5.970000000000001 %
+Lose:  46.82 %
+
+Iterations: 69801  
+
+Win:  45.43 %
+Draw:  6.05 %
+Lose:  48.52 %
+
+Iterations: 69901  
+
+Win:  47.03 %
+Draw:  5.779999999999999 %
+Lose:  47.19 %
+
+Iterations: 70001  
+
+Win:  46.69 %
+Draw:  5.6000000000000005 %
+Lose:  47.71 %
+
+Iterations: 70101  
+
+Win:  46.23 %
+Draw:  5.87 %
+Lose:  47.9 %
+
+Iterations: 70201  
+
+Win:  46.22 %
+Draw:  5.63 %
+Lose:  48.15 %
+
+Iterations: 70301  
+
+Win:  45.800000000000004 %
+Draw:  6.4799999999999995 %
+Lose:  47.72 %
+
+Iterations: 70401  
+
+Win:  47.0 %
+Draw:  5.92 %
+Lose:  47.08 %
+
+Iterations: 70501  
+
+Win:  46.300000000000004 %
+Draw:  5.47 %
+Lose:  48.230000000000004 %
+
+Iterations: 70601  
+
+Win:  47.18 %
+Draw:  5.79 %
+Lose:  47.03 %
+
+Iterations: 70701  
+
+Win:  46.42 %
+Draw:  5.67 %
+Lose:  47.910000000000004 %
+
+Iterations: 70801  
+
+Win:  47.199999999999996 %
+Draw:  5.609999999999999 %
+Lose:  47.19 %
+
+Iterations: 70901  
+
+Win:  45.57 %
+Draw:  6.069999999999999 %
+Lose:  48.36 %
+
+Iterations: 71001  
+
+Win:  46.53 %
+Draw:  6.2 %
+Lose:  47.27 %
+
+Iterations: 71101  
+
+Win:  46.33 %
+Draw:  6.069999999999999 %
+Lose:  47.599999999999994 %
+
+Iterations: 71201  
+
+Win:  45.95 %
+Draw:  6.23 %
+Lose:  47.82 %
+
+Iterations: 71301  
+
+Win:  45.08 %
+Draw:  6.0600000000000005 %
+Lose:  48.86 %
+
+Iterations: 71401  
+
+Win:  46.21 %
+Draw:  5.59 %
+Lose:  48.199999999999996 %
+
+Iterations: 71501  
+
+Win:  46.489999999999995 %
+Draw:  6.2 %
+Lose:  47.31 %
+
+Iterations: 71601  
+
+Win:  45.94 %
+Draw:  5.86 %
+Lose:  48.199999999999996 %
+
+Iterations: 71701  
+
+Win:  47.14 %
+Draw:  5.390000000000001 %
+Lose:  47.47 %
+
+Iterations: 71801  
+
+Win:  46.02 %
+Draw:  5.6000000000000005 %
+Lose:  48.38 %
+
+Iterations: 71901  
+
+Win:  45.58 %
+Draw:  6.29 %
+Lose:  48.13 %
+
+Iterations: 72001  
+
+Win:  46.57 %
+Draw:  5.8999999999999995 %
+Lose:  47.53 %
+
+Iterations: 72101  
+
+Win:  46.300000000000004 %
+Draw:  5.8999999999999995 %
+Lose:  47.8 %
+
+Iterations: 72201  
+
+Win:  45.300000000000004 %
+Draw:  5.87 %
+Lose:  48.83 %
+
+Iterations: 72301  
+
+Win:  45.56 %
+Draw:  5.510000000000001 %
+Lose:  48.93 %
+
+Iterations: 72401  
+
+Win:  45.98 %
+Draw:  5.71 %
+Lose:  48.309999999999995 %
+
+Iterations: 72501  
+
+Win:  46.300000000000004 %
+Draw:  5.53 %
+Lose:  48.17 %
+
+Iterations: 72601  
+
+Win:  45.62 %
+Draw:  5.83 %
+Lose:  48.55 %
+
+Iterations: 72701  
+
+Win:  46.379999999999995 %
+Draw:  5.72 %
+Lose:  47.9 %
+
+Iterations: 72801  
+
+Win:  46.62 %
+Draw:  5.81 %
+Lose:  47.57 %
+
+Iterations: 72901  
+
+Win:  45.86 %
+Draw:  5.81 %
+Lose:  48.33 %
+
+Iterations: 73001  
+
+Win:  45.800000000000004 %
+Draw:  5.89 %
+Lose:  48.309999999999995 %
+
+Iterations: 73101  
+
+Win:  46.01 %
+Draw:  5.8500000000000005 %
+Lose:  48.14 %
+
+Iterations: 73201  
+
+Win:  46.45 %
+Draw:  6.15 %
+Lose:  47.4 %
+
+Iterations: 73301  
+
+Win:  45.300000000000004 %
+Draw:  6.05 %
+Lose:  48.65 %
+
+Iterations: 73401  
+
+Win:  46.51 %
+Draw:  5.74 %
+Lose:  47.75 %
+
+Iterations: 73501  
+
+Win:  45.56 %
+Draw:  6.11 %
+Lose:  48.33 %
+
+Iterations: 73601  
+
+Win:  46.410000000000004 %
+Draw:  6.17 %
+Lose:  47.42 %
+
+Iterations: 73701  
+
+Win:  45.5 %
+Draw:  6.1899999999999995 %
+Lose:  48.309999999999995 %
+
+Iterations: 73801  
+
+Win:  45.96 %
+Draw:  5.58 %
+Lose:  48.46 %
+
+Iterations: 73901  
+
+Win:  45.65 %
+Draw:  6.069999999999999 %
+Lose:  48.28 %
+
+Iterations: 74001  
+
+Win:  46.04 %
+Draw:  6.02 %
+Lose:  47.94 %
+
+Iterations: 74101  
+
+Win:  47.12 %
+Draw:  5.55 %
+Lose:  47.33 %
+
+Iterations: 74201  
+
+Win:  45.65 %
+Draw:  6.260000000000001 %
+Lose:  48.089999999999996 %
+
+Iterations: 74301  
+
+Win:  46.52 %
+Draw:  5.83 %
+Lose:  47.65 %
+
+Iterations: 74401  
+
+Win:  45.89 %
+Draw:  5.52 %
+Lose:  48.59 %
+
+Iterations: 74501  
+
+Win:  46.160000000000004 %
+Draw:  5.65 %
+Lose:  48.19 %
+
+Iterations: 74601  
+
+Win:  47.03 %
+Draw:  6.1 %
+Lose:  46.87 %
+
+Iterations: 74701  
+
+Win:  46.75 %
+Draw:  5.63 %
+Lose:  47.620000000000005 %
+
+Iterations: 74801  
+
+Win:  45.97 %
+Draw:  5.79 %
+Lose:  48.24 %
+
+Iterations: 74901  
+
+Win:  46.57 %
+Draw:  5.7700000000000005 %
+Lose:  47.660000000000004 %
+
+Iterations: 75001  
+
+Win:  46.26 %
+Draw:  5.75 %
+Lose:  47.99 %
+
+Iterations: 75101  
+
+Win:  46.89 %
+Draw:  5.62 %
+Lose:  47.49 %
+
+Iterations: 75201  
+
+Win:  46.44 %
+Draw:  5.92 %
+Lose:  47.64 %
+
+Iterations: 75301  
+
+Win:  46.28 %
+Draw:  5.7 %
+Lose:  48.02 %
+
+Iterations: 75401  
+
+Win:  46.339999999999996 %
+Draw:  5.65 %
+Lose:  48.010000000000005 %
+
+Iterations: 75501  
+
+Win:  45.94 %
+Draw:  6.05 %
+Lose:  48.010000000000005 %
+
+Iterations: 75601  
+
+Win:  45.989999999999995 %
+Draw:  5.8500000000000005 %
+Lose:  48.16 %
+
+Iterations: 75701  
+
+Win:  45.82 %
+Draw:  6.13 %
+Lose:  48.05 %
+
+Iterations: 75801  
+
+Win:  47.29 %
+Draw:  5.76 %
+Lose:  46.949999999999996 %
+
+Iterations: 75901  
+
+Win:  45.89 %
+Draw:  6.11 %
+Lose:  48.0 %
+
+Iterations: 76001  
+
+Win:  45.75 %
+Draw:  6.0 %
+Lose:  48.25 %
+
+Iterations: 76101  
+
+Win:  47.0 %
+Draw:  6.0 %
+Lose:  47.0 %
+
+Iterations: 76201  
+
+Win:  45.86 %
+Draw:  5.7299999999999995 %
+Lose:  48.41 %
+
+Iterations: 76301  
+
+Win:  46.44 %
+Draw:  5.48 %
+Lose:  48.08 %
+
+Iterations: 76401  
+
+Win:  46.489999999999995 %
+Draw:  5.81 %
+Lose:  47.699999999999996 %
+
+Iterations: 76501  
+
+Win:  45.85 %
+Draw:  5.91 %
+Lose:  48.24 %
+
+Iterations: 76601  
+
+Win:  45.98 %
+Draw:  5.970000000000001 %
+Lose:  48.05 %
+
+Iterations: 76701  
+
+Win:  46.27 %
+Draw:  5.65 %
+Lose:  48.08 %
+
+Iterations: 76801  
+
+Win:  47.36 %
+Draw:  5.48 %
+Lose:  47.160000000000004 %
+
+Iterations: 76901  
+
+Win:  46.73 %
+Draw:  5.63 %
+Lose:  47.64 %
+
+Iterations: 77001  
+
+Win:  45.85 %
+Draw:  6.11 %
+Lose:  48.04 %
+
+Iterations: 77101  
+
+Win:  45.96 %
+Draw:  5.949999999999999 %
+Lose:  48.089999999999996 %
+
+Iterations: 77201  
+
+Win:  46.7 %
+Draw:  5.82 %
+Lose:  47.48 %
+
+Iterations: 77301  
+
+Win:  45.629999999999995 %
+Draw:  5.510000000000001 %
+Lose:  48.86 %
+
+Iterations: 77401  
+
+Win:  45.25 %
+Draw:  5.54 %
+Lose:  49.21 %
+
+Iterations: 77501  
+
+Win:  46.01 %
+Draw:  5.89 %
+Lose:  48.1 %
+
+Iterations: 77601  
+
+Win:  45.71 %
+Draw:  6.49 %
+Lose:  47.8 %
+
+Iterations: 77701  
+
+Win:  45.12 %
+Draw:  6.34 %
+Lose:  48.54 %
+
+Iterations: 77801  
+
+Win:  46.42 %
+Draw:  6.17 %
+Lose:  47.410000000000004 %
+
+Iterations: 77901  
+
+Win:  46.660000000000004 %
+Draw:  5.54 %
+Lose:  47.8 %
+
+Iterations: 78001  
+
+Win:  45.9 %
+Draw:  5.54 %
+Lose:  48.559999999999995 %
+
+Iterations: 78101  
+
+Win:  45.78 %
+Draw:  5.96 %
+Lose:  48.26 %
+
+Iterations: 78201  
+
+Win:  46.52 %
+Draw:  5.72 %
+Lose:  47.760000000000005 %
+
+Iterations: 78301  
+
+Win:  46.550000000000004 %
+Draw:  5.55 %
+Lose:  47.9 %
+
+Iterations: 78401  
+
+Win:  46.82 %
+Draw:  5.99 %
+Lose:  47.19 %
+
+Iterations: 78501  
+
+Win:  45.65 %
+Draw:  6.13 %
+Lose:  48.22 %
+
+Iterations: 78601  
+
+Win:  46.72 %
+Draw:  5.6899999999999995 %
+Lose:  47.589999999999996 %
+
+Iterations: 78701  
+
+Win:  46.150000000000006 %
+Draw:  5.7299999999999995 %
+Lose:  48.120000000000005 %
+
+Iterations: 78801  
+
+Win:  46.27 %
+Draw:  5.9799999999999995 %
+Lose:  47.75 %
+
+Iterations: 78901  
+
+Win:  46.129999999999995 %
+Draw:  5.56 %
+Lose:  48.309999999999995 %
+
+Iterations: 79001  
+
+Win:  45.660000000000004 %
+Draw:  5.74 %
+Lose:  48.6 %
+
+Iterations: 79101  
+
+Win:  46.77 %
+Draw:  6.16 %
+Lose:  47.07 %
+
+Iterations: 79201  
+
+Win:  46.46 %
+Draw:  5.36 %
+Lose:  48.18 %
+
+Iterations: 79301  
+
+Win:  45.62 %
+Draw:  5.8500000000000005 %
+Lose:  48.53 %
+
+Iterations: 79401  
+
+Win:  45.59 %
+Draw:  6.09 %
+Lose:  48.32 %
+
+Iterations: 79501  
+
+Win:  45.67 %
+Draw:  5.76 %
+Lose:  48.57 %
+
+Iterations: 79601  
+
+Win:  47.74 %
+Draw:  5.7299999999999995 %
+Lose:  46.53 %
+
+Iterations: 79701  
+
+Win:  46.089999999999996 %
+Draw:  5.71 %
+Lose:  48.199999999999996 %
+
+Iterations: 79801  
+
+Win:  46.410000000000004 %
+Draw:  5.83 %
+Lose:  47.760000000000005 %
+
+Iterations: 79901  
+
+Win:  46.25 %
+Draw:  5.74 %
+Lose:  48.010000000000005 %
+
+Iterations: 80001  
+
+Win:  45.53 %
+Draw:  5.92 %
+Lose:  48.55 %
+
+Iterations: 80101  
+
+Win:  46.400000000000006 %
+Draw:  5.86 %
+Lose:  47.74 %
+
+Iterations: 80201  
+
+Win:  46.04 %
+Draw:  5.7299999999999995 %
+Lose:  48.230000000000004 %
+
+Iterations: 80301  
+
+Win:  46.36 %
+Draw:  5.71 %
+Lose:  47.93 %
+
+Iterations: 80401  
+
+Win:  46.93 %
+Draw:  5.6899999999999995 %
+Lose:  47.38 %
+
+Iterations: 80501  
+
+Win:  45.65 %
+Draw:  5.7299999999999995 %
+Lose:  48.620000000000005 %
+
+Iterations: 80601  
+
+Win:  45.57 %
+Draw:  5.92 %
+Lose:  48.51 %
+
+Iterations: 80701  
+
+Win:  46.52 %
+Draw:  5.7700000000000005 %
+Lose:  47.71 %
+
+Iterations: 80801  
+
+Win:  47.39 %
+Draw:  5.779999999999999 %
+Lose:  46.83 %
+
+Iterations: 80901  
+
+Win:  46.43 %
+Draw:  5.81 %
+Lose:  47.760000000000005 %
+
+Iterations: 81001  
+
+Win:  46.14 %
+Draw:  5.949999999999999 %
+Lose:  47.910000000000004 %
+
+Iterations: 81101  
+
+Win:  45.79 %
+Draw:  5.84 %
+Lose:  48.370000000000005 %
+
+Iterations: 81201  
+
+Win:  45.39 %
+Draw:  6.12 %
+Lose:  48.49 %
+
+Iterations: 81301  
+
+Win:  47.199999999999996 %
+Draw:  5.58 %
+Lose:  47.22 %
+
+Iterations: 81401  
+
+Win:  46.5 %
+Draw:  6.0600000000000005 %
+Lose:  47.44 %
+
+Iterations: 81501  
+
+Win:  47.199999999999996 %
+Draw:  5.79 %
+Lose:  47.010000000000005 %
+
+Iterations: 81601  
+
+Win:  45.36 %
+Draw:  6.41 %
+Lose:  48.230000000000004 %
+
+Iterations: 81701  
+
+Win:  46.17 %
+Draw:  5.94 %
+Lose:  47.89 %
+
+Iterations: 81801  
+
+Win:  47.04 %
+Draw:  5.81 %
+Lose:  47.15 %
+
+Iterations: 81901  
+
+Win:  46.01 %
+Draw:  6.13 %
+Lose:  47.86 %
+
+Iterations: 82001  
+
+Win:  46.02 %
+Draw:  5.800000000000001 %
+Lose:  48.18 %
+
+Iterations: 82101  
+
+Win:  45.95 %
+Draw:  5.489999999999999 %
+Lose:  48.559999999999995 %
+
+Iterations: 82201  
+
+Win:  46.18 %
+Draw:  6.39 %
+Lose:  47.43 %
+
+Iterations: 82301  
+
+Win:  46.72 %
+Draw:  6.01 %
+Lose:  47.27 %
+
+Iterations: 82401  
+
+Win:  45.21 %
+Draw:  5.79 %
+Lose:  49.0 %
+
+Iterations: 82501  
+
+Win:  46.32 %
+Draw:  5.8500000000000005 %
+Lose:  47.83 %
+
+Iterations: 82601  
+
+Win:  46.26 %
+Draw:  5.96 %
+Lose:  47.78 %
+
+Iterations: 82701  
+
+Win:  46.57 %
+Draw:  5.970000000000001 %
+Lose:  47.46 %
+
+Iterations: 82801  
+
+Win:  45.83 %
+Draw:  5.8999999999999995 %
+Lose:  48.27 %
+
+Iterations: 82901  
+
+Win:  46.28 %
+Draw:  5.6899999999999995 %
+Lose:  48.03 %
+
+Iterations: 83001  
+
+Win:  45.81 %
+Draw:  5.970000000000001 %
+Lose:  48.22 %
+
+Iterations: 83101  
+
+Win:  45.6 %
+Draw:  6.18 %
+Lose:  48.22 %
+
+Iterations: 83201  
+
+Win:  46.550000000000004 %
+Draw:  6.29 %
+Lose:  47.160000000000004 %
+
+Iterations: 83301  
+
+Win:  46.29 %
+Draw:  5.91 %
+Lose:  47.8 %
+
+Iterations: 83401  
+
+Win:  45.410000000000004 %
+Draw:  6.069999999999999 %
+Lose:  48.52 %
+
+Iterations: 83501  
+
+Win:  46.85 %
+Draw:  6.64 %
+Lose:  46.51 %
+
+Iterations: 83601  
+
+Win:  45.800000000000004 %
+Draw:  5.970000000000001 %
+Lose:  48.230000000000004 %
+
+Iterations: 83701  
+
+Win:  46.160000000000004 %
+Draw:  5.94 %
+Lose:  47.9 %
+
+Iterations: 83801  
+
+Win:  46.72 %
+Draw:  5.99 %
+Lose:  47.29 %
+
+Iterations: 83901  
+
+Win:  45.550000000000004 %
+Draw:  5.8999999999999995 %
+Lose:  48.55 %
+
+Iterations: 84001  
+
+Win:  46.43 %
+Draw:  5.8999999999999995 %
+Lose:  47.67 %
+
+Iterations: 84101  
+
+Win:  46.1 %
+Draw:  6.12 %
+Lose:  47.78 %
+
+Iterations: 84201  
+
+Win:  46.68 %
+Draw:  5.949999999999999 %
+Lose:  47.370000000000005 %
+
+Iterations: 84301  
+
+Win:  46.650000000000006 %
+Draw:  5.54 %
+Lose:  47.81 %
+
+Iterations: 84401  
+
+Win:  46.07 %
+Draw:  6.02 %
+Lose:  47.910000000000004 %
+
+Iterations: 84501  
+
+Win:  46.17 %
+Draw:  5.64 %
+Lose:  48.19 %
+
+Iterations: 84601  
+
+Win:  46.21 %
+Draw:  6.1899999999999995 %
+Lose:  47.599999999999994 %
+
+Iterations: 84701  
+
+Win:  45.95 %
+Draw:  6.09 %
+Lose:  47.96 %
+
+Iterations: 84801  
+
+Win:  45.59 %
+Draw:  6.15 %
+Lose:  48.26 %
+
+Iterations: 84901  
+
+Win:  45.53 %
+Draw:  5.9799999999999995 %
+Lose:  48.49 %
+
+Iterations: 85001  
+
+Win:  45.629999999999995 %
+Draw:  5.64 %
+Lose:  48.730000000000004 %
+
+Iterations: 85101  
+
+Win:  45.69 %
+Draw:  6.16 %
+Lose:  48.15 %
+
+Iterations: 85201  
+
+Win:  46.650000000000006 %
+Draw:  5.74 %
+Lose:  47.61 %
+
+Iterations: 85301  
+
+Win:  46.37 %
+Draw:  5.91 %
+Lose:  47.72 %
+
+Iterations: 85401  
+
+Win:  46.739999999999995 %
+Draw:  5.99 %
+Lose:  47.27 %
+
+Iterations: 85501  
+
+Win:  46.36 %
+Draw:  6.43 %
+Lose:  47.21 %
+
+Iterations: 85601  
+
+Win:  46.72 %
+Draw:  5.81 %
+Lose:  47.47 %
+
+Iterations: 85701  
+
+Win:  46.23 %
+Draw:  5.9799999999999995 %
+Lose:  47.79 %
+
+Iterations: 85801  
+
+Win:  46.56 %
+Draw:  6.22 %
+Lose:  47.22 %
+
+Iterations: 85901  
+
+Win:  46.160000000000004 %
+Draw:  5.59 %
+Lose:  48.25 %
+
+Iterations: 86001  
+
+Win:  45.53 %
+Draw:  5.41 %
+Lose:  49.059999999999995 %
+
+Iterations: 86101  
+
+Win:  46.19 %
+Draw:  5.83 %
+Lose:  47.980000000000004 %
+
+Iterations: 86201  
+
+Win:  45.56 %
+Draw:  5.52 %
+Lose:  48.92 %
+
+Iterations: 86301  
+
+Win:  45.81 %
+Draw:  5.6899999999999995 %
+Lose:  48.5 %
+
+Iterations: 86401  
+
+Win:  46.36 %
+Draw:  5.76 %
+Lose:  47.88 %
+
+Iterations: 86501  
+
+Win:  46.81 %
+Draw:  6.21 %
+Lose:  46.98 %
+
+Iterations: 86601  
+
+Win:  46.83 %
+Draw:  6.32 %
+Lose:  46.85 %
+
+Iterations: 86701  
+
+Win:  45.57 %
+Draw:  5.82 %
+Lose:  48.61 %
+
+Iterations: 86801  
+
+Win:  46.64 %
+Draw:  5.680000000000001 %
+Lose:  47.68 %
+
+Iterations: 86901  
+
+Win:  47.17 %
+Draw:  5.63 %
+Lose:  47.199999999999996 %
+
+Iterations: 87001  
+
+Win:  46.21 %
+Draw:  5.63 %
+Lose:  48.16 %
+
+Iterations: 87101  
+
+Win:  45.82 %
+Draw:  5.83 %
+Lose:  48.35 %
+
+Iterations: 87201  
+
+Win:  47.12 %
+Draw:  6.16 %
+Lose:  46.72 %
+
+Iterations: 87301  
+
+Win:  46.550000000000004 %
+Draw:  6.08 %
+Lose:  47.370000000000005 %
+
+Iterations: 87401  
+
+Win:  45.440000000000005 %
+Draw:  5.8999999999999995 %
+Lose:  48.66 %
+
+Iterations: 87501  
+
+Win:  46.11 %
+Draw:  6.4 %
+Lose:  47.49 %
+
+Iterations: 87601  
+
+Win:  46.2 %
+Draw:  5.57 %
+Lose:  48.230000000000004 %
+
+Iterations: 87701  
+
+Win:  46.52 %
+Draw:  5.66 %
+Lose:  47.82 %
+
+Iterations: 87801  
+
+Win:  46.72 %
+Draw:  5.7299999999999995 %
+Lose:  47.55 %
+
+Iterations: 87901  
+
+Win:  46.58 %
+Draw:  5.91 %
+Lose:  47.510000000000005 %
+
+Iterations: 88001  
+
+Win:  45.85 %
+Draw:  5.7299999999999995 %
+Lose:  48.42 %
+
+Iterations: 88101  
+
+Win:  45.95 %
+Draw:  5.71 %
+Lose:  48.339999999999996 %
+
+Iterations: 88201  
+
+Win:  47.31 %
+Draw:  5.489999999999999 %
+Lose:  47.199999999999996 %
+
+Iterations: 88301  
+
+Win:  46.29 %
+Draw:  6.03 %
+Lose:  47.68 %
+
+Iterations: 88401  
+
+Win:  46.71 %
+Draw:  5.76 %
+Lose:  47.53 %
+
+Iterations: 88501  
+
+Win:  45.629999999999995 %
+Draw:  5.89 %
+Lose:  48.480000000000004 %
+
+Iterations: 88601  
+
+Win:  46.67 %
+Draw:  5.55 %
+Lose:  47.78 %
+
+Iterations: 88701  
+
+Win:  45.989999999999995 %
+Draw:  5.93 %
+Lose:  48.08 %
+
+Iterations: 88801  
+
+Win:  46.1 %
+Draw:  5.45 %
+Lose:  48.449999999999996 %
+
+Iterations: 88901  
+
+Win:  45.6 %
+Draw:  6.01 %
+Lose:  48.39 %
+
+Iterations: 89001  
+
+Win:  46.29 %
+Draw:  5.82 %
+Lose:  47.89 %
+
+Iterations: 89101  
+
+Win:  46.03 %
+Draw:  5.6000000000000005 %
+Lose:  48.370000000000005 %
+
+Iterations: 89201  
+
+Win:  46.07 %
+Draw:  5.970000000000001 %
+Lose:  47.96 %
+
+Iterations: 89301  
+
+Win:  45.16 %
+Draw:  6.12 %
+Lose:  48.72 %
+
+Iterations: 89401  
+
+Win:  47.57 %
+Draw:  5.83 %
+Lose:  46.6 %
+
+Iterations: 89501  
+
+Win:  46.52 %
+Draw:  5.84 %
+Lose:  47.64 %
+
+Iterations: 89601  
+
+Win:  44.76 %
+Draw:  6.460000000000001 %
+Lose:  48.78 %
+
+Iterations: 89701  
+
+Win:  46.06 %
+Draw:  5.9799999999999995 %
+Lose:  47.96 %
+
+Iterations: 89801  
+
+Win:  47.58 %
+Draw:  5.93 %
+Lose:  46.489999999999995 %
+
+Iterations: 89901  
+
+Win:  46.08 %
+Draw:  5.55 %
+Lose:  48.370000000000005 %
+
+Iterations: 90001  
+
+Win:  46.11 %
+Draw:  5.84 %
+Lose:  48.05 %
+
+Iterations: 90101  
+
+Win:  45.95 %
+Draw:  6.49 %
+Lose:  47.56 %
+
+Iterations: 90201  
+
+Win:  46.589999999999996 %
+Draw:  5.09 %
+Lose:  48.32 %
+
+Iterations: 90301  
+
+Win:  45.92 %
+Draw:  5.74 %
+Lose:  48.339999999999996 %
+
+Iterations: 90401  
+
+Win:  47.94 %
+Draw:  5.4399999999999995 %
+Lose:  46.62 %
+
+Iterations: 90501  
+
+Win:  46.79 %
+Draw:  5.25 %
+Lose:  47.96 %
+
+Iterations: 90601  
+
+Win:  46.37 %
+Draw:  5.71 %
+Lose:  47.92 %
+
+Iterations: 90701  
+
+Win:  45.47 %
+Draw:  6.17 %
+Lose:  48.36 %
+
+Iterations: 90801  
+
+Win:  46.51 %
+Draw:  5.7700000000000005 %
+Lose:  47.72 %
+
+Iterations: 90901  
+
+Win:  46.25 %
+Draw:  5.43 %
+Lose:  48.32 %
+
+Iterations: 91001  
+
+Win:  45.21 %
+Draw:  5.75 %
+Lose:  49.04 %
+
+Iterations: 91101  
+
+Win:  45.82 %
+Draw:  5.67 %
+Lose:  48.51 %
+
+Iterations: 91201  
+
+Win:  45.17 %
+Draw:  5.83 %
+Lose:  49.0 %
+
+Iterations: 91301  
+
+Win:  46.31 %
+Draw:  5.800000000000001 %
+Lose:  47.89 %
+
+Iterations: 91401  
+
+Win:  46.650000000000006 %
+Draw:  6.18 %
+Lose:  47.17 %
+
+Iterations: 91501  
+
+Win:  46.75 %
+Draw:  5.58 %
+Lose:  47.67 %
+
+Iterations: 91601  
+
+Win:  45.739999999999995 %
+Draw:  5.9799999999999995 %
+Lose:  48.28 %
+
+Iterations: 91701  
+
+Win:  46.44 %
+Draw:  5.510000000000001 %
+Lose:  48.05 %
+
+Iterations: 91801  
+
+Win:  46.589999999999996 %
+Draw:  6.15 %
+Lose:  47.260000000000005 %
+
+Iterations: 91901  
+
+Win:  46.51 %
+Draw:  5.76 %
+Lose:  47.73 %
+
+Iterations: 92001  
+
+Win:  45.629999999999995 %
+Draw:  5.59 %
+Lose:  48.78 %
+
+Iterations: 92101  
+
+Win:  45.76 %
+Draw:  6.05 %
+Lose:  48.19 %
+
+Iterations: 92201  
+
+Win:  46.63 %
+Draw:  6.01 %
+Lose:  47.36 %
+
+Iterations: 92301  
+
+Win:  46.550000000000004 %
+Draw:  6.069999999999999 %
+Lose:  47.38 %
+
+Iterations: 92401  
+
+Win:  46.78 %
+Draw:  6.09 %
+Lose:  47.13 %
+
+Iterations: 92501  
+
+Win:  46.589999999999996 %
+Draw:  5.65 %
+Lose:  47.760000000000005 %
+
+Iterations: 92601  
+
+Win:  46.67 %
+Draw:  5.81 %
+Lose:  47.52 %
+
+Iterations: 92701  
+
+Win:  46.760000000000005 %
+Draw:  5.94 %
+Lose:  47.3 %
+
+Iterations: 92801  
+
+Win:  46.82 %
+Draw:  5.8500000000000005 %
+Lose:  47.33 %
+
+Iterations: 92901  
+
+Win:  45.660000000000004 %
+Draw:  6.3 %
+Lose:  48.04 %
+
+Iterations: 93001  
+
+Win:  46.62 %
+Draw:  5.89 %
+Lose:  47.49 %
+
+Iterations: 93101  
+
+Win:  45.75 %
+Draw:  5.79 %
+Lose:  48.46 %
+
+Iterations: 93201  
+
+Win:  46.58 %
+Draw:  5.75 %
+Lose:  47.67 %
+
+Iterations: 93301  
+
+Win:  45.89 %
+Draw:  5.92 %
+Lose:  48.19 %
+
+Iterations: 93401  
+
+Win:  46.379999999999995 %
+Draw:  5.680000000000001 %
+Lose:  47.94 %
+
+Iterations: 93501  
+
+Win:  46.33 %
+Draw:  5.56 %
+Lose:  48.11 %
+
+Iterations: 93601  
+
+Win:  46.53 %
+Draw:  6.29 %
+Lose:  47.18 %
+
+Iterations: 93701  
+
+Win:  45.56 %
+Draw:  5.74 %
+Lose:  48.699999999999996 %
+
+Iterations: 93801  
+
+Win:  45.81 %
+Draw:  6.58 %
+Lose:  47.61 %
+
+Iterations: 93901  
+
+Win:  46.760000000000005 %
+Draw:  5.59 %
+Lose:  47.65 %
+
+Iterations: 94001  
+
+Win:  45.37 %
+Draw:  6.08 %
+Lose:  48.55 %
+
+Iterations: 94101  
+
+Win:  47.06 %
+Draw:  5.47 %
+Lose:  47.47 %
+
+Iterations: 94201  
+
+Win:  45.79 %
+Draw:  5.5 %
+Lose:  48.71 %
+
+Iterations: 94301  
+
+Win:  45.43 %
+Draw:  5.99 %
+Lose:  48.58 %
+
+Iterations: 94401  
+
+Win:  46.36 %
+Draw:  5.81 %
+Lose:  47.83 %
+
+Iterations: 94501  
+
+Win:  46.57 %
+Draw:  5.489999999999999 %
+Lose:  47.94 %
+
+Iterations: 94601  
+
+Win:  46.71 %
+Draw:  5.92 %
+Lose:  47.370000000000005 %
+
+Iterations: 94701  
+
+Win:  46.85 %
+Draw:  5.41 %
+Lose:  47.74 %
+
+Iterations: 94801  
+
+Win:  46.660000000000004 %
+Draw:  5.84 %
+Lose:  47.5 %
+
+Iterations: 94901  
+
+Win:  46.400000000000006 %
+Draw:  5.87 %
+Lose:  47.73 %
+
+Iterations: 95001  
+
+Win:  46.03 %
+Draw:  5.71 %
+Lose:  48.26 %
+
+Iterations: 95101  
+
+Win:  45.92 %
+Draw:  5.27 %
+Lose:  48.809999999999995 %
+
+Iterations: 95201  
+
+Win:  46.400000000000006 %
+Draw:  5.75 %
+Lose:  47.85 %
+
+Iterations: 95301  
+
+Win:  46.36 %
+Draw:  5.81 %
+Lose:  47.83 %
+
+Iterations: 95401  
+
+Win:  45.48 %
+Draw:  5.94 %
+Lose:  48.58 %
+
+Iterations: 95501  
+
+Win:  46.67 %
+Draw:  6.12 %
+Lose:  47.21 %
+
+Iterations: 95601  
+
+Win:  47.05 %
+Draw:  5.86 %
+Lose:  47.089999999999996 %
+
+Iterations: 95701  
+
+Win:  45.94 %
+Draw:  5.43 %
+Lose:  48.63 %
+
+Iterations: 95801  
+
+Win:  46.26 %
+Draw:  5.65 %
+Lose:  48.089999999999996 %
+
+Iterations: 95901  
+
+Win:  45.660000000000004 %
+Draw:  6.02 %
+Lose:  48.32 %
+
+Iterations: 96001  
+
+Win:  46.51 %
+Draw:  6.5 %
+Lose:  46.989999999999995 %
+
+Iterations: 96101  
+
+Win:  46.32 %
+Draw:  5.88 %
+Lose:  47.8 %
+
+Iterations: 96201  
+
+Win:  46.36 %
+Draw:  5.55 %
+Lose:  48.089999999999996 %
+
+Iterations: 96301  
+
+Win:  46.589999999999996 %
+Draw:  6.12 %
+Lose:  47.29 %
+
+Iterations: 96401  
+
+Win:  45.33 %
+Draw:  6.1899999999999995 %
+Lose:  48.480000000000004 %
+
+Iterations: 96501  
+
+Win:  46.44 %
+Draw:  6.08 %
+Lose:  47.48 %
+
+Iterations: 96601  
+
+Win:  46.300000000000004 %
+Draw:  5.58 %
+Lose:  48.120000000000005 %
+
+Iterations: 96701  
+
+Win:  46.52 %
+Draw:  5.48 %
+Lose:  48.0 %
+
+Iterations: 96801  
+
+Win:  46.06 %
+Draw:  6.12 %
+Lose:  47.82 %
+
+Iterations: 96901  
+
+Win:  46.17 %
+Draw:  5.680000000000001 %
+Lose:  48.15 %
+
+Iterations: 97001  
+
+Win:  45.4 %
+Draw:  5.62 %
+Lose:  48.980000000000004 %
+
+Iterations: 97101  
+
+Win:  46.47 %
+Draw:  5.67 %
+Lose:  47.86 %
+
+Iterations: 97201  
+
+Win:  45.97 %
+Draw:  5.99 %
+Lose:  48.04 %
+
+Iterations: 97301  
+
+Win:  46.02 %
+Draw:  6.17 %
+Lose:  47.81 %
+
+Iterations: 97401  
+
+Win:  46.26 %
+Draw:  5.800000000000001 %
+Lose:  47.94 %
+
+Iterations: 97501  
+
+Win:  46.48 %
+Draw:  5.81 %
+Lose:  47.71 %
+
+Iterations: 97601  
+
+Win:  45.48 %
+Draw:  5.94 %
+Lose:  48.58 %
+
+Iterations: 97701  
+
+Win:  45.93 %
+Draw:  5.779999999999999 %
+Lose:  48.29 %
+
+Iterations: 97801  
+
+Win:  46.650000000000006 %
+Draw:  6.05 %
+Lose:  47.3 %
+
+Iterations: 97901  
+
+Win:  47.89 %
+Draw:  5.71 %
+Lose:  46.400000000000006 %
+
+Iterations: 98001  
+
+Win:  47.13 %
+Draw:  5.91 %
+Lose:  46.96 %
+
+Iterations: 98101  
+
+Win:  46.83 %
+Draw:  6.23 %
+Lose:  46.94 %
+
+Iterations: 98201  
+
+Win:  46.379999999999995 %
+Draw:  5.7 %
+Lose:  47.92 %
+
+Iterations: 98301  
+
+Win:  46.410000000000004 %
+Draw:  5.65 %
+Lose:  47.94 %
+
+Iterations: 98401  
+
+Win:  46.379999999999995 %
+Draw:  6.0600000000000005 %
+Lose:  47.56 %
+
+Iterations: 98501  
+
+Win:  45.79 %
+Draw:  6.02 %
+Lose:  48.19 %
+
+Iterations: 98601  
+
+Win:  46.02 %
+Draw:  6.01 %
+Lose:  47.97 %
+
+Iterations: 98701  
+
+Win:  47.23 %
+Draw:  5.609999999999999 %
+Lose:  47.160000000000004 %
+
+Iterations: 98801  
+
+Win:  46.660000000000004 %
+Draw:  6.09 %
+Lose:  47.25 %
+
+Iterations: 98901  
+
+Win:  46.32 %
+Draw:  5.7 %
+Lose:  47.980000000000004 %
+
+Iterations: 99001  
+
+Win:  45.67 %
+Draw:  5.949999999999999 %
+Lose:  48.38 %
+
+Iterations: 99101  
+
+Win:  46.35 %
+Draw:  5.93 %
+Lose:  47.72 %
+
+Iterations: 99201  
+
+Win:  46.51 %
+Draw:  5.4399999999999995 %
+Lose:  48.05 %
+
+Iterations: 99301  
+
+Win:  46.550000000000004 %
+Draw:  5.390000000000001 %
+Lose:  48.06 %
+
+Iterations: 99401  
+
+Win:  45.78 %
+Draw:  5.83 %
+Lose:  48.39 %
+
+Iterations: 99501  
+
+Win:  46.89 %
+Draw:  5.680000000000001 %
+Lose:  47.43 %
+
+Iterations: 99601  
+
+Win:  46.5 %
+Draw:  6.02 %
+Lose:  47.48 %
+
+Iterations: 99701  
+
+Win:  46.62 %
+Draw:  5.74 %
+Lose:  47.64 %
+
+Iterations: 99801  
+
+Win:  46.25 %
+Draw:  6.04 %
+Lose:  47.71 %
+
+Iterations: 99901  
+
+Win:  46.07 %
+Draw:  6.05 %
+Lose:  47.88 %
+
+Iterations: 100001  
+
+Win:  46.32 %
+Draw:  5.8999999999999995 %
+Lose:  47.78 %
